@@ -1,5 +1,16 @@
-assessment-information-sheets
+Course_overview
+intended-learning-outcomes
+assessments
+course-overview
+available-support
+individual-work-and-groupwork
+trust-yourself-and-work-with-us
+AIS
 stage-1-report
 stage-2-report
 mcq
+general-information
+how-to-do-well-in-this-assessment
+common-mistakes
+why-am-i-being-assessed-like-this
 data-skills

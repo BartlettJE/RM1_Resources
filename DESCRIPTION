@@ -1,5 +1,5 @@
 Package: template
-Title: MSc Research Methods 1 Assessments and Labs
+Title: MSc Research Methods 1 Course Information
 Version: 0.1
 Authors@R:
   c(
@@ -17,7 +17,7 @@ Authors@R:
         email = "phil.mcaleer@glasgow.ac.uk")
     )
   )
-Description: This book outlines the assessment and lab information for the MSc Research Methods 1 course.
+Description: This book outlines key course information such as assessments and labs for the MSc Research Methods 1 course.
 License: CC BY 4.0 + LICENSE
 Encoding: UTF-8
 LazyData: true

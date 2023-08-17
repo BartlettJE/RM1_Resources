@@ -1,5 +1,5 @@
 --- 
-title: "MSc Research Methods 1 Assessments and Labs" # edit
+title: "MSc Research Methods 1 Course Information" # edit
 #subtitle: "optional" 
 author: "James Bartlett & Phil McAleer" # edit
 date: "`r Sys.Date()`"
@@ -11,7 +11,7 @@ bibliography: [book.bib, packages.bib]
 csl: include/apa.csl
 link-citations: yes
 description: | # edit
-  Assessment and lab information for the MSc Research Methods 1 course.
+  Key course information for the MSc Research Methods 1 course.
 url: https://bartlettje.github.io/RM1_Resources/ # edit
 github-repo: BartlettJE/RM1_Resources # edit
 cover-image: images/logos/logo.png # replace with your logo
@@ -34,9 +34,9 @@ knitr::write_bib(c(
 <div class="small_right"><img src="images/logos/logo.png" 
      alt="ADS Hex Logo" /></div>
 
-**Book Name**: MSc Research Methods 1 Assessments and Labs. 
+**Book Name**: MSc Research Methods 1 Course Information. 
 
-**Summary**: Assessment information and lab resources for the Research Methods 1 course on the MSc Psychology conversion at the University of Glasgow School of Psychology & Neuroscience.
+**Summary**: Key course information such as assessments and lab resources for the Research Methods 1 course on the MSc Psychology conversion at the University of Glasgow School of Psychology & Neuroscience.
 
 **Authors**: James Bartlett & Phil McAleer. 
 
