@@ -1,7 +1,7 @@
 --- 
-title: "Template" # edit
+title: "MSc Research Methods 1 Assessments and Labs" # edit
 #subtitle: "optional" 
-author: "psyTeachR Team" # edit
+author: "James Bartlett & Phil McAleer" # edit
 date: "2023-08-17"
 site: bookdown::bookdown_site
 documentclass: book
@@ -11,9 +11,9 @@ bibliography: [book.bib, packages.bib]
 csl: include/apa.csl
 link-citations: yes
 description: | # edit
-  The book template for the psyTeachR books.
-url: https://psyteachr.github.io/template # edit
-github-repo: psyteachr/template # edit
+  Assessment and lab information for the MSc Research Methods 1 course.
+url: https://bartlettje.github.io/RM1_Resources/ # edit
+github-repo: BartlettJE/RM1_Resources # edit
 cover-image: images/logos/logo.png # replace with your logo
 apple-touch-icon: images/logos/apple-touch-icon.png # replace with your logo
 apple-touch-icon-size: 180
@@ -27,29 +27,12 @@ favicon: images/logos/favicon.ico # replace with your logo
 <div class="small_right"><img src="images/logos/logo.png" 
      alt="ADS Hex Logo" /></div>
 
+**Book Name**: MSc Research Methods 1 Assessments and Labs. 
 
+**Summary**: Assessment information and lab resources for the Research Methods 1 course on the MSc Psychology conversion at the University of Glasgow School of Psychology & Neuroscience.
 
-* [PDF version](template.pdf)
-* [ePub version](template.epub)
-* [Kindle version](template.mobi)
+**Authors**: James Bartlett & Phil McAleer. 
 
-After copying this template to your project, you will need to change the information in the `CITATION` and `DESCRIPTION` files, as well as update the YAML header of `book/index.Rmd` and `book/_output.yml`. Update site-specific logos in `book/images/logos/`.
+**Aim**: This course covers introduces students to quantitative research methods in psychology. This is an accompanying book to the course to outline assessments, resources, and lab materials in one place. 
 
-If you are not part of the psyTeachR group, please edit the Google Analytics ID in `include/google-analytics.html` or comment out the relevant line in `book/_output.yml`. 
-
-Render the book using the code in `_render.R`.
-
-## Changes
-
-### Version 2.1 2021-10-14
-
-* Updated webexercises styles to include a green check and red X for correct and incorrect responses.
-    - `book/include/webex.css` (replace)
-    - `book/include/webex.js` (replace)
-* Changed the name of `book/include/header.html` to `book/include/google-analytics.html` to better reflect its purpose. 
-    - `book/include/header.html` (delete)
-    - `book/include/google-analytics.html` (add)
-    - `book/_output.yml` (change line 10)
-* Updated rendering functions to not render pdf epub or mobi by default
-    - `_render.R` (replace)
-    - `Makefile` (add)
+**Contact**: This book is a living document and will be regularly checked and updated. Should you have any issues using the book or queries, please contact James Bartlett or Phil McAleer.
