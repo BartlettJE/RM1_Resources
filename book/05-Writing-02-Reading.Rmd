@@ -1,0 +1,5 @@
+```{r, echo=FALSE}
+source(file = "include/deadlines.R")
+```
+
+# Reading Journal Articles and Identifying a RQ
