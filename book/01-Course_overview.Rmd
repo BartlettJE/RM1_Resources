@@ -1,5 +1,8 @@
 ```{r, echo=FALSE}
 source(file = "include/deadlines.R")
+
+library(readxl)
+library(knitr)
 ```
 
 # Course Overview `r study_year` {#Course_overview}
@@ -45,6 +48,12 @@ Please check the [Assessment Information Sheets](#AIS) chapter for detailed info
 ## Course overview
 
 Below is a provisional order of content in this semester. We will notify you of any changes in advance but feel free to read ahead if you would like:
+
+```{r}
+time_table <- read_xlsx("Supporting/Timetable.xlsx")
+
+kable(time_table)
+```
 
 Week 1
 
