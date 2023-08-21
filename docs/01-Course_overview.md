@@ -44,13 +44,6 @@ Please check the [Assessment Information Sheets](#AIS) chapter for detailed info
 
 Below is a provisional order of content in this semester. We will notify you of any changes in advance but feel free to read ahead if you would like:
 
-
-```r
-time_table <- read_xlsx("Supporting/Timetable.xlsx")
-
-kable(time_table)
-```
-
 <table>
  <thead>
   <tr>
@@ -66,182 +59,132 @@ kable(time_table)
 <tbody>
   <tr>
    <td style="text-align:right;"> 0 </td>
-   <td style="text-align:left;"> 2023-09-18 </td>
+   <td style="text-align:left;"> 18-9-2023 </td>
    <td style="text-align:left;"> Inductions </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> 2023-09-25 </td>
-   <td style="text-align:left;"> Introduction to Quantitative Research Methods </td>
+   <td style="text-align:left;"> 25-9-2023 </td>
+   <td style="text-align:left;"> Introduction to quantitative research methods </td>
    <td style="text-align:left;"> Introduction to the course and assignments </td>
-   <td style="text-align:left;"> Chapter 1 - Programming Basics </td>
-   <td style="text-align:left;"> Quantitative Project / MSLQ Overview </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> * Chapter 1 - Programming Basics </td>
+   <td style="text-align:left;"> * Quantitative Project / MSLQ Overview </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> 2023-10-02 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 2-10-2023 </td>
+   <td style="text-align:left;"> Summarising data </td>
+   <td style="text-align:left;"> Introduction 1 </td>
+   <td style="text-align:left;"> * Chapter 2 - Introduction to R
+* Chapter 3 - Starting with data </td>
+   <td style="text-align:left;"> * Types of evidence and finding sources
+* RQs and hypotheses </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> 2023-10-09 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 9-10-2023 </td>
+   <td style="text-align:left;"> Statistics and probability </td>
+   <td style="text-align:left;"> Introduction 2 </td>
+   <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
+   <td style="text-align:left;"> * APA referencing
+* Academic writing </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> 2023-10-16 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 16-10-2023 </td>
+   <td style="text-align:left;"> Hypothesis testing </td>
+   <td style="text-align:left;"> Method 1 </td>
+   <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
+   <td style="text-align:left;"> * Introductions
+* Rationale </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> 2023-10-23 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 23-10-2023 </td>
+   <td style="text-align:left;"> Correlation </td>
+   <td style="text-align:left;"> Method 2 </td>
+   <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
+   <td style="text-align:left;"> * RQ and hypotheses Padlet
+* Stage one template </td>
+   <td style="text-align:left;"> MCQ </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> 2023-10-30 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 30-10-2023 </td>
+   <td style="text-align:left;"> **Reading week** </td>
+   <td style="text-align:left;"> **Reading week** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> 2023-11-06 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 6-11-2023 </td>
+   <td style="text-align:left;"> Introduction to t-tests </td>
+   <td style="text-align:left;"> Results 1 </td>
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
+* Chapter 9 - Correlations </td>
+   <td style="text-align:left;"> * Method section </td>
+   <td style="text-align:left;"> Data skills 1 </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> 2023-11-13 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 13-11-2023 </td>
+   <td style="text-align:left;"> Effect sizes and statistical power </td>
+   <td style="text-align:left;"> Results 2 </td>
+   <td style="text-align:left;"> * Chapter 10 - t-tests
+* Chapter 11 - Power and effect sizes </td>
+   <td style="text-align:left;"> * Results section </td>
+   <td style="text-align:left;"> Stage one report </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
-   <td style="text-align:left;"> 2023-11-20 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 20-11-2023 </td>
+   <td style="text-align:left;"> Between-subjects and within-subjects t-tests </td>
+   <td style="text-align:left;"> Discussion 1 </td>
+   <td style="text-align:left;"> * Chapter 8 - Probability </td>
+   <td style="text-align:left;"> * Plagirism 
+* Ethics </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
-   <td style="text-align:left;"> 2023-11-27 </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> 27-11-2023 </td>
+   <td style="text-align:left;"> Bringing it all together </td>
+   <td style="text-align:left;"> Discussion 2 </td>
+   <td style="text-align:left;"> * Chapter 12 - Screening data </td>
+   <td style="text-align:left;"> * Discussion section
+* Abstracts </td>
+   <td style="text-align:left;"> Data skills 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> 4-12-2023 </td>
+   <td style="text-align:left;"> Writing and editing week </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> 11-12-2023 </td>
+   <td style="text-align:left;"> Writing and editing week </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Stage two report </td>
   </tr>
 </tbody>
 </table>
-
-Week 1
-
-Lecture: Intro to Quantitative Research Methods
-Data skills: Programming basics
-Research skills: Academic Writing; Types of evidence and finding sources
-Lab week 1
-
-Week 2
-
-Lecture: Summarising data - measurement and descriptive statistics
-Data skills: Intro to R & Starting with Data
-Research skills: How to formulate research questions and hypotheses
-Lab week 2
-
-Week 3:
-
-Lecture: Statistics and probability
-Data skills: Data wrangling 1
-Research skills: Academic writing and APA referencing
-Lab week 3
-
-Week 4:
-
-Lecture: Hypothesis testing
-Research skills: Where does data come from? 
-Data skills:  Data wrangling 2
-Lab week 4
-
-Week 5:
-
-Lecture: Correlation
-Pre-registration overview and guidance
-Data skills: Data wrangling 3
-Lab week 5
-Assessment: MCQs (5%)
-
-Week 6: 
-
-Reading week
-
-Week 7:
-
-Lecture: t-tests
-Research skills: How to write a methods section
-Data skills: Intro to Data Visualisation and Correlation
-Lab week 7
-Assessment: Data skills worksheet 1 (7.5%)
-
-Week 8:
-
-Lecture: Power & one-sample t-test
-Research skills: How to write a results section
-Data skills: t-tests and Power and Effect Sizes
-Lab week 8
-
-Week 9 
-
-Lecture: Independent samples and paired samples t-test
-Research skills: Discussions and abstracts
-Data skills: Probability
-Assessment: Pre-registration group submission (30%)
-
-Week 10
-
-Lecture: Bringing it all together
-Research skills: Report writing
-Data skills: Screening data
-Assessment: Data skills portfolio 2 (7.5%)
-
-Week 11
-
-Revision week
-
-Week 12
-
-Assessment: Quant report individual submission (50%)
 
 ## Available Support
 

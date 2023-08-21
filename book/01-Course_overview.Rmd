@@ -1,8 +1,10 @@
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source(file = "include/deadlines.R")
 
 library(readxl)
 library(knitr)
+library(tidyverse)
+library(lubridate)
 ```
 
 # Course Overview `r study_year` {#Course_overview}
@@ -49,88 +51,20 @@ Please check the [Assessment Information Sheets](#AIS) chapter for detailed info
 
 Below is a provisional order of content in this semester. We will notify you of any changes in advance but feel free to read ahead if you would like:
 
-```{r}
+```{r course overview, echo=FALSE}
 time_table <- read_xlsx("Supporting/Timetable.xlsx")
+
+# Make the date easier to understand 
+# Turn all NAs into blank characters to display right
+time_table <- time_table %>% 
+  mutate(`Week Commencing` = ymd(`Week Commencing`),
+         `Week Commencing` = paste(day(`Week Commencing`), month(`Week Commencing`), year(`Week Commencing`), sep = "-")) %>% 
+  mutate(across(.cols = Lab:Assessment,
+                .fns = ~ case_when(is.na(.) ~ "",
+                                   TRUE ~ .)))
 
 kable(time_table)
 ```
-
-Week 1
-
-Lecture: Intro to Quantitative Research Methods
-Data skills: Programming basics
-Research skills: Academic Writing; Types of evidence and finding sources
-Lab week 1
-
-Week 2
-
-Lecture: Summarising data - measurement and descriptive statistics
-Data skills: Intro to R & Starting with Data
-Research skills: How to formulate research questions and hypotheses
-Lab week 2
-
-Week 3:
-
-Lecture: Statistics and probability
-Data skills: Data wrangling 1
-Research skills: Academic writing and APA referencing
-Lab week 3
-
-Week 4:
-
-Lecture: Hypothesis testing
-Research skills: Where does data come from? 
-Data skills:  Data wrangling 2
-Lab week 4
-
-Week 5:
-
-Lecture: Correlation
-Pre-registration overview and guidance
-Data skills: Data wrangling 3
-Lab week 5
-Assessment: MCQs (5%)
-
-Week 6: 
-
-Reading week
-
-Week 7:
-
-Lecture: t-tests
-Research skills: How to write a methods section
-Data skills: Intro to Data Visualisation and Correlation
-Lab week 7
-Assessment: Data skills worksheet 1 (7.5%)
-
-Week 8:
-
-Lecture: Power & one-sample t-test
-Research skills: How to write a results section
-Data skills: t-tests and Power and Effect Sizes
-Lab week 8
-
-Week 9 
-
-Lecture: Independent samples and paired samples t-test
-Research skills: Discussions and abstracts
-Data skills: Probability
-Assessment: Pre-registration group submission (30%)
-
-Week 10
-
-Lecture: Bringing it all together
-Research skills: Report writing
-Data skills: Screening data
-Assessment: Data skills portfolio 2 (7.5%)
-
-Week 11
-
-Revision week
-
-Week 12
-
-Assessment: Quant report individual submission (50%)
 
 ## Available Support
 
