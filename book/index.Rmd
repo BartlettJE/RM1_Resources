@@ -1,7 +1,7 @@
 --- 
 title: "MSc Research Methods 1 Course Information" # edit
 #subtitle: "optional" 
-author: "James Bartlett & Phil McAleer" # edit
+author: "James Bartlett, Phil McAleer, & Helena Paterson" # edit
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -38,7 +38,7 @@ knitr::write_bib(c(
 
 **Summary**: Key course information such as assessments and lab resources for the Research Methods 1 course on the MSc Psychology conversion at the University of Glasgow School of Psychology & Neuroscience.
 
-**Authors**: James Bartlett & Phil McAleer. 
+**Authors**: James Bartlett, Phil McAleer, & Helena Paterson. 
 
 **Aim**: This course covers introduces students to quantitative research methods in psychology. This is an accompanying book to the course to outline assessments, resources, and lab materials in one place. 
 
