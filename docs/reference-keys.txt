@@ -51,6 +51,11 @@ why-am-i-being-assessed-like-this-3
 how-does-this-relate-to-previous-work-i-have-completed-2
 feedback-information-3
 week-1-lab
+aim-and-goals-for-the-week
+pre-reading-materialstasks
+lab-materialstasks
+writing-tipstasks
+past-student-challenges-related-to-this
 week-2-lab
 week-3-lab
 week-4-lab

@@ -59,7 +59,7 @@ Below is a provisional order of content in this semester. We will notify you of 
 <tbody>
   <tr>
    <td style="text-align:right;"> 0 </td>
-   <td style="text-align:left;"> 18-9-2023 </td>
+   <td style="text-align:left;"> 11-9-2023 </td>
    <td style="text-align:left;"> Inductions </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
@@ -68,7 +68,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> 25-9-2023 </td>
+   <td style="text-align:left;"> 18-9-2023 </td>
    <td style="text-align:left;"> Introduction to quantitative research methods </td>
    <td style="text-align:left;"> Introduction to the course and assignments </td>
    <td style="text-align:left;"> * Chapter 1 - Programming Basics </td>
@@ -77,7 +77,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> 2-10-2023 </td>
+   <td style="text-align:left;"> 25-9-2023 </td>
    <td style="text-align:left;"> Summarising data </td>
    <td style="text-align:left;"> Introduction 1 </td>
    <td style="text-align:left;"> * Chapter 2 - Introduction to R
@@ -88,17 +88,17 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> 9-10-2023 </td>
+   <td style="text-align:left;"> 2-10-2023 </td>
    <td style="text-align:left;"> Statistics and probability </td>
    <td style="text-align:left;"> Introduction 2 </td>
    <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
    <td style="text-align:left;"> * APA referencing
 * Academic writing </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Formative: Group work agreement </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:left;"> 16-10-2023 </td>
+   <td style="text-align:left;"> 9-10-2023 </td>
    <td style="text-align:left;"> Hypothesis testing </td>
    <td style="text-align:left;"> Method 1 </td>
    <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
@@ -108,7 +108,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:left;"> 23-10-2023 </td>
+   <td style="text-align:left;"> 16-10-2023 </td>
    <td style="text-align:left;"> Correlation </td>
    <td style="text-align:left;"> Method 2 </td>
    <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
@@ -118,7 +118,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:left;"> 30-10-2023 </td>
+   <td style="text-align:left;"> 23-10-2023 </td>
    <td style="text-align:left;"> **Reading week** </td>
    <td style="text-align:left;"> **Reading week** </td>
    <td style="text-align:left;">  </td>
@@ -127,7 +127,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:left;"> 6-11-2023 </td>
+   <td style="text-align:left;"> 30-10-2023 </td>
    <td style="text-align:left;"> Introduction to t-tests </td>
    <td style="text-align:left;"> Results 1 </td>
    <td style="text-align:left;"> * Chapter 7 - Visualisations
@@ -137,7 +137,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:left;"> 13-11-2023 </td>
+   <td style="text-align:left;"> 6-11-2023 </td>
    <td style="text-align:left;"> Effect sizes and statistical power </td>
    <td style="text-align:left;"> Results 2 </td>
    <td style="text-align:left;"> * Chapter 10 - t-tests
@@ -147,7 +147,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
-   <td style="text-align:left;"> 20-11-2023 </td>
+   <td style="text-align:left;"> 13-11-2023 </td>
    <td style="text-align:left;"> Between-subjects and within-subjects t-tests </td>
    <td style="text-align:left;"> Discussion 1 </td>
    <td style="text-align:left;"> * Chapter 8 - Probability </td>
@@ -157,7 +157,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
-   <td style="text-align:left;"> 27-11-2023 </td>
+   <td style="text-align:left;"> 20-11-2023 </td>
    <td style="text-align:left;"> Bringing it all together </td>
    <td style="text-align:left;"> Discussion 2 </td>
    <td style="text-align:left;"> * Chapter 12 - Screening data </td>
@@ -167,7 +167,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 11 </td>
-   <td style="text-align:left;"> 4-12-2023 </td>
+   <td style="text-align:left;"> 27-11-2023 </td>
    <td style="text-align:left;"> Writing and editing week </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
@@ -176,7 +176,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   </tr>
   <tr>
    <td style="text-align:right;"> 12 </td>
-   <td style="text-align:left;"> 11-12-2023 </td>
+   <td style="text-align:left;"> 4-12-2023 </td>
    <td style="text-align:left;"> Writing and editing week </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
