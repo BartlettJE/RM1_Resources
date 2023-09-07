@@ -114,9 +114,9 @@ The practical skills taught through these assignments are critical for psycholog
 
 ### How is this assessment graded?
 
-- Each summative practical data skills assignment will have 11 questions with each question being worth either 1, 2, or 3 points. Your grade will be converted into an alphanumeric grade on the standard 22-point scale (e.g., a score of 16 = B2). 
+Each summative practical data skills assignment will have 11 questions with each question being worth either 1, 2, or 3 points. Your grade will be converted into an alphanumeric grade on the standard 22-point scale (e.g., a score of 16 = B2). 
 
-- Please note that it is imperative to the grading that you do not amend any of the code chunk names in the submission file. If you are unsure what these are then please ask. If you amend the code chunk names then your code will fail the first step in being reproducible and you will receive an H.
+Please note that it is imperative to the grading that you do not amend any of the code chunk names in the submission file. If you are unsure what these are then please ask. If you amend the code chunk names then your code will fail the first step in being reproducible and you will receive an H.
 
 ### How will the feedback from this assessment help me in the future?
 

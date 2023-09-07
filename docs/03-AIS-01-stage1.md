@@ -6,7 +6,7 @@
 
 - The pre-registration sets out your plans and code for your quantitative project analyses.
 
- - The deadline is **December 1st 2023**.
+ - The deadline is **November 10th 2023**.
 
 - This assessment is worth 30% of your final course grade and will be a group mark.
 

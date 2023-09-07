@@ -8,7 +8,7 @@
 
 - In total, this assessment is worth 5% of your final course grade. 
 
-- The deadline for submitting the MCQ is **December 1st 2023**.
+- The deadline for submitting the MCQ is **October 20th 2023**.
 
 ## How to do well in this assessment
 

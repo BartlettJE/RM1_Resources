@@ -6,7 +6,7 @@
 
 - The general topic of the quantitative report is self-regulated learning. 
 
-- The deadline is **December 1st 2023**.
+- The deadline is **December 8th 2023**.
 
 - This assessment is worth 50% of your final course grade. 
 
