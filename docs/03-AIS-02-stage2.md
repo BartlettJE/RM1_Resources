@@ -1,6 +1,6 @@
 
 
-# Stage 2 Report
+# Stage 2 Individual Report {#stage2-AIS}
 
 ## General information 
 

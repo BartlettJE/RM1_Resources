@@ -2,7 +2,7 @@
 source(file = "include/deadlines.R")
 ```
 
-# Stage 1 Group Report {stage1-AIS}
+# Stage 1 Group Report {#stage1-AIS}
 
 ## General information
 
@@ -22,11 +22,11 @@ source(file = "include/deadlines.R")
 
 ## Word count and formatting
 
-- The maximum word count for this assignment is `r stage1_words` words. 
+- The maximum word count for this assignment is **`r stage1_words`** words. 
 
 - This includes all text within the introduction and method sections including in-text citations. However, it does not include the references or any appendix items.
 
- - Please not that there is no 10% rule, `r stage1_words` words is a strict upper limit.
+ - Please not that there is no 10% rule, **`r stage1_words`** words is a strict upper limit.
 
  - All citations and references should follow APA 7th edition guidelines.
  
@@ -50,7 +50,7 @@ source(file = "include/deadlines.R")
 
     - Use academic evidence to support your decisions and ideas where relevant.
 
-Quality of the Academic Communication
+- Quality of the Academic Communication
 
     - Write clearly and succinctly with appropriate use of paragraphs, spelling, and grammar.
 

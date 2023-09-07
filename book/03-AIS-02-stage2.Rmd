@@ -2,7 +2,7 @@
 source(file = "include/deadlines.R")
 ```
 
-# Stage 2 Individual Report {stage2-AIS}
+# Stage 2 Individual Report {#stage2-AIS}
 
 ## General information 
 

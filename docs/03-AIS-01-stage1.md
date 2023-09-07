@@ -1,71 +1,64 @@
 
 
-# Stage 1 Report
+# Stage 1 Group Report {#stage1-AIS}
 
 ## General information
 
-- The pre-registration sets out your plans and code for your quantitative project analyses.
+- The stage one report sets out the introduction (background research, rationale for your study) and planned methods. The general topic for your report is on self-regulated learning. 
 
- - The deadline is **November 10th 2023**.
+- The deadline is **November 10th 2023**.
 
 - This assessment is worth 30% of your final course grade and will be a group mark.
 
-- One member of your group should submit a) your pre-reg .Rmd file, b) a knitted Word document of your pre-reg file, and c) a copy of the data to Moodle.
+- **One member** of your group should submit your complete stage one submission template to Moodle. This will consist of an introduction and method section that would make up a stage one registered report submission prior to collecting data. 
 
-- The submission link will open no later than 5 working days before the deadline and will be found in the Assignment Submission section of Moodle.
+- In this course, you will not be collecting data yourself, but we will release a large secondary data set to you to apply your planned analyses to for the final individual stage two submission. For further information on the individual stage two report, please refer to the [Assessment Information Sheet](#stage2-AIS). 
 
-- To ensure all members of the group contribute equally, you will be asked to provide a peer rating which may be used to adjust the individual grade awarded (more details to follow during semester).
+- The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
+
+- As a formative task and to outline ground rules for working in your group, you will group work agreement. We will introduce this document to you in week 2, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
 
 ## Word count and formatting
 
-- This includes all text within your responses to five questions at the start of the pre-registration form including in-text citations. However, it does not include the references or your analysis code, or the text of the questions in the template.
+- The maximum word count for this assignment is **1500** words. 
 
- - Please not that there is no 10% rule, 1000 words is a strict upper limit.
+- This includes all text within the introduction and method sections including in-text citations. However, it does not include the references or any appendix items.
 
- - You do not need to apply any formatting to the .Rmd file or the knitted Word document. You can if you choose, however, this is not a requirement and the default formatting of the knitted file will suffice.
+ - Please not that there is no 10% rule, **1500** words is a strict upper limit.
 
- - All citations and references should follow APA guidelines although you do not need to indent the reference list (because this is very difficult to do in Markdown).
+ - All citations and references should follow APA 7th edition guidelines.
  
 ## Type of assessment/structure
 
-- The pre-registration should answer all specified questions about your intended analysis and should also provide the analysis code based on the pilot data.
+- The stage one group report is modeled on the first half of a [registered report](https://www.cos.io/initiatives/registered-reports). This is a relatively new type of journal article where the research background, rationale, and planned methods are peer-reviewed prior to conducting a study. Instead of peer-review, your group work will be marked as an assessment. 
 
-- You should complete the pre-registration .Rmd template available on Moodle. You should include the text of the questions/headings in your submission.
-
-- Your code should be reproducible, that is, your marker should be able to click "Knit" and your pre-registration code should fully compile using the data and code provided.
-
- - We also ask you to submit a copy of the knitted Word document so that in the event your .Rmd file is not reproducible and cannot be knitted, the rest of your work can still be marked.
-
-- You will likely have a reference list which should come at the end of the pre-registration and will not be included in the word count.
+- Your stage one group report will include an introduction and method section, plus references (and appendices if relevant). You will receive a template outlining the key sections and sub-sections as part of the course. 
 
 ## Assessment Criteria
 
 - Quality of the Knowledge and Research
-    - Demonstrate theoretical knowledge by providing a concise evidence-based rationale for the hypothesis/design.
+
+    - Demonstrate theoretical knowledge by providing a concise evidence-based rationale for your research question and hypothesis.
     
     - Demonstrate technical knowledge by providing appropriate answers to all questions, informed by knowledge from the wider course.
     
 - Quality of the Evaluation
 
-    - Clearly explain/justify all decisions made in the pre-registration where relevant.
+    - Clearly explain/justify all decisions made in the stage one report where relevant.
 
     - Use academic evidence to support your decisions and ideas where relevant.
 
-Quality of the Academic Communication
+- Quality of the Academic Communication
 
     - Write clearly and succinctly with appropriate use of paragraphs, spelling, and grammar.
 
-    - Provide a reproducible document that can be knitted without any errors.
-
 ## Assessment support
 
-- Guidance on how to complete the pre-registration will form part of the weekly course activities. 
+- Guidance on how to complete the stage one group report will form part of the weekly course activities, such as content covered in the lectures and activities in the labs. 
 
-- The assumptions of correlations and t-tests and how to choose which type of test is covered in the lectures and associated reading and the relevant sections of the PsyTeachR Fundamentals of Quantitative Analysis book.
+- The assumptions of correlations and t-tests and how to choose which type of test is covered in the lectures and associated reading, such as the relevant sections of the PsyTeachR Fundamentals of Quantitative Analysis book.
 
- - The code you need to conduct your analysis is explained in the [PsyTeachR Fundamentals of Quantitative Analysis book](https://psyteachr.github.io/quant-fun-v2/index.html).
-
-- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#FIS) chapter.
+- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) chapter.
 
 - You can find additional writing and study advice, including 1-to-1 guidance on the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/).
 
@@ -73,13 +66,11 @@ Quality of the Academic Communication
 
 - Meet each of the assessment criteria - use these as a checklist for your work.
 
-- Knit your document frequently when working on the code to avoid any errors.
-
 - Allow time to proof-read your work before submission.
 
-- Answer all questions and all parts of each question.
+- Complete all relevant sections and sub-sections of the stage one template to structure your submission.
 
-- Provide a **concise** evidence-based rationale for your hypothesis.
+- Provide an evidence-based rationale for your research question and hypothesis.
 
 - Use the available materials to ensure the accuracy of your decisions.
 
@@ -87,36 +78,60 @@ Quality of the Academic Communication
 
 ## Common mistakes
 
-- Failure to provide a reproducible document.
-
 - Not explaining the decisions that you make and not using evidence to support them.
-
-- Writing too much on the rationale for the hypothesis and not providing enough detail for the other questions - remember this is not supposed to be the introduction of a report, it's just a short summary of your motivation for the ensuing analysis.
 
 - Writing that is unclear and/or imprecise.
 
-- Inaccuracies in the explanation or reporting of methodological and statistical information.
+- Inaccuracies in the explanation of planned methodological and statistical information.
 
 - Failure to adhere to the word limit.
 
 ## How is the assessment related to the lectures for this course?
 
-The pre-registration allows you the opportunity to apply many of the concepts you have learned in the available material by making analytical decisions based upon your knowledge of statistics and research design.
+The stage one report allows you the opportunity to apply many of the concepts you have learned in the available material by collating and synthesising research, and making analytical decisions based upon your knowledge of statistics and research design.
 
 ## Why am I being assessed like this?
 
-- Pre-registration is becoming increasingly common in psychological research and it is a process that will serve you well should you continue with research as it demonstrates a commitment to open and reproducible science.
+- Registered reports are becoming increasingly common in psychological research and it is a process that will serve you well should you continue with research as it demonstrates a commitment to open and reproducible science.
 
-- The pre-registration allows you to think through the steps of the analysis and therefore will help support the quantitative project.
+- The stage one report allows you to think through the background and rationale of your research question, and your planned methods and analyses prior to completing the individual stage two report.
 
-- The pre-registration is a group submission to reflect the fact that in most research, these decisions will be made as a team and it allows you to pool your collective knowledge to design the best study possible.
+- The stage one report is a group submission to reflect the fact that in most research, these decisions will be made as a team and it allows you to pool your collective knowledge to design the best study possible.
 
 ## How does this relate to previous work I have completed?
 
-- You can gain informal feedback by talking to your lab tutor, statistics lecturers, and/or by attending student office hours.
+- You can gain informal feedback by talking to your lab tutor, lecturers, and/or by attending student office hours.
 
 - Feedback on any previous written assignment will help with academic communication and using evidence to support your arguments.
 
-- Feedback on your data skills assignments will be useful for the coding aspect of the pre-registration.
+## Feedback information {#stage1-FIS}
 
-## Feedback information 
+### What type of feedback will I receive for this assessment?
+
+You will receive feedback on your attainment of the overall marking criteria (Knowledge and Research, Critical Evaluation, Academic Communication) in terms of the verbal descriptors from Schedule A and feedforward comments as to how to develop your knowledge and skills for future assignments.
+
+Assessments are graded on the 22-point scale using the Schedule A marking criteria. There are three equally weighted Assessment Criteria (Knowledge and Research, Critical Evaluation, Academic Communication). You can find out more about Schedule A by [downloading this PDF](https://www.gla.ac.uk/media/Media_541792_smxx.pdf) but the important thing to help you interpret your feedback is the use of the verbal descriptors, i.e., the words like “excellent” and “good” used to describe different grades. You should look out for these words to help you understand how you performed on each ILO.
+
+### Can I get more feedback?
+
+You are more than welcome to receive additional feedback after the marking process:
+
+- If you would like to discuss your feedback you should first contact the person that marked your assignment. However, we ask that you wait 24 hours after the release of the feedback before you do so to give you time to fully reflect on the feedback given. 
+
+- When meeting with the person who marked your assignment, you can discuss feedback and how it relates to your overall grade to help you improve in future assignments. However, do not be worried about attending to discuss how to maintain your standard if you have done better than you expected. You are more than welcome to come discuss any aspect of your feedback or the assignment in general. 
+
+- To help any discussion about your feedback, we would ask that you complete the reflection form available on the Moodle page and send that to the person who marked your assignment as part of the discussion, when arranging a meeting.
+
+### How will feedback from this assessment help me in the future?
+
+Primarily, the feedback on this assessment will help support the analysis and write-up of the stage two individual report in this course. Additionally, the feedback will help support your qualitative report in RM2, as well as your dissertation and in any future research work you conduct that requires data analysis, decision-making, and evidence-based justification.
+
+### Who assessed my work?
+
+The first marker for your report will be a member of the research methods team within the School of Psychology and Neuroscience.
+
+Following University’s policy, as part of the marking procedures, the assignment marking will be moderated. The moderator will be another member of the research methods team who will moderate a range of work from across the cohort to ensure that appropriate academic standards have been applied in marking the assignments and that they have been applied consistently across the cohort of students being assessed. 
+
+### Can I have my work regraded?
+
+Further feedback meetings with the person who marked your assignment is purely about additional information to help you improve and is not about changing your grade or having your work regraded. That said, even if you are unhappy with your grade, your first point of contact should be to arrange an additional feedback meeting with your marker for further discussion to help explain your feedback and grade. Following this, if you still have concerns you should consult the [guidance from the SRC](https://www.glasgowunisrc.org/advice/academic/appeals/) which provides a clear explanation of the University appeals procedures. 
