@@ -26,7 +26,7 @@ source(file = "include/deadlines.R")
 
 - This includes all text within the introduction and method sections including in-text citations. However, it does not include the references or any appendix items.
 
- - Please not that there is no 10% rule, **`r stage1_words`** words is a strict upper limit.
+ - Please note that there is no 10% rule, **`r stage1_words`** words is a strict upper limit.
  
  - Your work should be presented in a sans-serif font, e.g. Arial or Calibri, 12-point font, double-spaced with 1-inch (2.54cm) margins.
 
@@ -62,7 +62,7 @@ source(file = "include/deadlines.R")
 
 - The assumptions of correlations and t-tests and how to choose which type of test is covered in the lectures and associated reading, such as the relevant sections of the PsyTeachR Fundamentals of Quantitative Analysis book.
 
-- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) chapter.
+- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) section.
 
 - You can find additional writing and study advice, including 1-to-1 guidance on the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/).
 

@@ -4,7 +4,7 @@
 
 ## General information
 
-- The stage one report sets out the introduction (background research, rationale for your study) and planned methods. The general topic for your report is on self-regulated learning. 
+- The group stage one report sets out the introduction (background research, rationale for your study) and planned methods. The general topic for your report is on self-regulated learning. 
 
 - The deadline is **November 10th 2023**.
 
@@ -14,7 +14,7 @@
 
 - In this course, you will not be collecting data yourself, but we will release a large secondary data set to you to apply your planned analyses to for the final individual stage two submission. For further information on the individual stage two report, please refer to the [Assessment Information Sheet](#stage2-AIS). 
 
-- The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
+- You should submit a single Word document (.docx) to Moodle prior to the deadline. The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
 
 - As a formative task and to outline ground rules for working in your group, you will group work agreement. We will introduce this document to you in week 2, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
 
@@ -24,7 +24,9 @@
 
 - This includes all text within the introduction and method sections including in-text citations. However, it does not include the references or any appendix items.
 
- - Please not that there is no 10% rule, **1500** words is a strict upper limit.
+ - Please note that there is no 10% rule, **1500** words is a strict upper limit.
+ 
+ - Your work should be presented in a sans-serif font, e.g. Arial or Calibri, 12-point font, double-spaced with 1-inch (2.54cm) margins.
 
  - All citations and references should follow APA 7th edition guidelines.
  
@@ -58,7 +60,7 @@
 
 - The assumptions of correlations and t-tests and how to choose which type of test is covered in the lectures and associated reading, such as the relevant sections of the PsyTeachR Fundamentals of Quantitative Analysis book.
 
-- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) chapter.
+- Further information about assessment criteria and feedback can be found in the [Feedback Information Sheet](#stage1-FIS) section.
 
 - You can find additional writing and study advice, including 1-to-1 guidance on the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/).
 

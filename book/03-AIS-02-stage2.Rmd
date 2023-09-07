@@ -20,7 +20,7 @@ source(file = "include/deadlines.R")
 
 - This includes all text within the results and discussion sections including in-text citations. However, it does not include the references or any appendix items.
 
- - Please not that there is no 10% rule, **`r stage2_words`** words is a strict upper limit.
+ - Please note that there is no 10% rule, **`r stage2_words`** words is a strict upper limit.
 
 - Your work should be presented in a sans-serif font, e.g. Arial or Calibri, 12-point font, double-spaced with 1-inch (2.54cm) margins.
 
@@ -58,7 +58,7 @@ source(file = "include/deadlines.R")
 
 - Guidance on how to write a psychology report and how to do APA referencing form part of the weekly course activities. You should consult the resources provided throughout the course to help you write your stage two report.
 
- - Further information about assessment criteria and feedback is available in the [Feedback Information Sheet chapter](#stage2-FIS).
+ - Further information about assessment criteria and feedback is available in the [Feedback Information Sheet section](#stage2-FIS).
 
 - Additional writing and study advice, including 1-to-1 guidance is available via the [Student Learning Development (SLD) website](https://www.gla.ac.uk/myglasgow/sld/).
 

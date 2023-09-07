@@ -37,7 +37,7 @@ By the end of the course, you will be able to:
 
 - **MCQs (5%)**
 
-    - Answer Multiple Choice Questions (MCQs) related to content covered in weeks 1-5 from Research Methods 1 including lectures, data skills sessions, and labs.
+    - Answer Multiple Choice Questions (MCQs) related to content covered in weeks 1-4 from Research Methods 1 including lectures, data skills sessions, and labs.
 
 - **Data skills portfolio (15%)**
 
