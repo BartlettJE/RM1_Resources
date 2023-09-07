@@ -6,7 +6,7 @@ source(file = "include/deadlines.R")
 
 ## General information
 
-- The stage one report sets out the introduction (background research, rationale for your study) and planned methods. The general topic for your report is on self-regulated learning. 
+- The group stage one report sets out the introduction (background research, rationale for your study) and planned methods. The general topic for your report is on self-regulated learning. 
 
 - The deadline is **`r stage1_due`**.
 
@@ -16,7 +16,7 @@ source(file = "include/deadlines.R")
 
 - In this course, you will not be collecting data yourself, but we will release a large secondary data set to you to apply your planned analyses to for the final individual stage two submission. For further information on the individual stage two report, please refer to the [Assessment Information Sheet](#stage2-AIS). 
 
-- The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
+- You should submit a single Word document (.docx) to Moodle prior to the deadline. The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
 
 - As a formative task and to outline ground rules for working in your group, you will group work agreement. We will introduce this document to you in week 2, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
 
@@ -27,6 +27,8 @@ source(file = "include/deadlines.R")
 - This includes all text within the introduction and method sections including in-text citations. However, it does not include the references or any appendix items.
 
  - Please not that there is no 10% rule, **`r stage1_words`** words is a strict upper limit.
+ 
+ - Your work should be presented in a sans-serif font, e.g. Arial or Calibri, 12-point font, double-spaced with 1-inch (2.54cm) margins.
 
  - All citations and references should follow APA 7th edition guidelines.
  
