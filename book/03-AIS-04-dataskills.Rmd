@@ -112,4 +112,28 @@ The practical skills taught through these assignments are critical for psycholog
 
 ## Feedback information {#FIS}
 
+### How is this assessment graded?
 
+- Each summative practical data skills assignment will have 11 questions with each question being worth either 1, 2, or 3 points. Your grade will be converted into an alphanumeric grade on the standard 22-point scale (e.g., a score of 16 = B2). 
+
+- Please note that it is imperative to the grading that you do not amend any of the code chunk names in the submission file. If you are unsure what these are then please ask. If you amend the code chunk names then your code will fail the first step in being reproducible and you will receive an H.
+
+### How will the feedback from this assessment help me in the future?
+
+The practical data skills assignments will help you develop your transferable data skills to complete future work that requires working with data, such as your dissertation, and courses or jobs that require such skills. Additionally, as you will see, these skills can be used for tasks such as writing reports, creating reference sections, conducting text analyses and building websites, as well as a wealth of other tasks and is therefore an extremely useful transferable skill. These skills also give you a much deeper understanding of data and research.
+
+### What type of feedback will I receive for this assessment?
+
+For these assignments, you will get a feedback sheet for each assignment that tells you whether you received full, partial, or no credit for each task/question within the assignment. You will receive individual feedback on each task within an assignment, telling you where your answer was acceptable or telling you what was incorrect about your answer. You will also see the correct answer to each task within an assignment along with a short piece of generic feedback for that task. We will also make a solution to the assignment available that you should compare to your own work to see alternative approaches, or to see where you have gone wrong, and to see what you have done correctly.
+
+### Who assessed my work?
+
+The assignments will be graded by an experienced member of staff using computer-assisted marking. Note that this is not automated marking as the member of staff has the final say on all submitted answers and checks the process at every step. In the first instance, we compare the output of your answer to the expected output or the code used to the code requested. If these comparisons match then you are given full credit for the task. If your answer does not match what was asked for in the task, then the member of staff manually checks your output to the expected output, or your code to the expected code, and to the question asked, to see if your code/output still answers the question or not. A decision is then made on whether to award full, partial, or no credit for that task.
+
+### Can I get more feedback?
+
+Yes! We encourage you discuss your assessment first with the marker or course lead (regardless of what grade you received) and you can do so either by messaging the marker or course lead directly to arrange an appointment. You can also speak to the GTA team about your coding skills for further development. All staff contact details can be found on the [University of Glasgow directory](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/).
+
+### Can I have my work regraded?
+
+Further feedback meetings with the person who marked your assignment is purely about additional information to help you improve and is not about changing your grade or having your work regraded. That said, even if you are unhappy with your grade, your first point of contact should be to arrange an additional feedback meeting with your marker for further discussion to help explain your feedback and grade. Following this, if you still have concerns you should consult the [guidance from the SRC](https://www.glasgowunisrc.org/advice/academic/appeals/) which provides a clear explanation of the University appeals procedures. 
