@@ -57,8 +57,8 @@ time_table <- read_xlsx("Supporting/Timetable.xlsx")
 # Make the date easier to understand 
 # Turn all NAs into blank characters to display right
 time_table <- time_table %>% 
-  mutate(`Week Commencing` = ymd(`Week Commencing`),
-         `Week Commencing` = paste(day(`Week Commencing`), month(`Week Commencing`), year(`Week Commencing`), sep = "-")) %>% 
+  mutate(`W/C` = ymd(`W/C`),
+         `W/C` = paste(day(`W/C`), month(`W/C`), year(`W/C`), sep = "-")) %>% 
   mutate(across(.cols = Lab:Assessment,
                 .fns = ~ case_when(is.na(.) ~ "",
                                    TRUE ~ .)))
