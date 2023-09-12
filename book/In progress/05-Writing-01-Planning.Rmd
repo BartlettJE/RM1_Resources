@@ -1,6 +1,0 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
-```
-
-# Planning and Time Management
-
