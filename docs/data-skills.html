@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.1/transition.js"></script><script src="libs/bs3compat-0.4.1/tabs.js"></script><script src="libs/bs3compat-0.4.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -84,6 +84,10 @@
 <li><a class="" href="stage2-AIS.html"><span class="header-section-number">4</span> Stage 2 Individual Report</a></li>
 <li><a class="" href="mcq.html"><span class="header-section-number">5</span> MCQ</a></li>
 <li><a class="active" href="data-skills.html"><span class="header-section-number">6</span> Data skills</a></li>
+<li class="book-part">Labs</li>
+<li><a class="" href="week-1-lab.html"><span class="header-section-number">7</span> Week 1 Lab</a></li>
+<li class="book-part">Research and Writing</li>
+<li><a class="" href="registered-report-and-mslq-overview.html"><span class="header-section-number">8</span> Registered Report and MSLQ Overview</a></li>
 <li class="book-part">Appendices</li>
 <li><a class="" href="license.html">License</a></li>
 <li><a class="" href="references.html">References</a></li>
@@ -149,7 +153,7 @@
 <li><p>Test that the .Rmd file you are submitting is reproducible after completing it, by "knitting" it as a html file. This also shows what you have accomplished and allows you to spot potential errors. If your code does not knit, this may result in you receiving an H grade for this assignment, so please check carefully.</p></li>
 <li><p>A great test of your code is to close R Studio, restart it, open and knit your code, see that it runs, and go through it to make sure it is correct. This will test whether you have remembered to include essential elements, such as libraries, in your code. This does not necessarily mean that your code is correct, only that your code runs. You need to check the output and compare to the question to see that it matches.</p></li>
 <li><p>When loading in data, you must use a relative path as opposed to an absolute path. Relative would mean having the data file in the same folder as the .Rmd file and just calling the data file when reading it in, e.g. <code>read_csv("data.csv")</code>. Absolute would be using a path specific to the folder structure of your computer, e.g. <code>read_csv("C:/PhilsComputer/PhilsFolder/data.csv")</code>. Only use relative paths and <strong>under no circumstances</strong> should you rename the data file from the one we tell you to use. Note that “data.csv” is a different name from “data (1).csv” and different from “data_1.csv”. Only use the name we give you.</p></li>
-<li><p>The following functions are considered forbidden and must not appear anywhere in your code at all. Inclusion of them in your code may result in you receiving no marks for the assignment. The functions are: <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code>, <code>help()</code>, <code><a href="https://rdrr.io/r/utils/vignette.html">vignette()</a></code>, <code><a href="https://rdrr.io/r/base/getwd.html">setwd()</a></code>,<code><a href="https://rdrr.io/r/utils/help.start.html">help.start()</a></code>, or <code><a href="https://rdrr.io/r/utils/View.html">View()</a></code>.</p></li>
+<li><p>The following functions are considered forbidden and must not appear anywhere in your code at all. Inclusion of them in your code may result in you receiving no marks for the assignment. The functions are: <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code>, <code><a href="https://rdrr.io/r/utils/help.html">help()</a></code>, <code><a href="https://rdrr.io/r/utils/vignette.html">vignette()</a></code>, <code><a href="https://rdrr.io/r/base/getwd.html">setwd()</a></code>,<code><a href="https://rdrr.io/r/utils/help.start.html">help.start()</a></code>, or <code><a href="https://rdrr.io/r/utils/View.html">View()</a></code>.</p></li>
 <li><p>Please read the feedback we give you in past assignment to recognise what you need to work on in future assignments.</p></li>
 <li><p>Collate your notes and learn from your mistakes. These assignments are weighted low to allow you the space to make mistakes and to not have a major impact on your overall course grade. It is imperative that you take this opportunity.</p></li>
 <li><p>Refer back all the time to what you have done previously. The skills stay the same; only the data changes.</p></li>
@@ -244,7 +248,7 @@
 
 <div class="chapter-nav">
 <div class="prev"><a href="mcq.html"><span class="header-section-number">5</span> MCQ</a></div>
-<div class="next"><a href="license.html">License</a></div>
+<div class="next"><a href="week-1-lab.html"><span class="header-section-number">7</span> Week 1 Lab</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
@@ -487,7 +491,7 @@ $( document ).ready(function() {
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-09-07.</p>
+    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-09-12.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

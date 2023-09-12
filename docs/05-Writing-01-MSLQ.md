@@ -1,6 +1,4 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
-```
+
 
 # Registered Report and MSLQ Overview
 
@@ -20,9 +18,7 @@ The broad topic of the research project is **self-regulated learning**.
 
 Self-regulated learning models describe learning in terms of taking control of and evaluating one's own learning and behaviour. The study you will write up uses a questionnaire called the Motivated Strategies for Learning Questionnaire (MSLQ, Pintrich et al., 1991).
 
-```{r self reg image, echo=FALSE, out.width = "50%"}
-knitr::include_graphics("Supporting/self-reg-learning.jpg")
-```
+<img src="Supporting/self-reg-learning.jpg" width="50%" style="display: block; margin: auto;" />
 
 The MSLQ has two sections, motivation and learning strategies, each with multiple sub-scales. One of these scales may form part of the analysis you write up. There is more information about what each of these scales measures in the MSLQ Overview document, which you can [download using this link](Supporting/MSLQ Overview.docx), or you can find it on the Week 1 Moodle page.
 
