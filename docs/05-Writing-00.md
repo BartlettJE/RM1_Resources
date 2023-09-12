@@ -1,1 +1,1 @@
-# (PART) Research and Writing {-} 
+# (PART) Research and Writing Skills {-} 

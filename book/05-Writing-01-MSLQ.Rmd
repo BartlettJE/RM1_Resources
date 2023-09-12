@@ -2,13 +2,13 @@
 source(file = "include/deadlines.R")
 ```
 
-# Registered Report and MSLQ Overview
+# Registered Report and MSLQ Overview {#MSLQ-overview}
 
 ## General overview of the registered report
 
 In this course, we are preparing you to read and appraise journal articles, and write up an empirical quantitative research project yourself. Throughout the lectures, labs, and independent learning, you will learn how to formulate a research question, design a study, apply statistical analyses, and write up your results to communicate to others as a research report.
 
-In your group, you decide on a topic and collectively write a stage one registered report ([see the stage one AIS](#stage1-AIS)) which contains an introduction and method section for what you plan on studying. Individually, you will then write a stage two registered report ([see the stage two AIS](#stage2-AIS)) which contains a results, discussion, and abstract section.
+In your group, you decide on a topic and collectively write a stage one registered report ([see the stage one AIS](#stage1-AIS)) which contains an introduction and method section for how you plan on addressing your research question. Individually, you will then write a stage two registered report ([see the stage two AIS](#stage2-AIS)) which contains a results, discussion, and abstract section.
 
 You will be working with a secondary data set that we collected over the past few years. We have data from a few thousand students and you will be able to use the data to address a research question you develop in your group, within the parameters of the variables we have available. The rest of this chapter outlines the data set you will be working with in more detail, so please read through in advance of your first lab. 
 
@@ -72,13 +72,13 @@ In addition to the MSLQ, we also have a selection of demographic information abo
 
 - Paid employment in hours
 
-- Living at home vs. living in halls
+- Living at home vs living in halls
 
-- Level of study (undergraduate vs. postgraduate)
+- Level of study (undergraduate vs postgraduate)
 
 - Mature student vs traditional student (for undergraduate students only)
 
-## Potential Research Questions
+## Distinguishing types of research questions
 
 You are going to conduct one of two types of statistical analyses in your study and it is up to you and your group to decide which one. You will conduct either a **correlation** or a **t-test** analysis. These answer different questions:
 
@@ -114,45 +114,33 @@ Now you have an understanding of what the MSLQ project is, we have a list of var
 
 ### **t-test** for comparing two categories
 
-- Test anxiety and undergraduate / postgraduate
+- Test anxiety and undergraduate vs postgraduate, or years 1 and 2 vs years 3-5 (pre-honours vs honours at the University of Glasgow)
 
-- Help-seeking and first/second language 
+- Help-seeking and first vs second language 
 
-- Metacognitive self-regulation and first/second language
+- Meta-cognitive self-regulation and non-mature vs mature undergraduate student status
 
-- Metacognitive self-regulation and mature student status
+- Meta-cognitive self-regulation and undergraduate vs postgraduate study, or years 1 and 2 vs years 3-5 (pre-honours vs honours at the University of Glasgow)
 
-- Metacognitive self-regulation and undergraduate/postgraduate study
+- Self-efficacy and undergraduate vs postgraduate study
 
-- Extrinsic motivation and mature student status
-
-- Self-efficacy and undergraduate/postgraduate study
-
-- Extrinsic motivation and undergraduate/postgraduate study
-
-- Intrinsic motivation and undergraduate/postgraduate study
+- Intrinsic motivation and undergraduate vs postgraduate study
 
 ### **Correlation** for the association between two variables. 
 
 - Self-efficacy and help-seeking
 
-- Test anxiety and employment hours
-
-- Test anxiety and metacognitive self-regulation
+- Test anxiety and meta-cognitive self-regulation
 
 - Test anxiety and self-efficacy 
 
 - Self-efficacy and help-seeking
 
-- Self-efficacy and employment
-
 - Intrinsic motivation and age
-
-- Extrinsic motivation and age
 
 ### **Wild card** for two different variables. 
 
-- If you want complete freedom from the start to choose your own two variables, you can put your name next to the wild card slot. 
+- If you want complete freedom from the start to choose your own two variables, you can put your name next to the wild card slot. Note that this is a riskier choice, so you and your group should meet with your lab tutor in their student drop-in hours before the end of week 3 to discuss your planned direction.
 
 ::: {.try data-latex=""}
 Now you have read through the MSLQ and project overview, think about which variable pairs interest you the most and put your name down next to the pair that you want to start exploring on the group allocation document (available on Moodle). We will start putting you in groups in week 2 so you have as much time as possible to work on your group project. 
