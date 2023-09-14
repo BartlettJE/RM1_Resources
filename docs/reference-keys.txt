@@ -20,6 +20,7 @@ common-mistakes
 how-is-the-assessment-related-to-the-lectures-for-this-course
 why-am-i-being-assessed-like-this
 how-does-this-relate-to-previous-work-i-have-completed
+academic-integrity
 stage1-FIS
 what-type-of-feedback-will-i-receive-for-this-assessment
 can-i-get-more-feedback
@@ -37,6 +38,7 @@ common-mistakes-1
 how-is-the-assessment-related-to-the-lectures-for-this-course-1
 why-am-i-being-assessed-like-this-1
 how-does-this-relate-to-previous-work-i-have-completed-1
+academic-integrity-1
 stage2-FIS
 what-type-of-feedback-will-i-receive-for-this-assessment-1
 can-i-get-more-feedback-1
@@ -48,6 +50,7 @@ general-information-2
 how-to-do-well-in-this-assessment-2
 common-mistakes-2
 why-am-i-being-assessed-like-this-2
+academic-integrity-2
 feedback-information
 how-is-this-assessment-graded
 what-type-of-feedback-will-i-receive-for-this-assessment-2
@@ -61,6 +64,7 @@ common-mistakes-3
 how-is-the-assessment-related-to-the-lectures-for-this-course-2
 why-am-i-being-assessed-like-this-3
 how-does-this-relate-to-previous-work-i-have-completed-2
+academic-integrity-3
 FIS
 how-is-this-assessment-graded-1
 how-will-the-feedback-from-this-assessment-help-me-in-the-future
