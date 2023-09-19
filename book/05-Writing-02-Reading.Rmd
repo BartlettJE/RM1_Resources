@@ -61,17 +61,35 @@ include_graphics("images/02-scholar-search.png")
 
 Hiring decisions is also surrounded by quotes. This forces databases to search for the specific phrase exactly as typed in the quotes. If we did not surround it by quotes, we can get search results that contain the words hiring and decisions separately or together. If they are separate, the results might not be quite what we are looking for. 
 
-For further tips, see the University of Glasgow library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/).
+As a final literature searching tip, once you find an article that is precisely on the topic you are searching for, you can look at articles in its reference list, and at articles that have since cited it. This is no guarantee there will be something useful, but you can often benefit from the citation trees of your key articles. 
+
+On the library portal, you can see articles that your target articles cites, which will show the articles in its reference list that are readable by the library data base.
+
+```{r library cites figure, fig.alt = "Screenshot of identifying articles that a target article cites in the library portal."}
+include_graphics("images/02-cites.png")
+```
+
+Alternatively, on Google Scholar, you can look through the articles that have since cited your target article. You will get fewer hits for more recent articles as there has been less time for another article to be published, but its another useful strategy for identifying potentially useful articles. 
+
+```{r Scholar cited by figure, fig.alt = "Screenshot of identifying articles that have since cited your target article in Google Scholar."}
+include_graphics("images/02-Scholar-cited.png")
+```
+
+For further tips, see the University of Glasgow library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/) and [a brief video navigating around the library search function](https://youtu.be/Zy-VLyeLEAM?si=2nd01D-QoBOP2brL).
 
 ### Using a reference manager to store your results
 
 Throughout the programme, you will need to use APA 7th edition. Although you could download each article and manually enter the citation and reference list entries, there are more efficient ways to provide you with more time in other areas of your report or essay writing. A reference manager will help to keep your research organised and it will do a lot of the heavy lifting when it comes to entering citations and creating the reference list. 
 
-Our recommendation is Zotero which can be downloaded for free at https://www.zotero.org/. There are alternatives (such as EndNote which the university pays for), but most of the psychology team prefer Zotero. Under preferences, make sure you select APA 7th edition to format the citations and references correctly. 
+Our recommendation is Zotero which can be downloaded for free at https://www.zotero.org/. There are alternatives (such as EndNote which the university endorses as approved software), but most of the psychology team prefer Zotero. Under preferences, make sure you select APA 7th edition to format the citations and references correctly. 
 
 ```{r Zotero figure, fig.alt = "Zotero logo with red Z and black otero."}
 include_graphics("images/02-Zotero.png")
 ```
+
+::: {.warning data-latex=""}
+As third-party software which requires you to create an account, we recommend not using the same password as your university account.  
+:::
 
 Using Zotero, you can:
 
