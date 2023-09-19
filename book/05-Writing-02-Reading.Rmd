@@ -3,19 +3,23 @@ source(file = "include/deadlines.R")
 
 library(knitr)
 library(tibble)
+
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Finding, Reading, and Organising Journal Articles {#Writing-02}
+
+In this resource to support the week 2 lab and research skills, you work on finding journal articles and using a reference manager, reading empirical journal articles and identifying key information, and starting to organise your articles for assignments. 
 
 ## Finding journal articles
 
 ### Identifying key words
 
-Before you can read journal articles, you need to find them. The first step in a literature review is working out what your keywords will be. You will be looking in databases, so you need to select the appropriate terms to ensure your search results return the content you are looking for. It takes patience to identify and tweak the search terms that identify the content you are looking for. As a starting point, these might be your topic or variables. 
+Before you can read journal articles, you need to find them. The first step in a literature review is working out what your keywords will be. You will be looking in data bases, so you need to select the appropriate terms to ensure your search results return the content you are looking for. It takes patience to identify and tweak the search terms that identify the content you are looking for. As a starting point, these might be your topic or variables. 
 
 Once you identify some useful articles, these can provide further inspiration and specificity. Many journal articles will give you a helping hand as the authors have to provide several keywords relating to the article. For example, the following figure from [Schroeder and Epley (2015)](http://journals.sagepub.com/doi/10.1177/0956797615572906) highlights the keywords that describe their article. 
 
-```{r}
+```{r keywords figure, fig.alt = "Screenshot of first page of Schroeder and Epley showing title, abstract, and keywords."}
 include_graphics("images/02-keywords.png")
 ```
 
@@ -27,17 +31,21 @@ Once you have some keywords, your next step will be to try and find more article
 
 The University of Glasgow library can be accessed through your student portal. This is the database that the university uses to pay for access to journal articles and ebooks. Glasgow has a huge number of journals available, so this will be one of your best resources as you may be asked to pay for articles if you access journal websites directly, never pay for articles though, there is always a way to find them. Google Scholar is also a valuable resource that can return different results. A combination of these two databases will be a good starting point for any essay or report. 
 
-::: {.warning data-latex=""}
+::: {.dangerous data-latex=""}
 Never pay for journal articles. We have a huge library at Glasgow, so you will almost always find the article by searching for the title. If it is not available, then there are other strategies like searching the title on Google Scholar or regular Google and there might be a PDF someone has posted. Authors can often freely share an author manuscript which contains the same text as the final article but without the fancy journal formatting.
 :::
 
-Enter your keywords in the search bar of these databases. You can enter one word and they will try to locate resources that contain that word. For example, we might want to find additional articles investigating job candidates' speech. 
+Enter your keywords in the search bar of these data bases. You can enter one word or phrase and the data base will try to locate resources that contain that word. For example, we might want to find additional articles investigating job candidates' speech. 
 
-Figure for one key word. 
+```{r single keyword figure, fig.alt = "Screenshot of the University of Glasgow library page to search for articles featuring job candidate speech."}
+include_graphics("images/02-single-keyword.png")
+```
 
 However, it is usually much more powerful to combine search terms to provide more precise results. If you enter single words or phrases, you might find there are thousands of results which contain mostly irrelevant articles. You can use two or more keywords to look for more specific articles. 
 
-Figure for three key words. 
+```{r multiple keywords figure, fig.alt = "Screenshot of the University of Glasgow library page to search for articles using AND as a Boolean operator."}
+include_graphics("images/02-multiple-keywords.png")
+```
 
 Here, you can see we have used speech AND decision making AND hiring. The capitalised AND is called a [Boolean operator](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/). It is used to link together the three words. It means we only want articles that contain the three words. Not one of them, not two of them, but all three. Using AND narrows down your search. Alternatively, you can use OR which expands your search to look for two or more terms. AND will provide fewer results and OR will provide more. You can also use NOT to rule out particular terms.
 
@@ -45,18 +53,25 @@ Here, you can see we have used speech AND decision making AND hiring. The capita
 You can do this in the single search bar by entering the Boolean operators yourself. Alternatively, if you click advanced search, you can add search boxes and choose from AND, OR, and NOT for each term. You can also start to filter your results to only return results from a date range, if you only wanted articles from say the past 5 years. 
 :::
 
-You can also use Boolean operators in Google Scholar to combine the search terms gender AND “hiring decisions”. This means we only want search results that contain both elements. 
+You can also use [Boolean operators in Google Scholar](https://southern.libguides.com/google/boolean) to combine the search terms gender AND “hiring decisions”. This means we only want search results that contain both elements. 
 
-Figure for Google scholar search terms. 
+```{r Google Scholar figure, fig.alt = "Screenshot of using Boolean operators in Google Scholar."}
+include_graphics("images/02-scholar-search.png")
+```
 
 Hiring decisions is also surrounded by quotes. This forces databases to search for the specific phrase exactly as typed in the quotes. If we did not surround it by quotes, we can get search results that contain the words hiring and decisions separately or together. If they are separate, the results might not be quite what we are looking for. 
 
-For further tips, see the library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/).  
+For further tips, see the University of Glasgow library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/).
+
 ### Using a reference manager to store your results
 
 Throughout the programme, you will need to use APA 7th edition. Although you could download each article and manually enter the citation and reference list entries, there are more efficient ways to provide you with more time in other areas of your report or essay writing. A reference manager will help to keep your research organised and it will do a lot of the heavy lifting when it comes to entering citations and creating the reference list. 
 
 Our recommendation is Zotero which can be downloaded for free at https://www.zotero.org/. There are alternatives (such as EndNote which the university pays for), but most of the psychology team prefer Zotero. Under preferences, make sure you select APA 7th edition to format the citations and references correctly. 
+
+```{r Zotero figure, fig.alt = "Zotero logo with red Z and black otero."}
+include_graphics("images/02-Zotero.png")
+```
 
 Using Zotero, you can:
 
@@ -78,11 +93,13 @@ Using Zotero, you can:
 
 Just keep in mind, Zotero cannot always find all the information or it gets some of the details wrong. So, you may have to manually enter/edit the details for the citation/reference to be formatted correctly. This is why it is still important to learn the key details of APA formatting, but you are using your understanding more efficiently to spot mistakes rather than manually format each entry in your assignment. 
 
-If you like to follow along to a video, there are some helpful sources on YouTube to guide you through a lot of the basics: 
-https://www.youtube.com/watch?v=BQL_7C-YqBk 
-https://www.youtube.com/watch?v=Hm0TboOcAuM 
+If you like to follow along to a video, there are some helpful resources on YouTube to guide you through a lot of the basics: 
 
-The Zotero website also has a quick start guide if you prefer a written explanation: https://www.zotero.org/support/quick_start_guide 
+- McGill University has a [playlist of a short tutorials](https://youtube.com/playlist?list=PL4asXgsr6ek5H5mM9GlA1d-YCb9KvP3Ja&si=DNUP50Dhn_apDM-D). 
+
+- There are also [longer tutorials working through the features](https://youtu.be/JG7Uq_JFDzE?si=S973FkGPMNgXyYkh) of Zotero.
+
+The [Zotero website](https://www.zotero.org/support/) also has a quick start guide if you prefer a written explanation in addition to detailed documentation. 
 
 ## Reading journal articles 
 

@@ -2,13 +2,13 @@
 source(file = "include/deadlines.R")
 ```
 
-# Week 2 Lab
+# Week 2
 
 ## Lab overview
 
 By the start of week 2, you will be in your lab groups for the semester. In the lab this week, we will be covering two topics to help support your group work and start on the research project: finding and reading research, and starting the group work agreement. 
 
-In the first part, your lab lead will take you through strategies for finding, reading, and organising research. This applies to your group and individual report in RM1, but it is also a vital skill for every course you will complete.  You will see tips such as identifying key words to use in search engines, stringing together multiple key words or phrases, and the kind of data bases that may be useful. 
+In the first part, your lab lead will take you through strategies for finding, reading, and organising research. This applies to your group and individual report in RM1, but it is also a vital skill for every course you will complete.  You will see tips such as identifying key words to use in search engines, stringing together multiple key words or phrases, and the kind of data bases that may be useful. The pre-lab reading task this week outlines this in more detail, but your lab lead will be highlighting key features. 
 
 Your lab lead will then introduce you to the general structure of the empirical psychology journal article. Reading an article sounds like an easy task, but research (e.g., [Kershaw et al., 2018](https://link.springer.com/article/10.1007/s11251-018-9456-2)) consistently shows students struggle at first. Your pre-lab task is to read through a tutorial we created on the QALMRI method ([Brosowsky et al., 2020](https://psyarxiv.com/p39sc/)) for questions to ask and information to identify as you work through articles. This might seem slow and formulaic at first, but you will get quicker as you get used to reading articles and identifying the key information. 
 
@@ -16,7 +16,7 @@ In the second part for your group discussion, you will start on the group work a
 
 ## Tasks to complete prior to your lab
 
-1. Read the [Finding, Reading, and Organising Journal Articles](#Writing-02) chapter of the RM1 course book. This will explain strategies for finding research for your literature reviews and help you to identify key information in empirical articles using the QALMRI method. 
+1. Read the [Finding, Reading, and Organising Journal Articles](#Writing-02) chapter of the RM1 course book. This will explain strategies for finding research for your literature reviews and help you to identify key information in empirical articles using the QALMRI method. Note this is quite a long resource, so we do not expect you to work through the activities prior to the lab. 
 
 ## Tasks to complete after attending your lab
 

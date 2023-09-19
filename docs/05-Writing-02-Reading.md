@@ -1,10 +1,92 @@
 
 
-# Reading Journal Articles and Identifying a RQ
+# Finding, Reading, and Organising Journal Articles {#Writing-02}
 
-## Reading Journal Articles 
+In this resource to support the week 2 lab and research skills, you work on finding journal articles and using a reference manager, reading empirical journal articles and identifying key information, and starting to organise your articles for assignments. 
 
-The ability to read a journal article might sound obvious, but research (e.g., [Kershaw et al., 2018](https://link.springer.com/article/10.1007/s11251-018-9456-2)) consistently shows students find it difficult at first to summarise and critically evaluate empirical research. Our students have a range of backgrounds, so we want to make sure everyone has the skills to read and evaluate published research.    
+## Finding journal articles
+
+### Identifying key words
+
+Before you can read journal articles, you need to find them. The first step in a literature review is working out what your keywords will be. You will be looking in data bases, so you need to select the appropriate terms to ensure your search results return the content you are looking for. It takes patience to identify and tweak the search terms that identify the content you are looking for. As a starting point, these might be your topic or variables. 
+
+Once you identify some useful articles, these can provide further inspiration and specificity. Many journal articles will give you a helping hand as the authors have to provide several keywords relating to the article. For example, the following figure from [Schroeder and Epley (2015)](http://journals.sagepub.com/doi/10.1177/0956797615572906) highlights the keywords that describe their article. 
+
+<img src="images/02-keywords.png" alt="Screenshot of first page of Schroeder and Epley showing title, abstract, and keywords." width="100%" style="display: block; margin: auto;" />
+
+The majority of articles will post keywords under the abstract. Here, we can see there are seven words or short phrases that summarise the content of the article. Sometimes they are not truly relevant to the topic (e.g., open data here), so you will need to skim a few articles to recognise recurring themes and potentially useful keywords. 
+
+### Search strategies
+
+Once you have some keywords, your next step will be to try and find more articles. The two main data bases you will use are the University of Glasgow library and Google Scholar. 
+
+The University of Glasgow library can be accessed through your student portal. This is the database that the university uses to pay for access to journal articles and ebooks. Glasgow has a huge number of journals available, so this will be one of your best resources as you may be asked to pay for articles if you access journal websites directly, never pay for articles though, there is always a way to find them. Google Scholar is also a valuable resource that can return different results. A combination of these two databases will be a good starting point for any essay or report. 
+
+::: {.dangerous data-latex=""}
+Never pay for journal articles. We have a huge library at Glasgow, so you will almost always find the article by searching for the title. If it is not available, then there are other strategies like searching the title on Google Scholar or regular Google and there might be a PDF someone has posted. Authors can often freely share an author manuscript which contains the same text as the final article but without the fancy journal formatting.
+:::
+
+Enter your keywords in the search bar of these data bases. You can enter one word or phrase and the data base will try to locate resources that contain that word. For example, we might want to find additional articles investigating job candidates' speech. 
+
+<img src="images/02-single-keyword.png" alt="Screenshot of the University of Glasgow library page to search for articles featuring job candidate speech." width="100%" style="display: block; margin: auto;" />
+
+However, it is usually much more powerful to combine search terms to provide more precise results. If you enter single words or phrases, you might find there are thousands of results which contain mostly irrelevant articles. You can use two or more keywords to look for more specific articles. 
+
+<img src="images/02-multiple-keywords.png" alt="Screenshot of the University of Glasgow library page to search for articles using AND as a Boolean operator." width="100%" style="display: block; margin: auto;" />
+
+Here, you can see we have used speech AND decision making AND hiring. The capitalised AND is called a [Boolean operator](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/). It is used to link together the three words. It means we only want articles that contain the three words. Not one of them, not two of them, but all three. Using AND narrows down your search. Alternatively, you can use OR which expands your search to look for two or more terms. AND will provide fewer results and OR will provide more. You can also use NOT to rule out particular terms.
+
+::: {.info data-latex=""}
+You can do this in the single search bar by entering the Boolean operators yourself. Alternatively, if you click advanced search, you can add search boxes and choose from AND, OR, and NOT for each term. You can also start to filter your results to only return results from a date range, if you only wanted articles from say the past 5 years. 
+:::
+
+You can also use [Boolean operators in Google Scholar](https://southern.libguides.com/google/boolean) to combine the search terms gender AND “hiring decisions”. This means we only want search results that contain both elements. 
+
+<img src="images/02-scholar-search.png" alt="Screenshot of using Boolean operators in Google Scholar." width="100%" style="display: block; margin: auto;" />
+
+Hiring decisions is also surrounded by quotes. This forces databases to search for the specific phrase exactly as typed in the quotes. If we did not surround it by quotes, we can get search results that contain the words hiring and decisions separately or together. If they are separate, the results might not be quite what we are looking for. 
+
+For further tips, see the University of Glasgow library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/).
+
+### Using a reference manager to store your results
+
+Throughout the programme, you will need to use APA 7th edition. Although you could download each article and manually enter the citation and reference list entries, there are more efficient ways to provide you with more time in other areas of your report or essay writing. A reference manager will help to keep your research organised and it will do a lot of the heavy lifting when it comes to entering citations and creating the reference list. 
+
+Our recommendation is Zotero which can be downloaded for free at https://www.zotero.org/. There are alternatives (such as EndNote which the university pays for), but most of the psychology team prefer Zotero. Under preferences, make sure you select APA 7th edition to format the citations and references correctly. 
+
+<img src="images/02-Zotero.png" alt="Zotero logo with red Z and black otero." width="100%" style="display: block; margin: auto;" />
+
+Using Zotero, you can:
+
+- Install a plugin to save articles you find through your web browser 
+
+- If there is an open access version of the article PDF, Zotero will automatically save it 
+
+- Manually upload PDFs and Zotero will try to find the key metadata such as the title, volume number etc.
+
+- Create folders to keep your research organised into folders, such as one for each assignment 
+
+- Copy citation and reference lists into your assignment 
+
+- Use the Zotero plugin in Word or Google Docs to enter citations and automatically create a reference list.
+
+- Add notes and highlights to each article you read within Zotero. 
+
+- Sync your library across devices, so you can download articles on your laptop, but read the articles on your tablet. 
+
+Just keep in mind, Zotero cannot always find all the information or it gets some of the details wrong. So, you may have to manually enter/edit the details for the citation/reference to be formatted correctly. This is why it is still important to learn the key details of APA formatting, but you are using your understanding more efficiently to spot mistakes rather than manually format each entry in your assignment. 
+
+If you like to follow along to a video, there are some helpful resources on YouTube to guide you through a lot of the basics: 
+
+- McGill University has a [playlist of a short tutorials](https://youtube.com/playlist?list=PL4asXgsr6ek5H5mM9GlA1d-YCb9KvP3Ja&si=DNUP50Dhn_apDM-D). 
+
+- There are also [longer tutorials working through the features](https://youtu.be/JG7Uq_JFDzE?si=S973FkGPMNgXyYkh) of Zotero.
+
+The [Zotero website](https://www.zotero.org/support/) also has a quick start guide if you prefer a written explanation in addition to detailed documentation. 
+
+## Reading journal articles 
+
+Now you have one or two articles, the ability to read them might sound obvious, but research (e.g., [Kershaw et al., 2018](https://link.springer.com/article/10.1007/s11251-018-9456-2)) consistently shows students find it difficult at first to summarise and critically evaluate empirical research. Our students have a range of backgrounds, so we want to make sure everyone has the skills to read and evaluate published research.    
 
 Journal articles have a different structure and writing style than textbooks or news articles. Usually, they are not written to be a thrilling bedtime read. They can be quite dense with lots of technical jargon. This means - particularly early in your degree - you have to be quite strategic in how you read journal articles. 
 
@@ -323,7 +405,7 @@ On the top and middle of page 7, the authors concluded their results support bot
 </div>
 
 
-### Building a Literature Review
+### Organising journal articles 
 
 The QALMRI method applies to individual journal articles, but in your assignments, we expect you to read several articles to build a literature review. You can take the QALMRI method and create a table using something like Word or Excel to collate the articles you read. For example: 
 
