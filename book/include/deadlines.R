@@ -1,5 +1,7 @@
 study_year <- "2023 / 2024"
 
+groupagreement_due <- "October 6th 2023"
+
 stage1_due <- "November 10th 2023"
 
 stage1_words <- 1500
