@@ -1,0 +1,185 @@
+```{r, echo=FALSE}
+source(file = "include/deadlines.R")
+```
+
+# Group Work Agreement {#groupagreement-AIS}
+
+## General information
+
+- This is a formative task and is not part of the summative assessment for the course. We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process. 
+
+- The deadline is **`r groupagreement_due`**.
+
+- Although you will complete the group agreement document as a group, everyone must then **individually** sign (electronic or just a printed name, you do not need to physically sign it) and upload a copy to the submission portal. 
+
+- You should submit a single Word document (.docx) or PDF document to Moodle prior to the deadline. The submission link is open from when the group allocations are available in week 2. You can find the submission portal in the Group Allocations, Resources, and Agreement Submission tab. 
+
+## Additional group agreement items
+
+The group work agreement contains four mandatory points to agree to. In addition, there may be other elements of group work you and your group want to include. Here is a list of items you may want to discuss with your group and add to the group agreement:
+
+- We all agree to establish a common timeline for the project and discuss any deviations from the timeline together as a group
+
+- We all agree to communicate with each other openly and honestly about the project and get in touch with the course leads in the event of an unsolvable group conflict.
+
+- We all agree to respect each other's individual ways of working and discuss these openly as a group. 
+
+- We all agree to respect diversity in our group. This includes cultural differences, neurodiversity, different work/life situations and may manifest in different ways of working/approaching tasks. We agree to discuss our strengths as a group and divide tasks accordingly.
+
+- I agree to stay in touch with the group and communicate as established by the group. If I am struggling and I do not feel comfortable sharing that with the group, I will get in touch with the course/programme leads for support
+
+- We all agree to meet on a regular basis as established by the group. If I cannot make a meeting I agree to communicate this openly with my group and get in touch to catch up about things I have missed.
+
+- We agree to plan out the individual contribution of each team member in advance before group work starting and openly communicate any changes that may arise during the project.
+
+- We agree to establish the best method of communication for our group that's inclusive and takes into account everybody's individual needs.
+
+## Stage one group work planning advice {#stageone-planning}
+
+On the following page are the main questions of the Pre-Registration. For each question try to summarise the following:
+•	What information have you already established in that section?
+•	What do you still need to think about for that section?
+•	How are you going to find answers to the things you do not yet know?
+For example, you might say for Question 1:
+•	What have you already established? So far, we know the Research Question and the Hypothesis and we have a general summary of relevant papers written by the team. 
+•	What do we still need to think about? We do not yet have a fully formed rationale or a solid understanding of the general overview.
+•	How will you find answers to things you do not yet know? Phil, Helena, and Ashley will read the papers that have already been collected and the general summary. From there, they will try to write a draft of the general topic and finalise the rationale so that it builds on what previous research has found. They will then present that to the group for further revision and discussion.
+Once you have done that for each section, go through each section and answer the following question: Who will lead on each section? 
+Each group member should make an equal contribution, but this does not mean every group member works on every question. Some questions might work better with one person leading and another editing, while other questions might work better with several people leading and editing.  
+For example, you might write:
+•	Question 1: Phil, Helena, and Ashley will lead on this section.
+•	Question 2: Wil and Maxine will lead on this section.
+•	Question 3: James and Alexia will lead on this section.
+•	Question 4: Helena and Wil will lead on this section.
+•	Question 5: Maxine and Phil will lead on this section.
+•	Code: Alexia, Ashley, and James will lead on the Code.
+
+
+
+
+
+
+
+
+
+1. Present a concise evidence-based rationale, for the current study, along with your research question and hypothesis.
+•	What have you already established?
+•	What do you still need to think about?
+•	How will you fill in the blanks?
+2. Describe the key variables, specifying how they will be measured, how many levels they have (if relevant), and how participants will be assigned (if relevant).
+•	What have you already established?
+•	What do you not yet know?
+•	How will you fill in the blanks?
+3. Describe your precise rule(s) for including and/or excluding observations and/or participants in your study.
+•	What have you already established?
+•	What do you not yet know?
+•	How will you fill in the blanks?
+4. Describe exactly which inferential analysis you will conduct to test your hypothesis. Include details of any assumption tests you will conduct.
+•	What have you already established?
+•	What do you not yet know?
+•	How will you fill in the blanks?
+5. Discuss how many observations/participants will be required to detect your smallest effect size of interest, based on your alpha and power. Provide the rationale for your choice of the smallest effect size of interest. 
+•	What have you already established?
+•	What do you not yet know?
+•	How will you fill in the blanks?
+6. Analysis Code
+•	What have you already established?
+•	What do you not yet know?
+•	How will you fill in the blanks?
+
+Who will lead on each question?
+•	Section 1:
+•	Section 2:
+•	Section 3:
+•	Section 4:
+•	Section 5
+•	Code:
+
+
+## Effective group work advice
+
+### Guidelines 
+
+Below are some guidelines to organise and manage your group project for the stage one report. You are welcome to adapt some of these guidelines to suit your group and the nature of the project. However, in the event we need to mediate difficulties, this will involve you providing evidence as record/evidence of collaboration (or lack thereof). Please be mindful of this when conducting your project.
+
+**Set up your group Teams chat/channel and a Planner for your group**
+
+- DO: Create a Teams chat for communication with your group.
+
+- DO: Create a Planner with all members of your group.
+
+- DON’T: Use WhatsApp, Facebook or WeChat etc. to coordinate your project as it that excludes people who cannot access this technology in some countries.
+
+**Coordinate work schedules/calendars**
+
+- DO: Be open about when you can meet/study, if you have a busy period coming up, or might be unavailable.
+
+- DO: Schedule a regular ‘check-in’ time. This does not need to be a live meeting but stay connected regularly.
+
+- DON’T: Commit to meetings/time frames that will not work for your time table or work schedule. 
+
+**Agree on document collaboration platforms**
+
+- DO: We recommend having a shared OneDrive folder or sharing documents within your Teams channel using the files tab.
+
+- DO: Use track changes and comments on shared documents.
+
+- DO: Think about a shared Zotero, EndNote, or similar library to organise references/papers.
+
+**Work back from the deadline to create milestones**
+
+- DO: Be mindful of your work/life balance and upcoming busy periods.
+
+- DO: Agree on specific dates to complete your responsibilites.
+
+- DON’T: Leave things to the last minute.
+
+**Determine strengths and assign roles**
+
+- DO: Consult the [Stage one group work planning advice section above](#stageone-planning) to identify the strengths/preferences of your team.
+
+**Assign tasks/milestones to roles** 
+
+- DO: Attach names and dates to tasks and assign milestones.
+
+- DO: Reassign tasks/adjust deadlines if you need as the project progresses.
+
+- DON’T: Assign time-sensitive roles that might clash with someone’s known upcoming commitments.
+
+**Communicate, communicate, communicate**
+
+- DO: Check-in regularly.
+
+- DO: Agree to action points at the end of meetings and put these in writing (e.g., in a wiki/to-do list).
+
+- DO: Let your group know if you are struggling with a task/milestone.
+
+- DO: Be kind and compassionate (to yourself and others).
+
+- DON’T: Take things personally. We all know text/online communication can sound differently from how it is intended.
+
+**Submit your Assessment**
+
+- DO: Assign one person to prepare and submit the final documents when everyone has approved them. Remember to turn off track changes.
+
+- DO: Give yourself time to look at the Turnitin Report.
+
+- DON’T: Forget to check you are uploading the correct intended file.
+
+### Points about inclusivity
+
+**Language**: Many/most students in this programme are studying in their second, third, or even fourth language. Consider the challenges you might experience if you were studying beyond your first language and be mindful of making implicit judgements about someone’s writing or communication.
+
+**Timing/working patterns**: Be mindful that everyone’s life balance and commitments are different. Some people prefer studying during traditional working hours, some in the evenings, and others on weekends. Communicate your preferences openly and as a group be as flexible and accommodating as you can. Can the times/days of meetings be flexible if this helps everyone contribute and feel engaged?
+
+**Technology**: The technology/platforms we recommend might not be your favourites, but we recommend them for a reason. These are things we can directly support, and they are the things that we make sure all students in different countries can access. Using some apps/tools can explicitly exclude some members that want to engage and contribute.
+
+**Neurodiversity**: Different people work and think in different ways. If someone discloses that they find particular things challenging, or that they are at their best with a particular type of task or activity, consider how you can support/reflect this in the allocation of roles and tasks. Everyone works best in a positive strengths-based environment!
+
+### Supporting self-efficacy/group dynamics
+
+**Ostracism**: Group dynamics can be one of the trickiest things to manage in a project, especially if you feel like you are the “new person” coming into an established group. For the sake of everyone and your project, avoid implicitly or explicitly creating an in-group/out-group situation and ostracising people. 
+
+**Positivity**: Try to maintain a positive tone about the project, even if you find it challenging. There is a fine line between having a little vent/catharsis and creating an atmosphere of toxic negativity. Some team members might take this to heart more than others and become dispirited about the activity, their abilities, and the completion of the task. If you are feeling frustrated or finding a particular thing challenging, talk to your group and consider seeking advice or support from the teaching team.
+
+**Imposter syndrome**: Everyone gets this! It does not matter how we might be coping, sometimes it is impossible to avoid feeling like you or your work might not be good enough. If you are anxious about sharing something with your group, seek feedback from someone you trust first for their advice. Do not be afraid to make mistakes. Think about your shared documents as ‘working drafts’. Do not think you have to be anything other than who you are with your group. The pressure of thinking you must pretend to be a “model” student or meet the perceived expectations of others can get in the way of your being able to contribute your unique skills and experience.
