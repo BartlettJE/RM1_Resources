@@ -1,6 +1,4 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
-```
+
 
 # Group Work Agreement {#groupagreement-AIS}
 
@@ -8,7 +6,7 @@ source(file = "include/deadlines.R")
 
 - This is a formative task and is **not** part of the summative assessment for the course. We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process. 
 
-- The deadline is **`r groupagreement_due`**.
+- The deadline is **October 6th 2023**.
 
 - Although you will agree on the document as a group, each group member must then **individually** sign (electronic or a printed name, you do not need to physically sign it) and upload a copy to the submission portal. 
 

@@ -78,9 +78,11 @@ Using Zotero, you can:
 
 - Manually upload PDFs and Zotero will try to find the key metadata such as the title, volume number etc.
 
-- Create folders to keep your research organised into folders, such as one for each assignment 
+- Create folders to keep your research organised into folders, such as one for each assignment. 
 
-- Copy citation and reference lists into your assignment 
+- Create shared folders to add and access the same articles with people you are working with. 
+
+- Copy citation and reference lists into your assignment. 
 
 - Use the Zotero plugin in Word or Google Docs to enter citations and automatically create a reference list.
 

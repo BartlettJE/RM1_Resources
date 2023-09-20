@@ -9,8 +9,16 @@ Resources
 fundamentals-of-quantitative-analysis
 handy-workbook
 course-reading-list
-stage1-AIS
+groupagreement-AIS
 general-information
+additional-group-agreement-items
+stageone-planning
+effective-group-work-advice
+guidelines
+points-about-inclusivity
+supporting-self-efficacygroup-dynamics
+stage1-AIS
+general-information-1
 word-count-and-formatting
 type-of-assessmentstructure
 assessment-criteria
@@ -28,7 +36,7 @@ how-will-feedback-from-this-assessment-help-me-in-the-future
 who-assessed-my-work
 can-i-have-my-work-regraded
 stage2-AIS
-general-information-1
+general-information-2
 word-count-and-formatting-1
 type-of-assessmentstructure-1
 assessment-criteria-1
@@ -46,7 +54,7 @@ how-will-feedback-from-this-assessment-help-me-in-the-future-1
 who-assessed-my-work-1
 can-i-have-my-work-regraded-1
 mcq
-general-information-2
+general-information-3
 how-to-do-well-in-this-assessment-2
 common-mistakes-2
 why-am-i-being-assessed-like-this-2
@@ -56,7 +64,7 @@ how-is-this-assessment-graded
 what-type-of-feedback-will-i-receive-for-this-assessment-2
 who-assessed-my-work-2
 data-skills
-general-information-3
+general-information-4
 type-of-assessmentstructure-2
 assessment-support-2
 how-to-do-well-in-these-assignments
