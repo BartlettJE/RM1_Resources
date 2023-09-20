@@ -18,7 +18,7 @@ source(file = "include/deadlines.R")
 
 - You should submit a single Word document (.docx) to Moodle prior to the deadline. The submission link will open at least one week prior to the deadline and will be in the Assignment Submission section of Moodle.
 
-- As a formative task and to outline ground rules for working in your group, you will group work agreement. We will introduce this document to you in week 2, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
+- As a formative task and to outline ground rules for working in your group, you will complete and submit a [group work agreement](#groupagreement-AIS). We will introduce this document to you in week 2, but it will involve agreeing to how you will work in and contribute to your group. This will help to plan your assignment and recognise how people may work and interact differently. 
 
 ## Word count and formatting
 
