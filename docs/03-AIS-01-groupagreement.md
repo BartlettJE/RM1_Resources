@@ -4,7 +4,7 @@
 
 ## General information
 
-- This is a formative task and is **not** part of the summative assessment for the course. We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process. 
+- This is a formative task and is **not** part of the summative assessment for the course. We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the [stage one group report](#stage1-AIS). 
 
 - The deadline is **October 6th 2023**.
 

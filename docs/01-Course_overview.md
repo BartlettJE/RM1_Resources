@@ -78,7 +78,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Introduction to quantitative research methods </td>
    <td style="text-align:left;"> Introduction to the course and assignments </td>
    <td style="text-align:left;"> * Chapter 1 - Programming Basics </td>
-   <td style="text-align:left;"> * Quantitative Project / MSLQ Overview </td>
+   <td style="text-align:left;"> * Registered report and MSLQ overview </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -88,8 +88,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Finding and reading journal articles </td>
    <td style="text-align:left;"> * Chapter 2 - Introduction to R
 * Chapter 3 - Starting with data </td>
-   <td style="text-align:left;"> * Types of evidence and finding sources
-* RQs and hypotheses </td>
+   <td style="text-align:left;"> * Finding, reading, and organising journal articles
+* Group work agreement </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -98,8 +98,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Statistics and probability </td>
    <td style="text-align:left;"> Introduction structure </td>
    <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
-   <td style="text-align:left;"> * APA referencing
-* Academic writing </td>
+   <td style="text-align:left;"> * Introduction structure
+* Identifying the rationale </td>
    <td style="text-align:left;"> Formative: Group work agreement </td>
   </tr>
   <tr>
@@ -108,8 +108,9 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Hypothesis testing </td>
    <td style="text-align:left;"> Academic writing </td>
    <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
-   <td style="text-align:left;"> * Introductions
-* Rationale </td>
+   <td style="text-align:left;"> * Scientific writing
+* Paragraph structure
+* Citation placement </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -118,8 +119,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Correlation </td>
    <td style="text-align:left;"> Method structure </td>
    <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
-   <td style="text-align:left;"> * RQ and hypotheses Padlet
-* Stage one template </td>
+   <td style="text-align:left;"> * Method structure
+* Researcher degrees of freedom </td>
    <td style="text-align:left;"> MCQ </td>
   </tr>
   <tr>
@@ -138,7 +139,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Communicating correlation results </td>
    <td style="text-align:left;"> * Chapter 7 - Visualisations
 * Chapter 9 - Correlations </td>
-   <td style="text-align:left;"> * Method section </td>
+   <td style="text-align:left;"> * Correlation results sections
+* Reporting power analyses </td>
    <td style="text-align:left;"> Data skills 1 </td>
   </tr>
   <tr>
@@ -148,7 +150,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Communicating t-test results </td>
    <td style="text-align:left;"> * Chapter 10 - t-tests
 * Chapter 11 - Power and effect sizes </td>
-   <td style="text-align:left;"> * Results section </td>
+   <td style="text-align:left;"> * t-test results sections </td>
    <td style="text-align:left;"> Stage one report </td>
   </tr>
   <tr>
@@ -157,8 +159,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Between-subjects and within-subjects t-tests </td>
    <td style="text-align:left;"> Discussion structure </td>
    <td style="text-align:left;"> * Chapter 8 - Probability </td>
-   <td style="text-align:left;"> * Plagirism 
-* Ethics </td>
+   <td style="text-align:left;"> * Discussion structure </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -167,8 +168,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Bringing it all together </td>
    <td style="text-align:left;"> Abstract structure </td>
    <td style="text-align:left;"> * Chapter 12 - Screening data </td>
-   <td style="text-align:left;"> * Discussion section
-* Abstracts </td>
+   <td style="text-align:left;"> * Abstract structure </td>
    <td style="text-align:left;"> Data skills 2 </td>
   </tr>
   <tr>
