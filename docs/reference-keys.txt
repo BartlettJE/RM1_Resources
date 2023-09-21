@@ -12,11 +12,11 @@ course-reading-list
 groupagreement-AIS
 general-information
 additional-group-agreement-items
-stageone-planning
-effective-group-work-advice
+group-work-advice
 guidelines
 points-about-inclusivity
 supporting-self-efficacygroup-dynamics
+stageone-planning
 stage1-AIS
 general-information-1
 word-count-and-formatting
