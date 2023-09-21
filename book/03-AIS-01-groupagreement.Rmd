@@ -8,7 +8,7 @@ source(file = "include/deadlines.R")
 
 - We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the [stage one group report](#stage1-AIS). Groups typically experience problems when communication and task responsibilities are built on unspoken assumptions. As you probably do not know the people in your group when we make the allocations, we start the project by facilitating a discussion with you and your group so you can openly outline how you will communicate, [respect diversity](#group-work-advice), and [split tasks](#stageone-planning). 
 
-- This is a formative task and is **not** part of the summative assessment for the course. We use the group work agreement as a way of identifying engagement and potential problems as early as possible. The course or programme leads will contact students who **do not** submit their group work agreement. 
+- This is a formative task and is **not** part of the summative assessment for the course, but everyone must complete the task. We use the group work agreement as a way of identifying engagement and potential problems as early as possible. The course or programme leads will contact students who **do not** submit their group work agreement. 
 
 - The deadline is **`r groupagreement_due`**.
 
@@ -16,9 +16,11 @@ source(file = "include/deadlines.R")
 
 - You should submit a single Word document (.docx) or PDF document to Moodle prior to the deadline. The submission link is open from when the group allocations are available in week 2. You can find the submission portal in the Group Allocations, Resources, and Agreement Submission tab. 
 
-## Additional group agreement items
+## Group agreement items
 
-The group work agreement template (available for download in the RM1 Moodle Group Allocations, Resources, and Agreement Submission tab) contains five mandatory points to agree to:
+The group work agreement template (available for download in the RM1 Moodle Group Allocations, Resources, and Agreement Submission tab) contains five points that we have set, but you may add any additional points that the group agrees.
+
+The mandatory points are: 
 
 1. As a student of the University of Glasgow, I will treat all members of my group with dignity and respect.
 

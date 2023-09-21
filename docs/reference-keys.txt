@@ -11,7 +11,7 @@ handy-workbook
 course-reading-list
 groupagreement-AIS
 general-information
-additional-group-agreement-items
+group-agreement-items
 group-work-advice
 guidelines
 points-about-inclusivity
