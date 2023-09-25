@@ -86,9 +86,9 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 25-9-2023 </td>
    <td style="text-align:left;"> Summarising data </td>
    <td style="text-align:left;"> Finding and reading journal articles </td>
-   <td style="text-align:left;"> * Chapter 2 - Introduction to R
+   <td style="text-align:left;"> * Chapter 2 - Introduction to R
 * Chapter 3 - Starting with data </td>
-   <td style="text-align:left;"> * Finding, reading, and organising journal articles
+   <td style="text-align:left;"> * Finding, reading, and organising journal articles
 * Group work agreement </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -98,7 +98,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Statistics and probability </td>
    <td style="text-align:left;"> Introduction structure </td>
    <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
-   <td style="text-align:left;"> * Introduction structure
+   <td style="text-align:left;"> * Introduction structure
 * Identifying the rationale </td>
    <td style="text-align:left;"> Formative: Group work agreement </td>
   </tr>
@@ -108,8 +108,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Hypothesis testing </td>
    <td style="text-align:left;"> Academic writing </td>
    <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
-   <td style="text-align:left;"> * Scientific writing
-* Paragraph structure
+   <td style="text-align:left;"> * Scientific writing
+* Paragraph structure
 * Citation placement </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -119,7 +119,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Correlation </td>
    <td style="text-align:left;"> Method structure </td>
    <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
-   <td style="text-align:left;"> * Method structure
+   <td style="text-align:left;"> * Method structure
 * Researcher degrees of freedom </td>
    <td style="text-align:left;"> MCQ </td>
   </tr>
@@ -137,9 +137,9 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 30-10-2023 </td>
    <td style="text-align:left;"> Introduction to t-tests </td>
    <td style="text-align:left;"> Communicating correlation results </td>
-   <td style="text-align:left;"> * Chapter 7 - Visualisations
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
 * Chapter 9 - Correlations </td>
-   <td style="text-align:left;"> * Correlation results sections
+   <td style="text-align:left;"> * Correlation results sections
 * Reporting power analyses </td>
    <td style="text-align:left;"> Data skills 1 </td>
   </tr>
@@ -148,7 +148,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 6-11-2023 </td>
    <td style="text-align:left;"> Effect sizes and statistical power </td>
    <td style="text-align:left;"> Communicating t-test results </td>
-   <td style="text-align:left;"> * Chapter 10 - t-tests
+   <td style="text-align:left;"> * Chapter 10 - t-tests
 * Chapter 11 - Power and effect sizes </td>
    <td style="text-align:left;"> * t-test results sections </td>
    <td style="text-align:left;"> Stage one report </td>
@@ -209,6 +209,100 @@ There is a lot of support in this course to help you build your knowledge and un
 The best approach is to write down your questions when they come up, check the available material for answers, and if you are still unsure after that, use one of the approaches above.
 
 However, please note we would ask that you do not send questions, either about a topic or an assignment, as a direct message on Teams to an individual staff member. While we always want to help, this approach is not sustainable and there is a highly likely chance your question will get missed and go unanswered. We would strongly encourage you to post the question on the course Team channel, as that way staff and students have the opportunity to answer your question, and other students can benefit from the answer. Alternatively, use the student office hours or your lab sessions to ask questions more privately.
+
+## TA data skills support sessions
+
+Building your data skills primarily comes from self-directed learning as you work through the [Fundamentals of Quantitative Research Methods book](https://psyteachr.github.io/quant-fun-v2/index.html) we have developed. These walk through learning R and applying data skills such as wrangling data, visualisation, and inferential tests. However, we appreciate you may have questions or encounter errors you cannot work out on your own. That is why we schedule weekly support sessions with our Teaching Assistants (TAs). 
+
+The TA support sessions are drop-in sessions, meaning they are not timetabled classes you must attend. They are there to go to if you have a problem, and you can come and ask questions. Our TAs may demonstrate techniques or how to fix problems, but they are not intended to be chapter walkthroughs. The idea is you engage in self-directed study, and then you can come to the support sessions if you encounter problems. 
+
+You are more than welcome to come to the support sessions with any data skills relevant question, but we often find - particularly early in the course - you might not know what questions you have at this point. That is why we include theme weeks so you know what chapters or tasks the TAs are supporting. The support themes are listed in the timetable below. They follow a lagged approach, meaning they will be supporting the week's chapter, one week later. For example, chapter 1 - programming basics is in the week 1 progress tracker, but it is the theme for week 2 in the support sessions. We expect you have completed the chapter by week 2, so you should be in a position to know whether you had any problems or questions. 
+
+Early in the semester, the support sessions have open invites. This means anyone can drop in and there might be a handful of students present and asking questions. However, as we approach key assessment periods, the sessions will have specific sign up slots to ensure the TAs can provide clearly defined equitable time to each sign-up.  
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Week </th>
+   <th style="text-align:left;"> W/C </th>
+   <th style="text-align:left;"> Support Themes </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> 11-9-2023 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> 18-9-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> 25-9-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server
+* Chapter 1 - Programing basics </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> 2-10-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server
+* Chapter 2 - Intro to R
+* Chapter 3 - Starting with data </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> 9-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 16-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> 23-10-2023 </td>
+   <td style="text-align:left;"> READING WEEK </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> 30-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 6-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
+* Chapter 9 - Correlations </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> 13-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 10 - t-tests
+* Chapter 11 - Power and effect sizes </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> 20-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 8 - Probability
+* Assessment support </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> 27-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 12 - Screening data
+* Assessment support </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> 4-12-2023 </td>
+   <td style="text-align:left;"> * Assessment support </td>
+  </tr>
+</tbody>
+</table>
 
 ## Individual work and group work
 
