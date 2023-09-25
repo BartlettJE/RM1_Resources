@@ -90,6 +90,31 @@ The best approach is to write down your questions when they come up, check the a
 
 However, please note we would ask that you do not send questions, either about a topic or an assignment, as a direct message on Teams to an individual staff member. While we always want to help, this approach is not sustainable and there is a highly likely chance your question will get missed and go unanswered. We would strongly encourage you to post the question on the course Team channel, as that way staff and students have the opportunity to answer your question, and other students can benefit from the answer. Alternatively, use the student office hours or your lab sessions to ask questions more privately.
 
+## TA data skills support sessions
+
+Building your data skills primarily comes from self-directed learning as you work through the [Fundamentals of Quantitative Research Methods book](https://psyteachr.github.io/quant-fun-v2/index.html) we have developed. These walk through learning R and applying data skills such as wrangling data, visualisation, and inferential tests. However, we appreciate you may have questions or encounter errors you cannot work out on your own. That is why we schedule weekly support sessions with our Teaching Assistants (TAs). 
+
+The TA support sessions are drop-in sessions, meaning they are not timetabled classes you must attend. They are there to go to if you have a problem, and you can come and ask questions. Our TAs may demonstrate techniques or how to fix problems, but they are not intended to be chapter walkthroughs. The idea is you engage in self-directed study, and then you can come to the support sessions if you encounter problems. 
+
+You are more than welcome to come to the support sessions with any data skills relevant question, but we often find - particularly early in the course - you might not know what questions you have at this point. That is why we include theme weeks so you know what chapters or tasks the TAs are supporting. The support themes are listed in the timetable below. They follow a lagged approach, meaning they will be supporting the week's chapter, one week later. For example, chapter 1 - programming basics is in the week 1 progress tracker, but it is the theme for week 2 in the support sessions. We expect you have completed the chapter by week 2, so you should be in a position to know whether you had any problems or questions. 
+
+Early in the semester, the support sessions have open invites. This means anyone can drop in and there might be a handful of students present and asking questions. However, as we approach key assessment periods, the sessions will have specific sign up slots to ensure the TAs can provide clearly defined equitable time to each sign-up.  
+
+```{r TA overview, echo=FALSE}
+ta_time_table <- read_xlsx("Supporting/GTA_timetable.xlsx")
+
+# Make the date easier to understand 
+# Turn all NAs into blank characters to display right
+ta_time_table <- ta_time_table %>% 
+  mutate(`W/C` = ymd(`W/C`),
+         `W/C` = paste(day(`W/C`), month(`W/C`), year(`W/C`), sep = "-")) %>% 
+  mutate(across(.cols = `Support Themes`,
+                .fns = ~ case_when(is.na(.) ~ "",
+                                   TRUE ~ .)))
+
+kable(ta_time_table)
+```
+
 ## Individual work and group work
 
 In this course, we will encourage you to make use of group work from time to time, and even put you into groups for the stage one report assignment. Working as a group is essential in science and collective knowledge is also incredibly beneficial for learning. That said, we will also remind you at times when an assignment or activity should be done by yourself to avoid contravening University plagiarism rules. Beyond that, individual assignments help you see what you have learned. The first rule of science is that we must not fool ourselves. If in doubt though as to what should be done together and alone, please just ask.
