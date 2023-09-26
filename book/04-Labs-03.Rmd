@@ -8,15 +8,17 @@ source(file = "include/deadlines.R")
 
 Now you are working in your groups, we will start to build the skills and understanding that will go into your report writing. Before reading week, we will focus on the stage one group report. This means we will break down the introduction and method sections for what research has influenced your study and how you designed your study to test your research question.
 
-This week, we are focusing on the introduction. This is the first major part of a report and usually one of the longest. The aim of a report introduction is to explain and justify the gap you identified in previous research. As we work through the broad to narrow structure, you provide a focused literature review explaining why the topic is important to study and what previous research and theory is out there. As you move through the introduction, you get more and more specific to guide the reader towards your rationale. The rationale is the purpose of your study, or what gap your study is addressing and why it is important to do so. Finally, the introduction typically ends on your research question and your hypothesis (if applicable). 
+This week, we are focusing on the introduction. This is the first major part of a report and usually one of the longest. The aim of a report introduction is to explain and justify the gap you identified in previous research. Keep the broad to narrow structure in mind as start by providing a focused literature review explaining why the topic is important to study and what previous research and theory is out there. As you move through the introduction, you get more and more specific to guide the reader towards your rationale. The rationale is the purpose of your study, or what gap your study is addressing and why it is important to do so. Finally, the introduction typically ends on your research question and your hypothesis (if applicable). 
 
-After a summary of the pre-lab reading chapter, the group element of the lab will focus on discussing where the article you found (see pre-lab tasks) might contribute to your stage one report introduction. Is it more background research or theory, or could it contribute as a key study towards your rationale? 
+After a summary of the pre-lab reading chapter, the group element of the lab will focus on discussing where the article you found (see pre-lab tasks) might contribute to your stage one report introduction. Is it more background research or theory, or could it contribute as a key study towards your rationale? With any remaining time and then outside the lab, you can discuss how your group might structure your introduction and consider roles for writing and editing. 
 
 ## Tasks to complete prior to your lab
 
-1. Read this week's research skills chapter on [Structure of the Introduction and Rationale](#intro-rationale), and complete the activity on identifying the rationale. 
+1. Read and work through this week's research skills chapter on [Structure of the Introduction and Rationale](#intro-rationale). 
 
-2. Using the literature searching strategies you learnt about in week 2, find **one** article that could contribute to your group's introduction section. 
+2. Read just the introduction section (pages 1 and 2) of the article [*Presenting Your Best Self(ie): The Influence of Gender on Vertical Orientation of Selfies on Tinder*](https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00604/full) by Sedgewick et al. (2017). Try and spot the different features we covered in the research skills chapter like a literature review, rationale, research question, and hypothesis. 
+
+3. Using the literature searching strategies you learnt about in week 2, find **one** article that could contribute to your group's introduction section. 
 
 ## Tasks to complete after attending your lab
 
@@ -26,4 +28,6 @@ After a summary of the pre-lab reading chapter, the group element of the lab wil
 
 ## Next week 
 
-Next week, we will focus more on the skill elements that contribute to your introduction and report. The lab and pre-lab reading will explore academic writing, including tone, paragraph structure, and citation placement. 
+Next week, we will explore academic writing, including tone, paragraph structure, and citation placement. This will be more relevant to working on your introduction (and discussion for your individual stage two report) as a longer piece of prose, but it still applies to the method section to consider how you will communicate your study design clearly. 
+
+For the pre-lab reading, we have material on academic writing and paragraph structure. The pre-lab activity will be to read several short extracts and share how you would rewrite them on a Padlet board. The start of lab 4 will then discuss different approaches and principles to consider when writing and editing. 
