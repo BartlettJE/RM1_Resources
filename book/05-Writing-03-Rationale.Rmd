@@ -16,29 +16,17 @@ include_graphics("images/03-report-structure.png")
 
 ## The introduction 
 
-The introduction provides the background to your study for what influenced your work. Following the hypothetico-deductive model, the introduction focuses on the cycle between previous research and identifying your research question. There are four key components: 
+The introduction provides the background to your study for what influenced your work. Relating back to the hypothetico-deductive model, the introduction focuses on the cycle between previous research and identifying your research question. You need to know what research and theory already exists before you can identify an opportunity for your own work. There are four key components: 
 
 1. Introduction to the general topic and research question
 
 2. Evaluation of relevant research and theory
 
-The literature review should provide a critical and focused exploration of your topic area. You do not need to try and summarise all the research that has ever been done on your topic, you are trying to identify what is most relevant and up-to-date. 
-
-Critical evaluation is an important skill that takes time to develop. Instead of just describing the studies in your literature review, you must add your narrative and identify gaps in current knowledge. Try and ask yourself as you are documenting the studies you find: 
-
-- Are the findings consistent across studies, or do they provide a more complicated mixed picture? 
-
-- All studies are not created equally, each will have their own strength and weaknesses. You do not need to break down each individual study, but you will make an assessment on how reliable you consider the evidence base to be. 
-
-- Is there a relevant theory that explains the observations of previous research? Do the studies support this theory or suggest it should be modified? 
-
 3. Establish a rationale for the current study
-
-By the end of the introduction, you are trying to clearly communicate what opportunity you have identified in past research and present your argument for why it is important to address that opportunity. This is **the rationale** as the reasoning behind why your study is necessary. Sometimes the opportunity is to explore something new, other times you could identify limitations in past research. There is not one single valid approach to the rationale, it all depends on the strength of your argument you presented throughout the introduction. To show the range of possibilities for the strategy behind your rationale, we have written a specific section and activities on [identifying the rationale](#rationale). 
 
 4. Present the research question and hypothesis
 
-The introduction is the top of the hourglass shape of a report, starting broad and becoming more specific as you get closer to the end. You do not typically have sub-headings to present these components as specific sub-sections or dedicate just one paragraph to each part, but they are general sections to cover as you move through the introduction.  
+The introduction is the top of the hourglass shape of a report, starting broad and becoming more specific as you get closer to the end. You do not typically have sub-headings to present these components as specific sub-sections or dedicate just one paragraph to each part, rather they are key concepts to cover as you move through the introduction.  
 
 ```{r introduction highlight figure, fig.alt = "Empirical report structure as an hourglass shape. In this part, the introduction is highlighted in red to show it is the focus of this chapter."}
 include_graphics("images/03-intro-highlight.png")
@@ -46,9 +34,23 @@ include_graphics("images/03-intro-highlight.png")
 
 ### Introduction to the general topic and research question
 
+The opening paragraph or two to the introduction is the broadest section. We are at the top of the hourglass and this is where you introduce your reader to the key concepts. You are trying to provide the rationale behind your overall topic, so you might include statistics to highlight the extend of a given problem. You might also present definitions for key concepts to make it clear to your reader what you are researching. This part of the introduction is all about setting the scene to your reader and establishing why it is a topic worth addressing. 
+
 ### Evaluation of relevant research and theory
 
+The literature review should provide a critical and focused exploration of your topic area. You do not need to try and summarise all the research that has ever been done on your topic, you are trying to identify what is most relevant and up-to-date. 
+
+Critical evaluation is an important skill that takes time to develop. Instead of just listing and describing the studies in your literature review, you must add narrative and identify gaps in current knowledge. Try and ask yourself as you are documenting the studies you find: 
+
+- Are the findings consistent across studies, or do they provide a more complicated mixed picture? 
+
+- All studies are not created equally, each will have their own strength and weaknesses. You do not need to walk through the strengths and limitations of each study, but you will make an assessment on how reliable you consider the evidence base to be. 
+
+- Is there a relevant theory that explains the observations of previous research? Do the studies support this theory or suggest it should be modified? 
+
 ### Establish a rationale for the current study
+
+By the end of the introduction, you are trying to clearly communicate what opportunity you have identified in past research and present your argument for why it is important to address that opportunity. This is the rationale as the reasoning behind why your study is necessary. Sometimes the opportunity is to explore something new, other times you could identify limitations in past research that need addressing. There is not one single valid approach to the rationale, it all depends on the strength of your argument you presented throughout the introduction. To show the range of possibilities for the strategy behind your rationale, we have written a specific section and activities on [identifying the rationale](#rationale). 
 
 ### Present the research question and hypothesis
 
@@ -68,15 +70,15 @@ Research Questions (RQs) are broad overarching questions of interest. They are p
 
 - Arguable - there is not already a clearly accepted answer and there is a rationale for your project, regardless of whether it is more of a novel approach or it is a direct replication of one specific study. 
 
-It is crucial to base your research question on previous research. Make sure you have read enough to pose your research question as you must build the rationale and you need to know what has come before, so that you know what is the basis of your study. 
+It is crucial to base your research question on previous research. Make sure you have read enough to pose your research question as you need to know what is already out there before you can present the rationale for your study. 
 
-An example of a poor research question could be: Do undergraduate students suffer from text anxiety? It is quite vague and the context is unclear for how is being compared and how. A better research question could be: Do undergraduate students self-report greater test anxiety than postgraduate students? This is more focused on the actual research at hand, showing who is being compared and giving more detail on what we are measuring. 
+An example of a poor research question could be: **Do undergraduate students suffer from text anxiety?** It is quite vague and the context is unclear for what is being compared and how. A better research question could be: **Do undergraduate students self-report greater test anxiety than postgraduate students?** This is more focused on the actual research at hand, showing who is being compared and giving more detail on what we are measuring. 
 
-For a further example: Does having intrinsic goal orientation make older people better at learning? It is unclear who the older people are as this could mean mature students, postgraduates, or older adults. You could also define better at learning and give a sense of how we are measuring it. A better example could be: Do mature students self-report more intrinsic goal orientation than traditional students? This example is more specific to the measures we are using and we are clearer about the groups we are comparing. 
+For a further example: **Does having intrinsic goal orientation make older people better at learning?** It is unclear who the older people are as this could mean mature students, postgraduates, or older adults. You could also define "better at learning" and give a sense of how we are measuring it. A better example could be: **Do mature students self-report more intrinsic goal orientation than traditional students?** This example is more specific to the measures we are using and we are clearer about the groups we are comparing. 
 
 #### Hypotheses
 
-Hypotheses are specific statements making a prediction. Hypotheses should be: 
+Hypotheses are specific statements making a prediction for what you will find. Hypotheses should be: 
 
 - Clear - easily understood. 
 
@@ -88,20 +90,21 @@ Hypotheses are specific statements making a prediction. Hypotheses should be:
 
 - Operationalised - state how you are measuring your constructs. 
 
-To break down these features, we can start with a good example of: We hypothesise that there will be a positive correlation between effort regulation scores and help-seeking scores in mature students, as measured through the MSLQ. We can then manipulate different features for emphasis: 
+To break down these features, we can start with a good example of: **We hypothesise that there will be a positive correlation between effort regulation scores and help-seeking scores in mature students, as measured through the MSLQ**. We can then manipulate different features for emphasis: 
 
-- **Missing operationalisation**: We hypothesise that there will be a positive correlation between effort regulation scores and help-seeking scores in mature students. 
+- Missing operationalisation: **We hypothesise that there will be a positive correlation between effort regulation scores and help-seeking scores in mature students.** 
 
-- **Not testable**: We hypothesise that there might be a positive correlation between effort regulation scores and help-seeking scores in mature students. 
+- Not testable: **We hypothesise that there might be a positive correlation between effort regulation scores and help-seeking scores in mature students.** 
 
-- **Not a hypothesis**: Is there a positive correlation between effort regulation and help-seeking?  
+- Not a hypothesis: **Is there a positive correlation between effort regulation and help-seeking?**  
 
-Depending on how much previous literature is out there and how convinced you are by it, you can pose a **directional** or **non-directional** hypothesis. A direction hypothesis makes a prediction in a specific direction, for instance group A will be faster than group B. On the other hand, a non-directional hypothesis predicts there will be an effective, but it is not clear what direction it will be. For example, the speed of group A will be different to the speed of group B.
+Depending on how much previous literature is out there and how convinced you are by it, you can pose a **directional** or **non-directional** hypothesis. A directional hypothesis makes a prediction in a specific direction, for instance group A will be faster than group B. On the other hand, a non-directional hypothesis predicts there will be an effect, but it is not clear what direction it will be. For example, the speed of group A will be different to the speed of group B.
 
-#### How does this relate to your report? 
+#### How does this relate to your stage one group report? 
 
-For your stage one group report, you will be focusing on either a correlation between two variables, or comparing the difference in one outcome between two groups. Depending on which approach you and your group are taking, the terminology you use for the hypothesis will differ. 
-Correlations assess whether there is a relationship between two variables. You might have a non-directional prediction where you think two variables are correlated, but you are not sure how. Alternatively, you might have a direction prediction where you expect a certain correlation direction. Positive correlations are where if one variable increases, the other variable tends to increase. Negative correlations are where is one variable increases, the other variables tends to decrease. If some of the terminology is unfamiliar to you, we do not cover correlations until the lecture in week 5. 
+For your stage one group report, you will be focusing on either a correlation between two variables, or comparing the difference in one outcome between two groups. Depending on which approach you and your group are taking, the terminology you use for the research question and hypothesis will differ.
+
+Correlations assess whether there is a relationship between two variables. You might have a non-directional prediction where you think two variables are correlated, but you are not sure how. Alternatively, you might have a directional prediction where you expect a certain correlation direction. Positive correlations are where if one variable increases, the other variable tends to increase. Negative correlations are where if one variable increases, the other variables tends to decrease. If some of the terminology is unfamiliar to you at this point, we do not cover correlations until the lecture in week 5. 
 
 In contrast, comparing groups assesses whether there is a difference between two groups on your outcome. If you have a non-directional hypothesis, you think there might be a difference between the two groups, but you are not sure which direction. If you have a directional hypothesis, you expect one group to score higher than the other group. 
 
@@ -109,7 +112,7 @@ In contrast, comparing groups assesses whether there is a difference between two
 
 Now we have introduced the key components of an introduction, we want to spend a little more time on different strategies for the rationale. As much as we would love to just tinker as scientists, each study tries to address some kind of problem the authors have identified in previous research. These are often small tweaks. Keep the phrase "standing on the shoulders of giants" in mind as science typically advances through minor changes rather than completely revolutionary ways of studying a topic. Approaches for the rationale will differ by discipline and sub-discipline but there are some common strategies you can look out for.
 
-In this resource, we have provided seven examples of the rationale from different empirical psychology articles, including exploration, replications, testing competing theories, applying the methods from one study to a new sample/population or topic, and addressing limitations in past research. The rationale should be built as a thread running throughout the introduction as the researcher narrows down to what their study focuses on, but we have isolated paragraphs that specifically comment on the opportunity they have identified. For each example, we have explained the general approach, provided an extract, and described in our own words the authors' line of argument.
+In this section, we have provided seven examples of the rationale from different empirical psychology articles, including exploration, replications, testing competing theories, applying the methods from one study to a new sample/population or topic, and addressing limitations in past research. The rationale should be built as a thread running throughout the introduction as you narrow down to what your study focuses on, but we have isolated paragraphs that specifically comment on the opportunity they have identified. For each example, we have explained the general approach, provided an extract, and described in our own words the authors' line of argument.
 
 At the end, we have some activities to test if you can recognise different strategies. By the end of this resource, you will be able to identify different strategies behind the rationale in published research and hopefully clearly communicate the rationale in your own reports.
 
@@ -139,9 +142,7 @@ Keep in mind there is a continuum between a direct and conceptual replication. I
 
 Example: [Ekuni et al. (2020, pg. 5)](https://psycnet.apa.org/record/2020-25929-001) wanted to learn about study strategies in a different population. They highlighted previous studies focused on US American samples which tend to be relatively higher in education level and socioeconomic status than some other countries. Therefore, they took the method of Karpicke et al. (2009) - a US-based study - and applied it to a sample in Brazil to investigate if they could find a similar pattern of results.
 
-> "This is even more important in countries in which educational outcomes are poorer than those in the U.S. and in which the need for interventions that can help improve academic success and reduce educational inequities is dire (see UNESCO, 2015; Master, Meltzoff, & Lent, 2016), such as Brazil. To do so, it is necessary to carry out a conceptual replication on preference of study techniques in more diverse non-WEIRD contexts to analyze whether culture of origin, SES, and sex can influence students' study strategies, because designing adequate interventions may have to consider tailoring to fit particular characteristics of different types of students.
-
-> We investigated the use of study strategies that were reported as used by elite university students in the U.S. in a study published by Karpicke et al. (2009)..."
+> "This is even more important in countries in which educational outcomes are poorer than those in the U.S. and in which the need for interventions that can help improve academic success and reduce educational inequities is dire (see UNESCO, 2015; Master, Meltzoff, & Lent, 2016), such as Brazil. To do so, it is necessary to carry out a conceptual replication on preference of study techniques in more diverse non-WEIRD contexts to analyze whether culture of origin, SES, and sex can influence students' study strategies, because designing adequate interventions may have to consider tailoring to fit particular characteristics of different types of students."
 
 ### Testing competing theories or conflicting research
 
@@ -229,7 +230,7 @@ In the following extract, [Harms et al. (2018, pg. 2)](https://royalsocietypubli
 
 As you read through the extract, consider and select which strategy you think best fits their rationale. After selecting the type of rationale you think best fits, check the explain the answer box to see why we placed it there.
 
-> "In recent years, studies from nearly all subfields of psychology have been under increased scrutiny in the context of the 'replication crisis' \[2-5\]: as several studies suggest, we cannot take reported effects in the scientific literature at face value. As the findings by Wadhwa and Zhang have practical relevance to marketers, independent replication of the effect and a reasonable estimation of its size are desirable. From the theoretical outline of the effect one can expect the effect to be contingent on various factors. As a first step towards a better understanding of these external influences on the effect, a close replication under the same or at least very similar conditions as in the original study is warranted."
+> "In recent years, studies from nearly all subfields of psychology have been under increased scrutiny in the context of the 'replication crisis' [2-5]: as several studies suggest, we cannot take reported effects in the scientific literature at face value. As the findings by Wadhwa and Zhang have practical relevance to marketers, independent replication of the effect and a reasonable estimation of its size are desirable. From the theoretical outline of the effect one can expect the effect to be contingent on various factors. As a first step towards a better understanding of these external influences on the effect, a close replication under the same or at least very similar conditions as in the original study is warranted."
 
 ```{r, echo=FALSE, results='asis'}
 

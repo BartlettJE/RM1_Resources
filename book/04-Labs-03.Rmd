@@ -22,7 +22,7 @@ After a summary of the pre-lab reading chapter, the group element of the lab wil
 
 ## Tasks to complete after attending your lab
 
-1. Before the deadline of `r groupagreement_due`, submit your individual copy of the group work agreement you developed and agreed on in your group. 
+1. Before the deadline of **`r groupagreement_due`**, submit your individual copy of the group work agreement you developed and agreed on in your group. 
 
 2. If you are still discussing your variable pair, aim to finalise your group decision before the end of week 3. 
 
