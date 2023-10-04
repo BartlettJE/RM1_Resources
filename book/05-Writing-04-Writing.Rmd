@@ -1,0 +1,132 @@
+```{r, echo=FALSE}
+source(file = "include/deadlines.R")
+```
+
+# Academic Writing and Paragraph Structure {#academic-writing}
+
+In the research skills chapter this week, we are focusing on academic writing. We have split this into different components to focus on academic writing in general and paragraph structure to encourage the use of PEEL paragraphs. We then have content on APA formatting for which content should follow the stardardised format in the style guide. Finally, we have a summary of the key messages from the University of Glasgow's position on AI and how it relates to academic writing. 
+
+## Academic writing
+
+there are a few things to aim for and a few things to avoid in your writing. Here we summarise the video with a couple of top tips and additional help, before asking you to complete an activity.
+
+Aim to:
+
+Write precisely and accurately and choose the word/phrase that best expresses your idea.
+Use technical language, with clear definitions where necessary
+Use short sentences and straightforward sentence structures.
+Write in a clear, plain style. Good examples of such writing can be found in most psychological journal articles. Remember, the point of scientific writing is to clearly convey information, not to entertain or to show off your vocabulary.
+Try to avoid:
+
+Colloquial and conversational English
+Unnecessarily complex language and unnecessary "rhetorical flourishes" such as irony, ambiguity (intentional or otherwise) and informal language.
+Repetition
+Asking questions: the purpose of a report or essay is to answer a question, not pose new ones.
+Contractions such as ‘can’t’, ‘don’t’ or ‘isn’t’ - always use the full phrase.
+Top Tips to improve your writing:
+
+Don’t submit the first draft. No-one ever writes anything good on the first attempt.
+Read your essay out loud – you will easily spot a horrendously long sentence.
+Proof-read after a 2-3 day break. If you’re too close to it, you won’t spot the mistakes.
+Ask a friend to proof-read – this is particularly helpful if they don’t study psychology (or if they’re doing a different topic than you) because they’ll only understand it if you’ve properly explained your key concepts and if the logic flows.
+Read lots of journal papers – you will begin to adopt their style and tone.
+Additional Help:
+
+You can book 1-to-1 advice and support sessions with an advisor from Student Learning Development
+
+There is additional support available for international students
+Please use this service!
+More Information at: https://www.gla.ac.uk/myglasgow/sld/writingstudyadvice/mvls/
+
+## Paragraph structure 
+
+## Using evidence 
+
+Any research report we write as researchers must be evidence based. Otherwise it is an opinion piece. To that end we must use citations in our reports so do get into the habit of putting citations on your writing to help support the claims and the evidence you are presenting.
+
+Remember:
+
+It’s not enough to have a single citation at the end of a paragraph, or even a list of citations randomly put on.
+Every fact, point, opinion, and evaluation is likely to have come from someone else’s work or something that has influenced your thinking so you should cite that source. You need to ensure that you cite the evidence you’re using to make your point
+Try to put the citation near or next to the point you are making to show where that specific point came from
+Compare these sentences:
+"Previous research has suggested voices can impact our perception of trust (citation), dominance (citation), and attractiveness (citation)" 
+"Previous research has suggested voices can impact our perception of trust, dominance, and attractiveness (citation; citation; citation)" 
+The first sentence says each paper tested one individual variable (trust, dominance or attractiveness). The second sentence says all three papers tested all three variables. Both can be true but you need to keep in mind how citation placement changes the understanding.
+And citations do not have to go just at the end of a sentence. Use them in different places to create a flow and narrative in your writing.
+Switch at times between Direct and Indirect citations
+By now you should be predominantly using journal articles, preferably going to the original paper, and definitely not citing or relying on general textbooks or lectures. 
+Refer to the Types of Evidence tutorial in previous weeks for further help.
+
+Below is an exert from the very interesting paper on methods:
+
+Silberzahn, R., Uhlmann, E. L., Martin, D. P., Anselmi, P., Aust, F., Awtrey, E., ... & Carlsson, R. (2018). Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, 1(3), 337-356.
+
+Have a look at these examples and think about how the meaning and clarity of who said what changes with citation placement. If unsure, you want to aim for the first version.
+
+1. Original version with bold added to emphasis cited points (note that citation format is APA 6th and would now change):
+
+“But what if the methodologists are correct? What if scientific results are highly contingent on subjective decisions at the analysis stage? In that case, the process of certifying a particular result on the basis of an idiosyncratic analytic strategy might be fraught with unrecognized uncertainty (Gelman & Loken, 2014), and research findings might be less trustworthy than they at first appear to be (Cumming, 2014). Had the authors made different assumptions, an entirely different result might have been observed (Babtie, Kirk, & Stumpf, 2014).” 
+
+2. Edited version with citations moved in second sentence to add confusion about who says what:
+
+“But what if the methodologists are correct? What if scientific results are highly contingent on subjective decisions at the analysis stage? In that case, the process of certifying a particular result on the basis of an idiosyncratic analytic strategy might be fraught with unrecognized uncertainty and research findings might be less trustworthy than they at first appear to be (Cumming, 2014; Gelman & Loken, 2014). Had the authors made different assumptions, an entirely different result might have been observed (Babtie, Kirk, & Stumpf, 2014).” 
+
+3. Edited version with all citations moved to end creating even more confusion as to who said what and could be misconstrued as plagiarism:
+
+“But what if the methodologists are correct? What if scientific results are highly contingent on subjective decisions at the analysis stage? In that case, the process of certifying a particular result on the basis of an idiosyncratic analytic strategy might be fraught with unrecognized uncertainty and research findings might be less trustworthy than they at first appear to be. Had the authors made different assumptions, an entirely different result might have been observed (Babtie, Kirk, & Stumpf, 2014; Cumming, 2014; Gelman & Loken, 2014).” 
+
+4. Edited version with no citations which is now just plagiarism either intentionally or not:
+
+“But what if the methodologists are correct? What if scientific results are highly contingent on subjective decisions at the analysis stage? In that case, the process of certifying a particular result on the basis of an idiosyncratic analytic strategy might be fraught with unrecognized uncertainty and research findings might be less trustworthy than they at first appear to be. Had the authors made different assumptions, an entirely different result might have been observed.” 
+
+## APA formatting
+
+When you are writing a piece of work and use someone else's words, ideas, or findings, you must reference them and the specific work you are referring to. In psychology, we use the American Psychological Associations's (APA) reference style (7th edition). APA style also covers other aspects of formatting such as report headings, presenting tables and figures, and numbers, but we will introduce you to that in future weeks. 
+
+You may have used other referencing systems in your previous degree (e.g., Harvard), but it is important you use APA for psychology in your current degree programme. 
+
+There are two things to pay attention to, **in-text citations** and the **reference list**.
+
+### In-text citations 
+
+In-text citations are a short version of the source you are referring to in your main text. Citations include the author's surname and the year of publication.
+
+Direct citations include the authors' names as part of the sentence, such as "Karpicke and Roediger (2009) have argued...". 
+
+They do not contain first names and they typically do not contain initials (the only time you include initials is when you have two authors with the same surname you want to distinguish). There is no article title as it takes up a lot of words and you will be able to see the title in the reference list. 
+
+For a subtle part of APA style, when two authors are part of the sentence, you use "and" rather than "&" to separate the surnames. 
+
+Indirect citation are when you include the authors' names and year of publication within brackets. You are still acknowledging the source of evidence, but the surnames are not part of the sentence, such as "There are many potential explanations for the above pattern of findings: it may be that there are socio-motivational benefits of attending (French & Kennedy, 2017), or...". 
+
+Indirect citations still do not contain first names nor usually include initials, but this time you use "&" rather than "and" to separate two authors. All the names and year are in brackets / parentheses, and there is a comma between the final surname and year. 
+
+There are slightly different formats for citations depending on whether there is one author, two authors, or three or more authors.
+
+- **One author**: Jackman (2017) or (Jackman, 2017)
+
+- **Two authors**: Jackman and Fassbender (2016) or (Jackman & Fassbender, 2016)
+
+- **Three or more authors**: Rolfe et al. (2010) or (Rolfe et al., 2010)
+
+This means you always include all the authors when there are one or two people, but three or more is shortened to first author et al., meaning "and others". 
+
+Sometimes, you will include multiple citations in the same brackets / parentheses to show the evidence base behind a given point. If you cite two or more studies, they should be in alphabetical order of the author and separated with a semi-colon, such as "(Phillips et al., 2010; Rolfe et al., 2010)". 
+
+If you have two or more studies from the same authors (in the same author order), then you order by year of publication, giving the author's last names once and adding the date of each subsequent work, such as "(Davies, 2008, 2010, 2012)". 
+
+### Reference lists
+
+A **reference list** is a list of all the sources you cited in your report. In comparison, a **bibliography** is a list of all the sources you consulted while writing your report, even when you do not cite them. 
+
+In psychology, you should only provide a reference list where the references are listed in alphabetical order of the first author's surname. In this course, you **will not** need to provide a bibliography.
+
+
+
+## University of Glasgow's position on AI
+
+https://www.gla.ac.uk/myglasgow/sld/ai/ 
+
+
+
