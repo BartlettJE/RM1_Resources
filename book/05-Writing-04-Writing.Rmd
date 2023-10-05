@@ -4,7 +4,7 @@ source(file = "include/deadlines.R")
 
 # Academic Writing and Paragraph Structure {#academic-writing}
 
-In the research skills chapter this week, we are focusing on academic writing. We have split this into different components to focus on academic writing in general and paragraph structure to encourage the use of PEEL paragraphs. We then have content on APA formatting for which content should follow the stardardised format in the style guide. Finally, we have a summary of the key messages from the University of Glasgow's position on AI and how it relates to academic writing. 
+In the research skills chapter this week, we are focusing on academic writing. We have split this into different components to focus on academic writing in general and paragraph structure to encourage the use of PEEL paragraphs. We then have content on APA formatting for which content should follow the stardardised format in the style guide. Finally, we have a summary of key concepts around academic integrity, including avoiding plagirism, the University of Glasgow's position on AI tools, and group work. 
 
 ## Academic writing
 
@@ -84,7 +84,7 @@ Have a look at these examples and think about how the meaning and clarity of who
 
 When you are writing a piece of work and use someone else's words, ideas, or findings, you must reference them and the specific work you are referring to. In psychology, we use the American Psychological Associations's (APA) reference style (7th edition). APA style also covers other aspects of formatting such as report headings, presenting tables and figures, and numbers, but we will introduce you to that in future weeks. 
 
-You may have used other referencing systems in your previous degree (e.g., Harvard), but it is important you use APA for psychology in your current degree programme. 
+You may have used other referencing systems in your previous degree (e.g., Harvard), but it is important you use APA for psychology in your current degree programme. Remember, a reference manager can really help with the heavy lifting here and do a lot of the formatting. But you still need to know APA 7 style well enough to spot when there might be errors. 
 
 There are two things to pay attention to, **in-text citations** and the **reference list**.
 
@@ -122,9 +122,39 @@ A **reference list** is a list of all the sources you cited in your report. In c
 
 In psychology, you should only provide a reference list where the references are listed in alphabetical order of the first author's surname. In this course, you **will not** need to provide a bibliography.
 
+As an example, a reference entry should look like this:
+
+> Flake, J. K., & Fried, E. I. (2020). Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them. *Advances in Methods and Practices in Psychological Science, 3*(4), 456–465. https://doi.org/10.1177/2515245920952393
+
+You start by listing each author by the last name, a comma, their initial(s), and a full stop. Authors are separated by "&", and after the final author, you include the year of publication in brackets with a full-stop at the end. You have the title of the article which is not in italics. You then have the name of the journal in italics, a comma, and the volume and issue number (in the format "volume number(issue number)"). The issue number is not always available, so you might only include the volume number after the journal name. Finally, you have the page numbers of the article, and DOI (digital object identifier). 
+
+This demonstrated APA referencing for articles with two numbers, but there are two main differences you will come across. 
+
+The first is when you have three or more authors, each author is separated by a comma, then the final two authors are separated by "&", such as:
+
+> Bostyn, D. H., Sevenhant, S., & Roets, A. (2018). Of Mice, Men, and Trolleys: Hypothetical Judgment Versus Real-Life Behavior in Trolley-Style Moral Dilemmas. *Psychological Science, 29(7)*, 1084-1093. https://doi.org/10.1177/0956797617752640
+
+The second is when there are many authors. If there are more than 20 authors, the first 19 are reported, you include an ellipsis (...) to show there is a gap, then you report the final author in the list. For example: 
+
+> Ebersole, C. R., Atherton, O. E., Belanger, A. L., Skulborstad, H. M., Allen, J. M., Banks, J. B., Baranski, E., Bernstein, M. J., Bonfiglio, D. B. V., Boucher, L., Brown, E. R., Budiman, N. I., Cairo, A. H., Capaldi, C. A., Chartier, C. R., Chung, J. M., Cicero, D. C., Coleman, J. A., Conway, J. G., … Nosek, B. A. (2016). Many Labs 3: Evaluating participant pool quality across the academic semester via replication. *Journal of Experimental Social Psychology, 67*, 68–82. https://doi.org/10.1016/j.jesp.2015.10.012
+
+### Further resources
+
+The APA style manual has over 700 pages, so we are not going to cover every type of resource. We have covered journal articles in detail, and the other two sources you will cite most often are books and websites. 
+
+::: {.try data-latex=""}
+If you needed to cite and reference a book or website, how would you do it? Search the APA style resources to check what information you would need to include compared to a journal article. 
+:::
+
+There is an APA style website where they have two super useful pages:
+
+1. [Reference examples](https://apastyle.apa.org/style-grammar-guidelines/references/examples) - This page shows examples of citations and references for different sources. 
+
+2. [The APA style blog](https://apastyle.apa.org/blog) - The blog is a useful resource as it includes short articles where people ask questons on how they can format and style certain information. This can be useful for new technology or resources as they cover it before a new edition of the full style guide will be released. 
+
+## Academic integrity
 
 
-## University of Glasgow's position on AI
 
 https://www.gla.ac.uk/myglasgow/sld/ai/ 
 
