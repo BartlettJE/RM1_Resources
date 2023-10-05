@@ -1,6 +1,6 @@
 
 
-# MCQ
+# MCQ {#MCQ-AIS}
 
 ## General information
 
@@ -52,7 +52,7 @@ To support you in understanding what plagiarism is and in avoiding it, please re
 
 ### How is this assessment graded?
 
-The MCQ has 11 questions with each question being worth 2 points. Your grade will be converted into an alphanumeric grade on the standard 22-point scale (e.g., a score of 16 = B2). 
+The MCQ has 22 questions with each question being worth 1 point. Your grade will be converted into an alphanumeric grade on the standard 22-point scale (e.g., a score of 16 = B2). 
 
 ### What type of feedback will I receive for this assessment?
 
