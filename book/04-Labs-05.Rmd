@@ -20,9 +20,11 @@ In the lab, we will use an activity to demonstrate principles of reproducibility
 
 ## Tasks to complete after attending your lab
 
-1. Complete the [MSLQ study](https://exp.psy.gla.ac.uk/project?SRLproject&guest) as a participant. This will both help with learning the materials and procedure you will be reporting, and add more data to the pool to analyse. 
+1. If you have not already allocated tasks, look back at the [stage one task sharing advice](#stageone-planning). Now you know about the method section, think about what details you know about, what you do not know yet, and how you will find out what you do not know. Identify all the researcher degrees of freedom in your method and think about which decisions you can justify. 
 
-2. In your group, write a bullet-point plan of the introduction and start working on your draft, if you have not started already. 
+2. Complete the [MSLQ study](https://exp.psy.gla.ac.uk/project?SRLproject&guest) as a participant. This will both help with learning the materials and procedure you will be reporting, and add more data to the pool to analyse. 
+
+3. In your group, write a bullet-point plan of the introduction and start working on your draft, if you have not started already. 
 
 ## Next week 
 

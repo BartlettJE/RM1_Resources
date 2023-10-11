@@ -12,7 +12,7 @@ Before you can read journal articles, you need to find them. The first step in a
 
 Once you identify some useful articles, these can provide further inspiration and specificity. Many journal articles will give you a helping hand as the authors have to provide several keywords relating to the article. For example, the following figure from [Schroeder and Epley (2015)](http://journals.sagepub.com/doi/10.1177/0956797615572906) highlights the keywords that describe their article. 
 
-<img src="images/02-keywords.png" alt="Screenshot of first page of Schroeder and Epley showing title, abstract, and keywords." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-keywords.png" title="Screenshot of first page of Schroeder and Epley showing title, abstract, and keywords." alt="Screenshot of first page of Schroeder and Epley showing title, abstract, and keywords." width="100%" style="display: block; margin: auto;" />
 
 The majority of articles will post keywords under the abstract. Here, we can see there are seven words or short phrases that summarise the content of the article. Sometimes they are not truly relevant to the topic (e.g., open data here), so you will need to skim a few articles to recognise recurring themes and potentially useful keywords. 
 
@@ -28,11 +28,11 @@ Never pay for journal articles. We have a huge library at Glasgow, so you will a
 
 Enter your keywords in the search bar of these data bases. You can enter one word or phrase and the data base will try to locate resources that contain that word. For example, we might want to find additional articles investigating job candidates' speech. 
 
-<img src="images/02-single-keyword.png" alt="Screenshot of the University of Glasgow library page to search for articles featuring job candidate speech." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-single-keyword.png" title="Screenshot of the University of Glasgow library page to search for articles featuring job candidate speech." alt="Screenshot of the University of Glasgow library page to search for articles featuring job candidate speech." width="100%" style="display: block; margin: auto;" />
 
 However, it is usually much more powerful to combine search terms to provide more precise results. If you enter single words or phrases, you might find there are thousands of results which contain mostly irrelevant articles. You can use two or more keywords to look for more specific articles. 
 
-<img src="images/02-multiple-keywords.png" alt="Screenshot of the University of Glasgow library page to search for articles using AND as a Boolean operator." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-multiple-keywords.png" title="Screenshot of the University of Glasgow library page to search for articles using AND as a Boolean operator." alt="Screenshot of the University of Glasgow library page to search for articles using AND as a Boolean operator." width="100%" style="display: block; margin: auto;" />
 
 Here, you can see we have used speech AND decision making AND hiring. The capitalised AND is called a [Boolean operator](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/). It is used to link together the three words. It means we only want articles that contain the three words. Not one of them, not two of them, but all three. Using AND narrows down your search. Alternatively, you can use OR which expands your search to look for two or more terms. AND will provide fewer results and OR will provide more. You can also use NOT to rule out particular terms.
 
@@ -42,7 +42,7 @@ You can do this in the single search bar by entering the Boolean operators yours
 
 You can also use [Boolean operators in Google Scholar](https://southern.libguides.com/google/boolean) to combine the search terms gender AND “hiring decisions”. This means we only want search results that contain both elements. 
 
-<img src="images/02-scholar-search.png" alt="Screenshot of using Boolean operators in Google Scholar." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-scholar-search.png" title="Screenshot of using Boolean operators in Google Scholar." alt="Screenshot of using Boolean operators in Google Scholar." width="100%" style="display: block; margin: auto;" />
 
 Hiring decisions is also surrounded by quotes. This forces databases to search for the specific phrase exactly as typed in the quotes. If we did not surround it by quotes, we can get search results that contain the words hiring and decisions separately or together. If they are separate, the results might not be quite what we are looking for. 
 
@@ -50,11 +50,11 @@ As a final literature searching tip, once you find an article that is precisely 
 
 On the library portal, you can see articles that your target articles cites, which will show the articles in its reference list that are readable by the library data base.
 
-<img src="images/02-cites.png" alt="Screenshot of identifying articles that a target article cites in the library portal." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-cites.png" title="Screenshot of identifying articles that a target article cites in the library portal." alt="Screenshot of identifying articles that a target article cites in the library portal." width="100%" style="display: block; margin: auto;" />
 
 Alternatively, on Google Scholar, you can look through the articles that have since cited your target article. You will get fewer hits for more recent articles as there has been less time for another article to be published, but its another useful strategy for identifying potentially useful articles. 
 
-<img src="images/02-Scholar-cited.png" alt="Screenshot of identifying articles that have since cited your target article in Google Scholar." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-Scholar-cited.png" title="Screenshot of identifying articles that have since cited your target article in Google Scholar." alt="Screenshot of identifying articles that have since cited your target article in Google Scholar." width="100%" style="display: block; margin: auto;" />
 
 For further tips, see the University of Glasgow library guide on [how to search for articles](https://www.gla.ac.uk/myglasgow/library/fulltextjournalarticles/searchforarticles/) and [a brief video navigating around the library search function](https://youtu.be/Zy-VLyeLEAM?si=2nd01D-QoBOP2brL).
 
@@ -64,7 +64,7 @@ Throughout the programme, you will need to use APA 7th edition. Although you cou
 
 Our recommendation is Zotero which can be downloaded for free at https://www.zotero.org/. There are alternatives (such as EndNote which the university endorses as approved software), but most of the psychology team prefer Zotero. Under preferences, make sure you select APA 7th edition to format the citations and references correctly. 
 
-<img src="images/02-Zotero.png" alt="Zotero logo with red Z and black otero." width="100%" style="display: block; margin: auto;" />
+<img src="images/02-Zotero.png" title="Zotero logo with red Z and black otero." alt="Zotero logo with red Z and black otero." width="100%" style="display: block; margin: auto;" />
 
 ::: {.warning data-latex=""}
 As third-party software which requires you to create an account, we recommend not using the same password as your university account.  
