@@ -46,21 +46,23 @@ We hypothesised that there would be a significant reduction in participants rati
 
 It was predicted that there would be a significant change in participant’s rating of guilt, following the presentation of critical evidence. All analyses was carried out in R. Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed. 
 
-Enter Figure 1 here. 
-Figure 1.
+```{r version 2 figure, fig.alt = "Violin boxplot for task version 2."}
+include_graphics("images/08_01.png")
+```
 
 Descriptives statistics are presented in Table 1. A paired-samples t-test was conducted comparing guilt ratings before (M = 5.8, SD = 1.5 and after (M = 4.04, SD = 1.93 the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having a lower average rating that time point 12. 
 
-Table 1. 
-Descriptives
+```{r version 2 table, fig.alt = "Table for task version 2."}
+include_graphics("images/08_02.png")
+```
 
 #### Version 3
 
 All analyses were completed using R (version 3.5.1) in R studio (version 1.2.1335; R Studio Team, 2018). Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
 
-Enter figure 1 here. 
-Figure 1. 
-Violin plots showing the box-plots and probability distribution of the mean guilt ratings at time point 13 (left), and time point 14 (right).
+```{r version 3 figure, fig.alt = "Violin boxplot for task version 3."}
+include_graphics("images/08_03.png")
+```
 
 A t-test was applied to examine the associations between ratings of guilt and the time point at which participants heard critical evidence. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having an average rating 1.76 units lower that time point 12. These results tell us that there is a significant negative relationship between critical evidence and the rating of guilt by jury members. 
 
@@ -70,9 +72,9 @@ We hypothesised that there would be a significant decrease in participants ratin
 
 Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there were one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
 
-Enter figure 1 here. 
-Figure 1. 
-Violin plots showing the box-plots and probability distribution of the mean guilt ratings at time point 13 (left), and time point 14 (right).
+```{r version 4 figure, fig.alt = "Violin boxplot for task version 4."}
+include_graphics("images/08_04.png")
+```
 
 A paired-samples t-test was conducted to compare the change in guilt ratings before (M = 5.8, SD = 1.5) and after (M = 4.04, SD = 1.93) the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having an average rating 1.76 units lower that time point 12. These results tell us that the critical evidence did have an influence on the rating of guilt by jury members. 
 
@@ -80,7 +82,10 @@ A paired-samples t-test was conducted to compare the change in guilt ratings bef
 
 We expected that there would be a decrease in participants’ ratings of jury members’ guilt, caused by presentation of the critical evidence, from time point 12 to time point 13. The result supported this hypothesis. The mean guilt rating score at time point 12 was 5.80, and the mean rating score at time point 13 was 4.40, and the standard deviations for these time points were 1.5, and 1.93 respectively. The minimum score was 1 (innocent) and the maximum was 9 (guilty). These findings suggest that there was significant reduction in guilt ratings following the presentation of critical evidence to jury members. 
 
-Enter table here. 
+```{r version 5 table, fig.alt = "Table for task version 5."}
+include_graphics("images/08_05.png")
+```
 
-Enter figure here. 
-
+```{r version 5 figure, fig.alt = "Figure for task version 5."}
+include_graphics("images/08_06.png")
+```

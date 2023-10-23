@@ -7,3 +7,31 @@
 ## Tasks to complete after attending your lab
 
 ## Next week
+
+## Task context and comparison{#C7-task}
+
+We have five different write-ups of the same results and we would like you to read through them and decide a) what is the order of best to worst, and b) how would you improve the best one? You can do this task yourself or in a group. The key to this task is thinking about the comparison between the versions, so be sure to actively make notes on what made one version better than another. 
+
+To help you think about your decision, here are some of the elements that we tend to look at when we evaluate results sections:
+
+**Knowledge and Research**: Has the person understood the purpose of a results section, that they know about assumptions for tests, and that they understand the relationship between the design and analysis? This means judging whether they have picked appropriate visualisation, descriptive statistics, and inferential statistics.
+
+**Critical Evaluation**: Has the person summarised their inferences for the section without going into theoretical or practical implications which should be kept to the discussion? Usually, we just include a sentence or two at the end that draws things together, saying if there was a significant or non-significant effect and interprets the direction and size of any effect for the reader.
+
+**Academic Communication**: Has the person followed common conventions in presenting results? For instance, using APA notation for statistics, and including appropriate figures and tables. 
+
+### Task context
+
+### Sections to compare 
+
+Your task is to read these five versions and a) rank them from the best to the worst example and b) to think about what you would change to improve the best one. 
+
+#### Version 1 
+
+#### Version 2 
+
+#### Version 3 
+
+#### Version 4 
+
+#### Version 5 
