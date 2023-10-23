@@ -135,7 +135,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   <tr>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:left;"> 30-10-2023 </td>
-   <td style="text-align:left;"> Introduction to t-tests </td>
+   <td style="text-align:left;"> Independent samples t-tests </td>
    <td style="text-align:left;"> Communicating correlation results </td>
    <td style="text-align:left;"> * Chapter 7 - Visualisations
 * Chapter 9 - Correlations </td>
@@ -146,7 +146,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   <tr>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:left;"> 6-11-2023 </td>
-   <td style="text-align:left;"> Effect sizes and statistical power </td>
+   <td style="text-align:left;"> One-sample and paired-sample t-tests (Tobias Thejll-Madsen) </td>
    <td style="text-align:left;"> Communicating t-test results </td>
    <td style="text-align:left;"> * Chapter 10 - t-tests
 * Chapter 11 - Power and effect sizes </td>
@@ -156,7 +156,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   <tr>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:left;"> 13-11-2023 </td>
-   <td style="text-align:left;"> Between-subjects and within-subjects t-tests </td>
+   <td style="text-align:left;"> Effect sizes and statistical power </td>
    <td style="text-align:left;"> Discussion structure </td>
    <td style="text-align:left;"> * Chapter 8 - Probability </td>
    <td style="text-align:left;"> * Discussion structure </td>
@@ -165,7 +165,7 @@ Below is a provisional order of content in this semester. We will notify you of 
   <tr>
    <td style="text-align:right;"> 10 </td>
    <td style="text-align:left;"> 20-11-2023 </td>
-   <td style="text-align:left;"> Bringing it all together </td>
+   <td style="text-align:left;"> Decision making in data analysis </td>
    <td style="text-align:left;"> Abstract structure </td>
    <td style="text-align:left;"> * Chapter 12 - Screening data </td>
    <td style="text-align:left;"> * Abstract structure </td>
