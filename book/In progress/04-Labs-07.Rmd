@@ -1,5 +1,9 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
-```
+# Week 7
 
-# Week 7 Lab
+## Lab overview
+
+## Tasks to complete prior to your lab
+
+## Tasks to complete after attending your lab
+
+## Next week
