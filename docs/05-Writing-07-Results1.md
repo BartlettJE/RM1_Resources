@@ -1,4 +1,4 @@
-# Reporting Power Analyses and Structure of the Results{#Results1}
+# Reporting Power Analyses and Correlation Results{#Results1}
 
 
 

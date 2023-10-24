@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 19 Reporting Power Analyses and Structure of the Results | MSc Research Methods 1 Course Information</title>
+<title>Chapter 19 Reporting Power Analyses and Correlation Results | MSc Research Methods 1 Course Information</title>
 <meta name="author" content="James Bartlett, Phil McAleer, &amp; Helena Paterson">
 <meta name="description" content="In this research skills chapter, we will explore two topics. The first on reporting power analyses relates to the method section we covered prior to reading week. A power analysis to justify how...">
 <meta name="generator" content="bookdown 0.26 with bs4_book()">
-<meta property="og:title" content="Chapter 19 Reporting Power Analyses and Structure of the Results | MSc Research Methods 1 Course Information">
+<meta property="og:title" content="Chapter 19 Reporting Power Analyses and Correlation Results | MSc Research Methods 1 Course Information">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://bartlettje.github.io/RM1_Resources/Results1.html">
 <meta property="og:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
 <meta property="og:description" content="In this research skills chapter, we will explore two topics. The first on reporting power analyses relates to the method section we covered prior to reading week. A power analysis to justify how...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 19 Reporting Power Analyses and Structure of the Results | MSc Research Methods 1 Course Information">
+<meta name="twitter:title" content="Chapter 19 Reporting Power Analyses and Correlation Results | MSc Research Methods 1 Course Information">
 <meta name="twitter:description" content="In this research skills chapter, we will explore two topics. The first on reporting power analyses relates to the method section we covered prior to reading week. A power analysis to justify how...">
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -98,7 +98,7 @@
 <li><a class="" href="intro-rationale.html"><span class="header-section-number">16</span> Structure of the Introduction and Rationale</a></li>
 <li><a class="" href="academic-writing.html"><span class="header-section-number">17</span> Academic Writing and Academic Integrity</a></li>
 <li><a class="" href="method-section.html"><span class="header-section-number">18</span> Structure of the Method</a></li>
-<li><a class="active" href="Results1.html"><span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results</a></li>
+<li><a class="active" href="Results1.html"><span class="header-section-number">19</span> Reporting Power Analyses and Correlation Results</a></li>
 <li class="book-part">Appendices</li>
 <li><a class="" href="license.html">License</a></li>
 <li><a class="" href="references.html">References</a></li>
@@ -111,7 +111,7 @@
 </div>
   </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="Results1" class="section level1" number="19">
 <h1>
-<span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results<a class="anchor" aria-label="anchor" href="#Results1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">19</span> Reporting Power Analyses and Correlation Results<a class="anchor" aria-label="anchor" href="#Results1"><i class="fas fa-link"></i></a>
 </h1>
 <p>In this research skills chapter, we will explore two topics. The first on <a href="Results1.html#report-power">reporting power analyses</a> relates to the method section we covered prior to reading week. A power analysis to justify how many participants you require for your study is typically included in the participants or data analysis sub-section of the method. However, because of the schedule, there are topics we must cover before exploring power in greater detail. This means if you are reading this section in week 7, you have not had the lecture or data skills chapter on power yet. We wanted to make sure we cover reporting power though for anyone who wants to go above and beyond in the stage one group report.</p>
 <p>If you have not explored power analysis in your independent reading yet, you can skip to the <a href="Results1.html#structure-results">structure of the results section</a> which is our second topic. We will cover key content to include and details on APA formatting for results. This week, we focus more reporting correlation results, then we will cover t-test results and data visualisation in week 8.</p>
@@ -160,7 +160,7 @@
 <p>"<strong>Statistical power</strong>. The target sample size of 32 was determined before the experiment began, to ensure adequate power to detect a positive selective-attention effect. A similar experiment testing effects of language rather than music (Kinzler et al., 2007) obtained an effect size (d) of 0.54, and a sample of 32 had .84 power to detect an effect of this magnitude."</p>
 </blockquote>
 <p>We can reproduce their power analysis using the <code>pwr</code> package for a paired samples t-test (if you have not got to week 8 in data skills yet, do not worry if this looks unfamiliar):</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
            sig.level <span class="op">=</span> <span class="fl">.05</span>,
            power <span class="op">=</span> <span class="fl">.84</span>,
@@ -361,7 +361,7 @@ Show me the third adaptation
 <span class="header-section-number">19.2.2</span> Mock example with R code and output<a class="anchor" aria-label="anchor" href="#mock-example-with-r-code-and-output"><i class="fas fa-link"></i></a>
 </h3>
 <p>For an additional example, lets imagine we were building on the Mehr et al. example we have worked with throughout this section. We can calculate power for a paired samples t-test as above with a smallest effect size of interest of d = 0.54, 84% power, 5% alpha, and a two-tailed test.</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
            sig.level <span class="op">=</span> <span class="fl">.05</span>,
            power <span class="op">=</span> <span class="fl">.84</span>,
@@ -378,7 +378,7 @@ Show me the third adaptation
 ## 
 ## NOTE: n is number of *pairs*</code></pre>
 <p>The <em>a priori</em> power analysis shows we would need to recruit 32 infants to be consistent with our power analysis. However, perhaps we had trouble recruiting infants and we had technical troubles meaning we lost some data. What effect size could we detect if our final sample size was 20?</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">20</span>,
            sig.level <span class="op">=</span> <span class="fl">.05</span>,
            power <span class="op">=</span> <span class="fl">.84</span>,
@@ -426,7 +426,7 @@ Show me the third adaptation
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#Results1"><span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results</a></li>
+<li><a class="nav-link" href="#Results1"><span class="header-section-number">19</span> Reporting Power Analyses and Correlation Results</a></li>
 <li>
 <a class="nav-link" href="#report-power"><span class="header-section-number">19.1</span> Reporting power analyses</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#recommended-resources-to-revise-statistical-power"><span class="header-section-number">19.1.1</span> Recommended resources to revise statistical power</a></li>
