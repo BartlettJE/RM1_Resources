@@ -50,7 +50,7 @@ It was predicted that there would be a significant change in participant’s rat
 include_graphics("images/08_01.png")
 ```
 
-Descriptives statistics are presented in Table 1. A paired-samples t-test was conducted comparing guilt ratings before (M = 5.8, SD = 1.5 and after (M = 4.04, SD = 1.93 the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having a lower average rating that time point 12. 
+Descriptive statistics are presented in Table 1. A paired-samples t-test was conducted comparing guilt ratings before (M = 5.8, SD = 1.5 and after (M = 4.04, SD = 1.93 the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having a lower average rating that time point 12. 
 
 ```{r version 2 table, fig.alt = "Table for task version 2."}
 include_graphics("images/08_02.png")
@@ -70,7 +70,7 @@ A t-test was applied to examine the associations between ratings of guilt and th
 
 We hypothesised that there would be a significant decrease in participants ratings of guilt, caused by presentation of the critical evidence, from time point 12 to time point 13. All analyses were completed using R (version 3.5.1) in R studio (version 1.2.1335; R Studio Team, 2018). 
 
-Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there were one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
+Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
 
 ```{r version 4 figure, fig.alt = "Violin boxplot for task version 4."}
 include_graphics("images/08_04.png")

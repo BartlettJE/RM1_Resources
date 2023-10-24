@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.1/transition.js"></script><script src="libs/bs3compat-0.4.1/tabs.js"></script><script src="libs/bs3compat-0.4.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -99,7 +99,6 @@
 <li><a class="" href="academic-writing.html"><span class="header-section-number">17</span> Academic Writing and Academic Integrity</a></li>
 <li><a class="" href="method-section.html"><span class="header-section-number">18</span> Structure of the Method</a></li>
 <li><a class="active" href="Results1.html"><span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results</a></li>
-<li><a class="" href="choosing-a-smallest-effect-size-of-interest.html"><span class="header-section-number">20</span> Choosing a smallest effect size of interest</a></li>
 <li class="book-part">Appendices</li>
 <li><a class="" href="license.html">License</a></li>
 <li><a class="" href="references.html">References</a></li>
@@ -115,7 +114,7 @@
 <span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results<a class="anchor" aria-label="anchor" href="#Results1"><i class="fas fa-link"></i></a>
 </h1>
 <p>In this research skills chapter, we will explore two topics. The first on <a href="Results1.html#report-power">reporting power analyses</a> relates to the method section we covered prior to reading week. A power analysis to justify how many participants you require for your study is typically included in the participants or data analysis sub-section of the method. However, because of the schedule, there are topics we must cover before exploring power in greater detail. This means if you are reading this section in week 7, you have not had the lecture or data skills chapter on power yet. We wanted to make sure we cover reporting power though for anyone who wants to go above and beyond in the stage one group report.</p>
-<p>If you not explored power analysis in your independent reading yet, you can skip to the <a href="choosing-a-smallest-effect-size-of-interest.html#structure-results">structure of the results section</a> which is our second topic. We will cover key content to include and details on APA formatting for results. This week, we focus more reporting correlation results, then we will cover t-test results and data visualisation in week 8.</p>
+<p>If you have not explored power analysis in your independent reading yet, you can skip to the <a href="Results1.html#structure-results">structure of the results section</a> which is our second topic. We will cover key content to include and details on APA formatting for results. This week, we focus more reporting correlation results, then we will cover t-test results and data visualisation in week 8.</p>
 <div id="report-power" class="section level2" number="19.1">
 <h2>
 <span class="header-section-number">19.1</span> Reporting power analyses<a class="anchor" aria-label="anchor" href="#report-power"><i class="fas fa-link"></i></a>
@@ -161,12 +160,12 @@
 <p>"<strong>Statistical power</strong>. The target sample size of 32 was determined before the experiment began, to ensure adequate power to detect a positive selective-attention effect. A similar experiment testing effects of language rather than music (Kinzler et al., 2007) obtained an effect size (d) of 0.54, and a sample of 32 had .84 power to detect an effect of this magnitude."</p>
 </blockquote>
 <p>We can reproduce their power analysis using the <code>pwr</code> package for a paired samples t-test (if you have not got to week 8 in data skills yet, do not worry if this looks unfamiliar):</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,</span>
-<span>           sig.level <span class="op">=</span> <span class="fl">.05</span>,</span>
-<span>           power <span class="op">=</span> <span class="fl">.84</span>,</span>
-<span>           type <span class="op">=</span> <span class="st">"paired"</span>,</span>
-<span>           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
+           sig.level <span class="op">=</span> <span class="fl">.05</span>,
+           power <span class="op">=</span> <span class="fl">.84</span>,
+           type <span class="op">=</span> <span class="st">"paired"</span>,
+           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
 <pre><code>## 
 ##      Paired t test power calculation 
 ## 
@@ -179,8 +178,281 @@
 ## NOTE: n is number of *pairs*</code></pre>
 <p>Since we left the argument <code>n</code> blank, we receive that as the output of our <em>a priori</em> power analysis. We need 31.91 participants, but we always <strong>round up</strong> to a whole number of participants to avoid underestimating, so we would need 32 participants. The power analysis in Mehr et al. provides one example, but it is not perfect. There are some inputs they do not explicitly specify, so we will return to this example in <a href="Results1.html#report-power">reporting your power analysis</a> below.</p>
 <p>For your stage one report (and looking forward to your dissertation), you could report an <em>a priori</em> power analysis to inform how many participants you would need to detect your smallest effect size of interest. Power analysis and pre-registration is most informative in the design phase of research, so you would typically perform a power analysis to inform how many participants you try and recruit.</p>
-<p>Just keep in mind: for the assignment in RM1 you have no control over the final sample size as we collected data for you. This means there might be a difference in your planned sample size from the <em>a priori</em> power analysis and the final sample size you work with. Therefore, we have a section on <a href="choosing-a-smallest-effect-size-of-interest.html#sensitivity">sensitivity power analysis</a> to consider potential differences in your planned vs final sample size.</p>
+<p>Just keep in mind: for the assignment in RM1 you have no control over the final sample size as we collected data for you. This means there might be a difference in your planned sample size from the <em>a priori</em> power analysis and the final sample size you work with. Therefore, we have a section on <a href="Results1.html#sensitivity">sensitivity power analysis</a> to consider potential differences in your planned vs final sample size.</p>
 </div>
+<div id="choosing-a-smallest-effect-size-of-interest" class="section level3" number="19.1.3">
+<h3>
+<span class="header-section-number">19.1.3</span> Choosing a smallest effect size of interest<a class="anchor" aria-label="anchor" href="#choosing-a-smallest-effect-size-of-interest"><i class="fas fa-link"></i></a>
+</h3>
+<p>For an <em>a priori</em> power analysis, you need to enter an effect size. The term we use for this is the <strong>smallest effect size of interest</strong>. It is rare you would know precisely what effect size you were looking for - as you would not need the study if you understood the topic that well. This means your smallest effect size of interest represents the threshold for what effect sizes you want your study sensitive enough to detect. Power exists along a curve, so holding the sample size and all other inputs constant, you would be less likely to detect smaller effects, but more likely to detect effects larger than your smallest effect of interest.</p>
+<p>The following plot is a power curve showing the relationship between the correlation coefficient <em>r</em> as the effect size and statistical power for a given sample size. Assuming our power analysis suggested we need to collect 60 participants, we would have 80% power to detect effects of <em>r</em> = .36. The smallest effect size of interest is where the two lines meet for your desired level of power (here 80%). As you move down the curve highlighted by the grey region, you would be <strong>less likely</strong> to detect effects smaller than your smallest effect size of interest. As you move up the curve, you would be <strong>more likely</strong> to detect effects larger than your smallest effect size of interest. In short, and assuming you want to keep power at 80% or higher, then you would be looking for effect sizes at, or greater than, your smallest effect size of interest.</p>
+<div class="inline-figure"><img src="05-Writing-07-Results1_files/figure-html/power%20curve%2060-1.png" width="100%" style="display: block; margin: auto;"></div>
+<p>To demonstrate what this looks like for a larger smallest effect size of interest, if your power analysis suggested we need 30 participants, we would have 80% power to detect effects of <em>r</em> = .49. The smallest effect size of interest is again represented by where the two lines meet. Since we only wanted our design to be sensitive to larger effects, there is a larger grey region to highlight the effects we would be <strong>less likely</strong> to detect. As you move down the curve, you would be less likely to detect effects smaller than <em>r</em> = .49. As you move up the curve, you would be more likely to detect effects larger than <em>r</em> = .49. In short, you would be still be looking for effect sizes at, or greater than, your smallest effect size of interest, but that threshold shifts to exclude a larger region of smaller effects.</p>
+<div class="inline-figure"><img src="05-Writing-07-Results1_files/figure-html/power%20curve%2030-1.png" width="100%" style="display: block; margin: auto;"></div>
+<p>Assuming you use the field standards of <span class="math inline">\(\alpha\)</span> = .05 and power = .80, this leaves the smallest effect size of interest as the main decision you must make. Choosing an effect size is the hardest part of power analysis, but there is no one correct answer, only a difference between justified and unjustified. In your power analysis, we care more about your justification for your choice of effect size rather than the value itself.</p>
+<p>You could always aim for a tiny effect size but in a real study you are trying to compromise between an informative study and the resources (time / money) you have available. You could always aim for a large effect size, but you might miss potentially informative smaller effects. This means you must choose your smallest effect size of interest based on your understanding of the topic area and consider what effects you would not want to miss out on.</p>
+<p>There are different strategies for choosing a smallest effect size of interest (see <a href="https://doi.org/10.1525/collabra.33267">Lakens, 2022</a> for a full discussion):</p>
+<ul>
+<li><p>Individual published studies: What effect sizes do similar studies to yours report?</p></li>
+<li><p>Meta-analyses: What is the average effect size across several studies on a topic?</p></li>
+<li><p>Effect size distributions: For a given topic, what is the distribution of effect sizes for what is considered small, medium, and large?</p></li>
+</ul>
+</div>
+<div id="report-power" class="section level3" number="19.1.4">
+<h3>
+<span class="header-section-number">19.1.4</span> Reporting your power analysis<a class="anchor" aria-label="anchor" href="#report-power"><i class="fas fa-link"></i></a>
+</h3>
+<p>If you do report a power analysis, think about what information would allow the reader to reproduce your power analysis and understand your justification behind each input. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236079">Bakker et al. (2020)</a> reviewed power analyses reported in pre-registrations and review boards and highlighted the most common omissions. From a sample of 210 studies, the most common omissions (% is the percentage of studies missing the information) in the features of a power analysis were:</p>
+<ul>
+<li><p>Sidedness of the test (78%)</p></li>
+<li><p>Justification for effect size (45%)</p></li>
+<li><p>Type of effect size (30%)</p></li>
+<li><p>Alpha value (29%)</p></li>
+<li><p>Value of effect size (15%)</p></li>
+<li><p>Power / beta value (15%)</p></li>
+<li><p>Sample size (8%)</p></li>
+</ul>
+<p>Bakker et al. observed that the most common omission was whether researchers assumed a one- or two-tailed test and the least common omission was the sample size the power analysis suggested.</p>
+<p>Previously, we highlighted that Mehr et al. does not provide a complete example of reporting a power analysis. As an activity, we would like you to work through different adaptations we prepared and indicate what information you think is included and what you think is missing. Each adaptation is hidden behind a "show me" tab, so you can view each one in turn and focus on asking yourself what information is missing. We will compare each adaptation side by side afterwards.</p>
+<div id="adaptation-one" class="section level4" number="19.1.4.1">
+<h4>
+<span class="header-section-number">19.1.4.1</span> Adaptation one<a class="anchor" aria-label="anchor" href="#adaptation-one"><i class="fas fa-link"></i></a>
+</h4>
+<div class="webex-solution">
+<button>
+Show me the first adaptation
+</button>
+<p>Using the field standards of power = .80 and alpha = .05, and an effect size from previous studies, we will require 29 infants in our study.</p>
+<p>In adaptation one, what information do you think is missing?</p>
+<ul>
+<li><p>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+</ul>
+</div>
+</div>
+<div id="adaptation-two" class="section level4" number="19.1.4.2">
+<h4>
+<span class="header-section-number">19.1.4.2</span> Adaptation two<a class="anchor" aria-label="anchor" href="#adaptation-two"><i class="fas fa-link"></i></a>
+</h4>
+<div class="webex-solution">
+<button>
+Show me the second adaptation
+</button>
+<p>Previous related research looking into how infants can develop and show selective-attention suggested a medium sized effect. As such, using the field standards of power = .80 and alpha = .05, and d = 0.54, we will require 29 infants in our study.</p>
+<p>In adaptation two, what information do you think is missing?</p>
+<ul>
+<li><p>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+</ul>
+</div>
+</div>
+<div id="adaptation-three" class="section level4" number="19.1.4.3">
+<h4>
+<span class="header-section-number">19.1.4.3</span> Adaptation three<a class="anchor" aria-label="anchor" href="#adaptation-three"><i class="fas fa-link"></i></a>
+</h4>
+<div class="webex-solution">
+<button>
+Show me the third adaptation
+</button>
+<p>Previous related research looking into how infants can develop and show selective-attention through music (Mehr et al., 2016) and language (Kinzler et al., 2007) suggested a medium sized effect around d = 0.54. As such, using the field standards of power = .80 and alpha = .05, and the suggested effect size from previous studies, we will require 29 infants in our study for a two-tailed test.</p>
+<ul>
+<li><p>Sidedness of the test? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="answer">Missing</option></select></p></li>
+<li><p>Justification for effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Type of effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Alpha value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Value of the effect size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Power / beta value? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+<li><p>Sample size? <select class="webex-select"><option value="blank"></option>
+<option value="answer">Included</option>
+<option value="">Missing</option></select></p></li>
+</ul>
+</div>
+</div>
+<div id="activity-summary" class="section level4" number="19.1.4.4">
+<h4>
+<span class="header-section-number">19.1.4.4</span> Activity summary<a class="anchor" aria-label="anchor" href="#activity-summary"><i class="fas fa-link"></i></a>
+</h4>
+<p>Adaptation 3 is by no means a perfect example. The justification for the effect size could be more detailed and there are some subtle details Bakker et al. (2020) did not assess in their review. For example, you could mention the statistical test it is based on for absolutely clarity, and justify using the field standard values for alpha and power. To highlight how each adaptation changes, we will start with number one which included the fewest details and it would be difficult to reproduce the power analysis.</p>
+<blockquote>
+<p>Using the field standards of power = .80 and alpha = .05, and an effect size from previous studies, we will require 29 infants in our study.</p>
+</blockquote>
+<p>We only have the field standards of 80% power, 5% alpha, and we need 29 participants. There is no mention of the effect size, no justification, and no mention of the test it is based on.</p>
+<p>Adding bold to adaptation two, we add more details.</p>
+<blockquote>
+<p><strong>Previous related research looking into how infants can develop and show selective-attention suggested a medium sized effect</strong>. As such, using the field standards of power = .80 and alpha = .05, <strong>and d = 0.54</strong>, we will require 29 infants in our study.</p>
+</blockquote>
+<p>We mention studies on this topic report a medium sized effect, so that could be our smallest effect size of interest. We then specify an effect of d = 0.54 to add another input for our power analysis. However, we are vague about the studies that report the effect and there is no mention of the test or the number of tails it is based on.</p>
+<p>Adding a final round of bold to adaptation three, we add a few more details.</p>
+<blockquote>
+<p><strong>Previous related research looking into how infants can develop and show selective-attention through music (Mehr et al., 2016) and language (Kinzler et al., 2007)</strong> suggested a medium sized effect around d = 0.54. As such, using the field standards of power = .80 and alpha = .05, and the suggested effect size from previous studies, we will require 29 infants in our study <strong>for a two-tailed test</strong>.</p>
+</blockquote>
+<p>This time, the explanation could be more detailed for why this value represents the smallest effect size of interest, but we outlined studies to support this decision. We add the number of tails the power analysis is based on at the end, but we do not outline specifically what statistical test it is applied to.</p>
+</div>
+</div>
+</div>
+<div id="sensitivity" class="section level2" number="19.2">
+<h2>
+<span class="header-section-number">19.2</span> A priori vs sensitivity power analysis<a class="anchor" aria-label="anchor" href="#sensitivity"><i class="fas fa-link"></i></a>
+</h2>
+<p>One common question we receive is: "what happens if we do not get the sample size we need from the final data?". Typically in research, an <em>a priori</em> power analysis is most effective during the design phase. You have the opportunity to design your study and calculate how many participants you must recruit for your desired level of sensitivity, keeping in mind the resources you have available. At this point, you collect data and try to recruit as many participants as your power analysis suggested.</p>
+<p>For different reasons, your final sample size might be different to the sample size you planned on recruiting. The final sample size could be smaller as you found it more difficult to recruit participants for your target population or there was more missing data than you expected. Alternatively, the final sample size could be larger as more people responded to the advert than you were anticipating. This does not mean your <em>a priori</em> power analysis was a waste of time, but you can consider the difference between your planned sample size and your final sample size.</p>
+<div id="example-from-published-research" class="section level3" number="19.2.1">
+<h3>
+<span class="header-section-number">19.2.1</span> Example from published research<a class="anchor" aria-label="anchor" href="#example-from-published-research"><i class="fas fa-link"></i></a>
+</h3>
+<p>For a nice example from a published study, <a href="https://doi.org/10.1177/1948550619877412">Wingen et al. (2020, pg. 455)</a> commented on the difference between their planned and final sample size:</p>
+<blockquote>
+<p>"The sample size was set to 266, based on an a priori power analysis for 95% power (one-sided <span class="math inline">\(\alpha\)</span> of .05) to detect a small to moderate effect of <em>r</em> = .2, that would be typical for similar social psychological research (Richard, Bond, &amp; Stokes-Zoota, 2003). The final sample was slightly larger as is often the case in online studies and consisted of 271 participants (54.3% male; age: <em>M</em> = 33.7 years, <em>SD</em> = 8.9). No participants were excluded from the analyses. A sensitivity analysis showed that our final sample had a high chance (1 - <span class="math inline">\(\beta\)</span> = .80, one-sided <span class="math inline">\(\alpha\)</span> = .05) to detect a correlation of <em>r</em> = .15 and a very high chance (1 - <span class="math inline">\(\beta\)</span> = .95, one-sided <span class="math inline">\(\alpha\)</span> = .05) to detect <em>r</em> = .20."</p>
+</blockquote>
+<p>Their original power analysis suggested they needed 266 participants to detect their smallest effect size of interest. They recruited 271 participants instead, so they commented on what effect size their study would be sensitive to for two values of power.</p>
+</div>
+<div id="mock-example-with-r-code-and-output" class="section level3" number="19.2.2">
+<h3>
+<span class="header-section-number">19.2.2</span> Mock example with R code and output<a class="anchor" aria-label="anchor" href="#mock-example-with-r-code-and-output"><i class="fas fa-link"></i></a>
+</h3>
+<p>For an additional example, lets imagine we were building on the Mehr et al. example we have worked with throughout this section. We can calculate power for a paired samples t-test as above with a smallest effect size of interest of d = 0.54, 84% power, 5% alpha, and a two-tailed test.</p>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
+           sig.level <span class="op">=</span> <span class="fl">.05</span>,
+           power <span class="op">=</span> <span class="fl">.84</span>,
+           type <span class="op">=</span> <span class="st">"paired"</span>,
+           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
+<pre><code>## 
+##      Paired t test power calculation 
+## 
+##               n = 31.91057
+##               d = 0.54
+##       sig.level = 0.05
+##           power = 0.84
+##     alternative = two.sided
+## 
+## NOTE: n is number of *pairs*</code></pre>
+<p>The <em>a priori</em> power analysis shows we would need to recruit 32 infants to be consistent with our power analysis. However, perhaps we had trouble recruiting infants and we had technical troubles meaning we lost some data. What effect size could we detect if our final sample size was 20?</p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">20</span>,
+           sig.level <span class="op">=</span> <span class="fl">.05</span>,
+           power <span class="op">=</span> <span class="fl">.84</span>,
+           type <span class="op">=</span> <span class="st">"paired"</span>,
+           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
+<pre><code>## 
+##      Paired t test power calculation 
+## 
+##               n = 20
+##               d = 0.6965685
+##       sig.level = 0.05
+##           power = 0.84
+##     alternative = two.sided
+## 
+## NOTE: n is number of *pairs*</code></pre>
+<p>This sensitivity power analysis suggests we would be able to detect an effect size of d = 0.70 with 20 participants, 84% power, 5% alpha, and a two-tailed test. This effect size is larger than our smallest effect size of interest, so we would need to consider whether this lower level of sensitivity is informative and whether it was problematic we were less likely to detect effects smaller than d = 0.70.</p>
+<p>For your assignment, you might find there is a larger difference between your planned and final sample size than a typical study. This is an educational experience where we have collected data for you and we are guiding you through the skills you will need as an independent researcher for your dissertation and beyond. So, report an <em>a priori</em> power analysis in your stage one report (or stage two report if you do not cover everything in time) based on your smallest effect size of interest, then reflect on what effect size your final sample size and design would be sensitive to detect in your stage two report.</p>
+</div>
+</div>
+<div id="structure-results" class="section level2" number="19.3">
+<h2>
+<span class="header-section-number">19.3</span> Structure of the results<a class="anchor" aria-label="anchor" href="#structure-results"><i class="fas fa-link"></i></a>
+</h2>
+<div id="key-elements" class="section level3" number="19.3.1">
+<h3>
+<span class="header-section-number">19.3.1</span> Key elements<a class="anchor" aria-label="anchor" href="#key-elements"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Restate hypothesis</p></li>
+<li><p>Deviations from your stage one report</p></li>
+<li><p>Assumption checks</p></li>
+<li><p>Descriptive statistics</p></li>
+<li><p>Inferential statistics</p></li>
+<li><p>Statement on your hypothesis</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+<div class="chapter-nav">
+<div class="prev"><a href="method-section.html"><span class="header-section-number">18</span> Structure of the Method</a></div>
+<div class="next"><a href="license.html">License</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#Results1"><span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results</a></li>
+<li>
+<a class="nav-link" href="#report-power"><span class="header-section-number">19.1</span> Reporting power analyses</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#recommended-resources-to-revise-statistical-power"><span class="header-section-number">19.1.1</span> Recommended resources to revise statistical power</a></li>
+<li><a class="nav-link" href="#statistical-power-recap"><span class="header-section-number">19.1.2</span> Statistical power recap</a></li>
+<li><a class="nav-link" href="#choosing-a-smallest-effect-size-of-interest"><span class="header-section-number">19.1.3</span> Choosing a smallest effect size of interest</a></li>
+<li><a class="nav-link" href="#report-power"><span class="header-section-number">19.1.4</span> Reporting your power analysis</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#sensitivity"><span class="header-section-number">19.2</span> A priori vs sensitivity power analysis</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#example-from-published-research"><span class="header-section-number">19.2.1</span> Example from published research</a></li>
+<li><a class="nav-link" href="#mock-example-with-r-code-and-output"><span class="header-section-number">19.2.2</span> Mock example with R code and output</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#structure-results"><span class="header-section-number">19.3</span> Structure of the results</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#key-elements"><span class="header-section-number">19.3.1</span> Key elements</a></li></ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/BartlettJE/RM1_Resources/blob/master/book/05-Writing-07-Results1.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/BartlettJE/RM1_Resources/edit/master/book/05-Writing-07-Results1.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
 </div>
 </div>
 <script>
@@ -384,37 +656,15 @@ $( document ).ready(function() {
   move_sidebar();
   window.onresize = move_sidebar;
 });
-</script><div class="chapter-nav">
-<div class="prev"><a href="method-section.html"><span class="header-section-number">18</span> Structure of the Method</a></div>
-<div class="next"><a href="choosing-a-smallest-effect-size-of-interest.html"><span class="header-section-number">20</span> Choosing a smallest effect size of interest</a></div>
-</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
-    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#Results1"><span class="header-section-number">19</span> Reporting Power Analyses and Structure of the Results</a></li>
-<li>
-<a class="nav-link" href="#report-power"><span class="header-section-number">19.1</span> Reporting power analyses</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#recommended-resources-to-revise-statistical-power"><span class="header-section-number">19.1.1</span> Recommended resources to revise statistical power</a></li>
-<li><a class="nav-link" href="#statistical-power-recap"><span class="header-section-number">19.1.2</span> Statistical power recap</a></li>
-</ul>
-</li>
-</ul>
-
-      <div class="book-extra">
-        <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/BartlettJE/RM1_Resources/blob/master/book/05-Writing-07-Results1.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/BartlettJE/RM1_Resources/edit/master/book/05-Writing-07-Results1.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
-        </ul>
-</div>
-    </nav>
-</div>
+</script>
 
 </div>
-</div> <!-- .container -->
+ <!-- .container -->
 
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-10-23.</p>
+    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-10-24.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

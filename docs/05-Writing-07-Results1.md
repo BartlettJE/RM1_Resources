@@ -4,7 +4,7 @@
 
 In this research skills chapter, we will explore two topics. The first on [reporting power analyses](#report-power) relates to the method section we covered prior to reading week. A power analysis to justify how many participants you require for your study is typically included in the participants or data analysis sub-section of the method. However, because of the schedule, there are topics we must cover before exploring power in greater detail. This means if you are reading this section in week 7, you have not had the lecture or data skills chapter on power yet. We wanted to make sure we cover reporting power though for anyone who wants to go above and beyond in the stage one group report. 
 
-If you not explored power analysis in your independent reading yet, you can skip to the [structure of the results section](#structure-results) which is our second topic. We will cover key content to include and details on APA formatting for results. This week, we focus more reporting correlation results, then we will cover t-test results and data visualisation in week 8. 
+If you have not explored power analysis in your independent reading yet, you can skip to the [structure of the results section](#structure-results) which is our second topic. We will cover key content to include and details on APA formatting for results. This week, we focus more reporting correlation results, then we will cover t-test results and data visualisation in week 8. 
 
 ## Reporting power analyses{#report-power}
 
@@ -80,7 +80,7 @@ For your stage one report (and looking forward to your dissertation), you could 
 
 Just keep in mind: for the assignment in RM1 you have no control over the final sample size as we collected data for you. This means there might be a difference in your planned sample size from the *a priori* power analysis and the final sample size you work with. Therefore, we have a section on [sensitivity power analysis](#sensitivity) to consider potential differences in your planned vs final sample size. 
 
-# Choosing a smallest effect size of interest
+### Choosing a smallest effect size of interest
 
 For an *a priori* power analysis, you need to enter an effect size. The term we use for this is the **smallest effect size of interest**. It is rare you would know precisely what effect size you were looking for - as you would not need the study if you understood the topic that well. This means your smallest effect size of interest represents the threshold for what effect sizes you want your study sensitive enough to detect. Power exists along a curve, so holding the sample size and all other inputs constant, you would be less likely to detect smaller effects, but more likely to detect effects larger than your smallest effect of interest. 
 
