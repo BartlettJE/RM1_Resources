@@ -342,9 +342,13 @@ For your assignment, you might find there is a larger difference between your pl
 
 ## Structure of the results{#structure-results}
 
-### Key elements 
+In the second part of research skills this week, we turn to the next major section of a report: the results section. This is still the narrow part of the report keeping the hourglass shape in mind as its fully focused on your study and trying to explain to the reader what you found to address your research question. 
 
-1. Restate hypothesis
+The results section is reported in past tense as you are describing what you found. They are typically short sections - especially for the statistical tests we cover in this course - consisting of approximately two or three paragraphs. This is not prescriptive as if you have deviations to justify or assumption checks to explain it can be longer, but think about whether you have provided all the information you need to rather than chasing a specific word count. 
+
+To learn the key information that should be included in a results section, we recommend including six components. Unlike the method, these are not typically sub-sections with headings in your report, but components to make sure you include. The six components are: 
+
+1. Restate hypothesis from the introduction
 
 2. Deviations from your stage one report
 
@@ -355,3 +359,35 @@ For your assignment, you might find there is a larger difference between your pl
 5. Inferential statistics
 
 6. Statement on your hypothesis
+
+While we recommend using this order to start with, the key principle is maintaining logical flow. For example, you could start by outlining deviations from your stage one report first before restating the hypothesis, but outlining your descriptive statistics after your inferential statistics would be confusing to the reader. 
+
+#### Restate hypothesis from the introduction
+
+Compared to your stage one report, you might justify changing which statistical test is most appropriate, but your hypothesis should never change. You might no longer think it is a good idea or it could be expressed better, but that would be a lesson for the future. For your stage two report, your hypothesis should be the exact same one as you predicted in your group for the stage one report. We promote initiatives like registered reports to avoid this kind of thing as changing your hypothesis risks HARKing - hypothesising after the results are known. 
+
+Some things we recommend here you might not see in published articles. Its rare to see articles restate the hypothesis in the results section after already including it in the introduction, but just because published research could be presented better does not mean we want to reinforce bad habits. 
+
+Restating the hypothesis helps the reader as they might not have remembered it from the introduction, so after reading the method, they might have to skip back to the introduction to remind themselves. So, restating the hypothesis reminds the reader and frames what you are testing in the results. 
+
+::: {.info data-latex=""}
+Remember, a research question is essential, but a hypothesis is not. If your study was purely exploratory, it is perfectly legitimate for the aim of your study to simply be to see what you find, providing it is labelled as such. Likewise, if you had a clear hypothesis in the introduction, then the aim of your study is more on the confirmatory side. Both are valid aims for a study, you just need to be honest about what the original aim of your study was. 
+:::
+
+#### Deviations from your stage one report
+
+The idea behind outlining your plans ahead of time through the registered report format or pre-registering a study is to avoid intentionally or unintentionally changing what you planned on doing and rationalising it after the fact. We know from meta-scientific research (refer back to lecture 1) that changing how you plan on processing and analysing your data can lead to more type I errors.
+
+You can still change you mind, there is a common phrase "its a plan, not a prison". However, outlining your plan ahead of time means you can stick to it if you still think your plan is appropriate, or you are forced to explain and justify changes to your plan. If you have no deviations to note and you approached the data analysis in the same way you outlined in the stage one report, then you do not need this section. 
+
+For communication, avoid referring readers back to the stage one report as a means to cut words. Instead of saying "we changed our exclusion criteria (see stage one report)...", include the relevant details in the text as one extra sentence could help communication for the reader to understand and avoid having to search for further details to understand your study. 
+
+#### Assumption checks
+
+#### Descriptive statistics
+
+#### Inferential statistics
+
+#### Statement on your hypothesis
+
+
