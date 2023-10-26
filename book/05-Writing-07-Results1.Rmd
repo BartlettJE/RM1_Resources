@@ -376,9 +376,9 @@ Remember, a research question is essential, but a hypothesis is not. If your stu
 
 #### Deviations from your stage one report
 
-The idea behind outlining your plans ahead of time through the registered report format or pre-registering a study is to avoid intentionally or unintentionally changing what you planned on doing and rationalising it after the fact. We know from meta-scientific research (refer back to lecture 1) that changing how you plan on processing and analysing your data can lead to more type I errors.
+The idea behind outlining your plans ahead of time through the registered report format or pre-registering a study is to avoid changing what you planned on doing and intentionally or unintentionally rationalising it after the fact. We know from meta-scientific research (refer back to lecture 1) that changing how you plan on processing and analysing your data can lead to more type I errors, so we encourage you to be transparent about what you planned and what you actually did. 
 
-You can still change you mind, there is a common phrase "its a plan, not a prison". However, outlining your plan ahead of time means you can stick to it if you still think your plan is appropriate, or you are forced to explain and justify changes to your plan. If you have no deviations to note and you approached the data analysis in the same way you outlined in the stage one report, then you do not need this section. 
+You can still change you mind, there is a common phrase "[its a plan, not a prison](https://www.cos.io/blog/preregistration-plan-not-prison). However, outlining your plan ahead of time means you can stick to it if you still think your plan is appropriate, or you are forced to explain and justify changes to your plan. If you have no deviations to note and you approached the data analysis in the same way you outlined in the stage one report, then you do not need this section. 
 
 For communication, avoid referring readers back to the stage one report as a means to cut words. Instead of saying "we changed our exclusion criteria (see stage one report)...", include the relevant details in the text as one extra sentence could help communication for the reader to understand and avoid having to search for further details to understand your study. 
 
@@ -430,33 +430,34 @@ In week 8, the research skills chapter will cover data visualisation for how (e.
 After presenting your descriptive statistics, you can present your inferential statistical tests to see if you can support or reject your hypothesis. Statistical tests have a standardised format in APA style to ensure you report the key information and readers can easily find what they are looking for. 
 
 **Pearson's r**
+
 Pearson's r should be reported as follows: *r* (303) = -.70, 95% CI = [-.75, -.64], *p* < .001.
 
 To break down each component: 
 
-- *r* - Symbol for the test statistic in italics
+- *r*: Symbol for the test statistic in italics
 
-- (303) - Degrees of freedom
+- (303): Degrees of freedom
 
-- -.70 - *r* value reported to 2 decimals with no leading zero
+- -.70: *r* value reported to 2 decimals with no leading zero
 
-- 95% CI = [-.75, -.64] – 95% confidence interval in square brackets to provide the interval estimation
+- 95% CI = [-.75, -.64]: 95% confidence interval in square brackets to provide the interval estimation
 
-- *p* < .001 - *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023. 
+- *p* < .001: *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023. 
 
 **Spearman's rho**
 
-Spearman's rho is almost identical, but you include a subscript to distinguish it from Pearson's r: $r_s$ (303) = .-68, 95% CI = [-.74, -.61], *p* < .001.”
+Spearman's rho is almost identical, but you include a subscript to distinguish it from Pearson's r: $r_s$ (303) = -.68, 95% CI = [-.74, -.61], *p* < .001.”
 
-- $r_s$ - Symbol for the test statistic in italics (here with a subscript to identify it as Spearman’s)
+- $r_s$: Symbol for the test statistic in italics (here with a subscript to identify it as Spearman’s)
 
-- (303) - Degrees of freedom
+- (303): Degrees of freedom
 
-- -.70 - *r* value reported to 2 decimals with no leading zero
+- -.68: *r* value reported to 2 decimals with no leading zero
 
-- 95% CI = [-.75, -.64] – 95% confidence interval in square brackets to provide the interval estimation
+- 95% CI = [-.75, -.61]: 95% confidence interval in square brackets to provide the interval estimation
 
-- *p* < .001 - *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023. 
+- *p* < .001: *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023. 
 
 When describing the results of your statistical test in words, remember to mention whether it is statistically significant or not, and the size and direction of the effect size. For example, 
 
@@ -465,7 +466,7 @@ When describing the results of your statistical test in words, remember to menti
 We explain we used a two-tailed test, we used Pearson's r as the statistical test, it is described as significant to conclude we rejected the null hypothesis, and it is a large negative correlation to comment on the strength and direction of the effect. 
 
 ::: {.dangerous data-latex=""}
-Remember in the null hypothesis significance testing framework, we use it to help us make decisions. It has its limitations, but its designed to control error rates in correctly rejecting the null hypothesis or not. You can either conclude it is statistically significant or not statistically significant. You do not describe it as insignificant, and it is not consistent with the philosophy to try and spin a result as "marginally significant". 
+Remember in the null hypothesis significance testing framework, we use it to help us make decisions. It has its limitations, but its designed to control error rates in correctly rejecting the null hypothesis or not. You can either conclude it is statistically significant or not statistically significant. You **do not** describe it as insignificant, and it **is not** consistent with the philosophy to try and spin a result as "marginally significant". 
 :::
 
 #### Statement on your hypothesis
@@ -476,6 +477,14 @@ Now you have presented the results of your inferential statistics, the final com
 
 For statistical tests like correlations and t-tests we cover in RM1, the results section will not be very long. We want you to focus on outlining the key information and interpretation, rather than adding unnecessary words. We can summarise the final three components in a short paragraph: 
 
-> The mean fairness and satisfaction rating was 3.54 (*SD* = 2.02) and the mean support for wealth redistribution was 3.91 (*SD* = 1.15). Using a two-tailed Pearson’s correlation, we found a large significant negative correlation between perceived fairness and satisfaction and support for wealth redistribution, *r* (303) = .-70, 95% CI = [-.75, -.64], *p* < .001. This supports our hypothesis that there would be a relationship between perceived fairness and satisfaction and attitudes on wealth redistribution, suggesting that higher levels of support for wealth redistribution are associated with lower levels of perceived fairness and satisfaction of the current system. 
+The mean fairness and satisfaction rating was 3.54 (*SD* = 2.02) and the mean support for wealth redistribution was 3.91 (*SD* = 1.15). Figure 1 provides a scatterplot showing a negative relationship between the two variables. Using a two-tailed Pearson’s correlation, we found a large significant negative correlation between perceived fairness and satisfaction and support for wealth redistribution, *r* (303) = .-70, 95% CI = [-.75, -.64], *p* < .001. This supports our hypothesis that there would be a relationship between perceived fairness and satisfaction and attitudes on wealth redistribution, suggesting that higher levels of support for wealth redistribution are associated with lower levels of perceived fairness and satisfaction of the current system. 
+
+*Figure 1* 
+
+Scatterplot showing a negative relationship between support for wealth redistribution and perceived fairness and satisfaction of the current system. 
+
+```{r redistribution scatterplot, fig.alt = "Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system.", echo=FALSE}
+include_graphics("images/07_Dawtry_plot.png")
+```
 
 As a parting note, remember we outline these six key components to help you present the key information and inferences to your reader, but there is no one single correct way of presenting the information. The previous paragraph was only an example, and providing you include the key information with appropriate APA formatting and maintain logical flow, there are equally valid ways of presenting your results. 

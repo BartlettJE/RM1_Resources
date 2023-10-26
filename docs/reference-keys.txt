@@ -222,4 +222,10 @@ sensitivity
 example-from-published-research
 mock-example-with-r-code-and-output
 structure-results
-key-elements
+restate-hypothesis-from-the-introduction
+deviations-from-your-stage-one-report
+assumption-checks
+descriptive-statistics
+inferential-statistics
+statement-on-your-hypothesis
+bringing-it-all-together
