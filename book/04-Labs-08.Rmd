@@ -2,6 +2,12 @@
 
 ## Lab overview
 
+This week is the second part of breaking down the results section. Last week, we focused on reporting the results of a correlation, and this week will cover reporting the results of a t-test. The structure is almost identical for the five to six key components, but there are some subtle differences in what you would report for a t-test compared to what you would report for a correlation.
+
+This week, we will also spend a little time on data visualisation, either through plots or tables. We will cover some key APA style elements for formatting tables and plots, and highlight some principles to keep in mind when visualising data. 
+
+After reading about the structure of the results section applied to t-test, we have another task for you to compare different versions of a results section. This requires you to understand what information should be reported and recognise what information is present, absent, or inaccurate. The versions can be ranked to identify the best example, but even the best one can be improved. So, your task will be to rank the versions based on their strengths and weaknesses, then discuss what could be improved about the best one in the lab. 
+
 ## Tasks to complete prior to your lab
 
 1. Read through the [data visualisation and t-test results chapter](#visualisation-results).
@@ -10,7 +16,11 @@
 
 ## Tasks to complete after attending your lab
 
+1. Final editing of your stage one report. 
+
 ## Next week
+
+Data processing and Discussion part 1. 
 
 ## Task context and comparison{#C8-task}
 
