@@ -34,70 +34,101 @@ To help you think about your decision, here are some of the elements that we ten
 
 **Critical Evaluation**: Has the person summarised their inferences for the section without going into theoretical or practical implications which should be kept to the discussion? Usually, we just include a sentence or two at the end that draws things together, saying if there was a significant or non-significant effect and interprets the direction and size of any effect for the reader.
 
-**Academic Communication**: Has the person followed common conventions in presenting results? For instance, using APA notation for statistics, figures and tables, and open science conventions for presenting both raw data and summary statistics in visualisations.
+**Academic Communication**: Has the person followed common conventions in presenting results? For instance, using APA notation for statistics, and including appropriate figures and tables. 
 
 ### Task context
 
-The results deal with an in-house replication of Furnham (1986) who used the transcripts of a trial from 1906 to study the effect of the order of evidence presentation on jury decision making. We recruited participants to listen to 14 audio clips of the presented evidence and after each clip recorded whether participants thought the defendant was guilty or not guilty on a 9-point Likert scale. 
+For this task, we will use data from [Schroeder and Epley (2015)](https://journals.sagepub.com/doi/10.1177/0956797615572906), which we have also used in the t-test data skills chapter. The aim of the study was to investigate whether delivering a short speech to a potential employer would be more effective at landing you a job than writing the speech down and the employer reading it themselves. Thirty-nine professional recruiters were randomly assigned to receive a job application speech as either a transcript for them to read, or an audio recording of the applicant reading the speech.
 
-The manipulation in the experiment was the presentation of a key and crucial piece of evidence either in the middle of the trial (middle group) or at the end of the trial (late group) that proved the defendant, Mr Joseph Parker, was **innocent**. The main finding from the study was that a later presentation of the crucial evidence had a greater effect on the final guilt rating than an earlier presentation, shown by the late group giving a significantly lower rating of guilt than the middle group.
+The recruiters then rated the applicants on perceived intellect, their impression of the applicant, and whether they would recommend hiring the candidate. All ratings were originally on a Likert scale ranging from 0 (low intellect, impression etc.) to 10 (high impression, recommendation etc.), with the final value representing the mean across several items. 
 
-We also wanted to do a manipulation check on this study, a kind of validity check to see that the manipulation worked and to rule out the effect being caused by another variable we did not control. We did this by comparing ratings immediately before and after introducing the key evidence, i.e., looking at the difference between a participant rating before (timepoint 12) and after (timepoint 13) the key evidence was presented. If the key evidence has an effect and people understand it, then you should see a decrease in ratings of guilt after they hear that key evidence. 
+This means we have a between-subjects design with one independent variable containing two levels: an audio group and a transcript group. It is an experiment as recruiters were randomly allocated to one group or another. There was one dependent variable for the mean intellect rating of a candidate interviewing for a position. 
 
-**Note**: the actual study was a between-subjects design, but this manipulation check is a within-subjects design as you are comparing the difference in scores in the same people between the two time points. 
+The research question was: Would there be a difference in the perceived intellect of candidates depending on if a recruiter reads the transcript of a job interview compared to if a recruiter listens to an audio recording of a job interview? 
 
-### Sections to compare 
+The hypothesis was: Recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
 
-Your task is to read these five versions and a) rank them from the best to the worst example and b) to think about what you would change to improve the best one. 
+Your task is to read these five versions and after considering their strengths and weaknesses: a) rank them from the best to the worst examples and b) think about what you would change to improve the best one. 
+
+### Sections to compare
+
+If it would help to make notes on a Word version, you can [download the context description and five versions](Supporting/08_ttest_comparison.docx). 
 
 #### Version 1 
 
-We hypothesised that there would be a significant reduction in participants ratings of guilt, as a result of the presentation of critical evidence, from time point 12 to time point 13. A paired-samples t-test was conducted to compare the change in guilt ratings before (M = 5.8, SD = 1.5) and after (M = 4.04, SD = 1.93) the critical evidence was heard by participants. A significant difference was found (T test = 8.23, P = <0.00000001) with time point 13 having an average rating 1.76 units lower that time point 12. These results tell us that the critical evidence did have an influence on the rating of guilt by jury members. 
+We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
+
+*Figure 1*
+
+A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+
+```{r C8 version 1 figure, fig.alt = "Scatterplot for week 8 task version 1."}
+include_graphics("images/08_Schroeder_violin.png")
+```
+
+When checking outliers, there were four participants in the audio group with ratings outside the boxplot limits, meaning they were more than ± 1.5 times the interquartile range. However, given the 0-10 bounded scale, we did not consider them as outliers and retained them in the analysis. Data met the assumption of normality, and we used Welch’s t-test which Delacre et al. (2017) recommend using as default as it does not assume homogeneity of variance.
+
+A two-tailed Welch’s t-test showed recruiters who listened to an audio recording rated the candidate's intellect as significantly higher than recruiters who read a transcript, *t* (33.43) = 3.48, *p* = .001. Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
 
 #### Version 2
 
-It was predicted that there would be a significant change in participant’s rating of guilt, following the presentation of critical evidence. All analyses was carried out in R. Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed. 
+We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-```{r version 2 figure, fig.alt = "Violin boxplot for task version 2."}
-include_graphics("images/08_01.png")
+*Figure 1*
+
+A bar plot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+
+```{r C8 version 2 figure, fig.alt = "Scatterplot for week 8 task version 2."}
+include_graphics("images/08_Schroeder_violin_badbar.png")
 ```
 
-Descriptive statistics are presented in Table 1. A paired-samples t-test was conducted comparing guilt ratings before (M = 5.8, SD = 1.5 and after (M = 4.04, SD = 1.93 the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having a lower average rating that time point 12. 
+When checking outliers, there were four participants in the audio group with ratings outside the boxplot limits (see Appendix B1 for boxplots), meaning they were more than ± 1.5 times the interquartile range. However, given the 0-10 bounded scale, we did not consider them as outliers and retained them in the analysis. Data met the assumption of normality (see Appendix B2 for qq plots), and we used Welch’s t-test which Delacre et al. (2017) recommend using as default as it does not assume homogeneity of variance.
 
-```{r version 2 table, fig.alt = "Table for task version 2."}
-include_graphics("images/08_02.png")
-```
+We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, t (33.43) = 3.48, p = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
 
+Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
 #### Version 3
 
-All analyses were completed using R (version 3.5.1) in R studio (version 1.2.1335; R Studio Team, 2018). Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
+We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Table 1 provides a table of descriptive statistics for the two groups. 
 
-```{r version 3 figure, fig.alt = "Violin boxplot for task version 3."}
-include_graphics("images/08_03.png")
+*Table 1*
+
+Descriptive statistics for the mean intellect rating between recruiters in the audio and transcript conditions. 
+
+```{r C8 version 3 table, fig.alt = "Table for week 8 task version 3."}
+include_graphics("images/08_table.png")
 ```
 
-A t-test was applied to examine the associations between ratings of guilt and the time point at which participants heard critical evidence. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having an average rating 1.76 units lower that time point 12. These results tell us that there is a significant negative relationship between critical evidence and the rating of guilt by jury members. 
+When checking outliers, there were four participants in the audio group with ratings outside the boxplot limits (see Appendix B1 for boxplots), meaning they were more than ± 1.5 times the interquartile range. However, given the 0-10 bounded scale, we did not consider them as outliers and retained them in the analysis. Data met the assumption of normality (see Appendix B2 for qq plots), and we used Welch’s t-test which Delacre et al. (2017) recommend using as default as it does not assume homogeneity of variance.
 
+We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, *t* (33.43) = 3.48, *p* = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
+
+Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
 #### Version 4
 
-We hypothesised that there would be a significant decrease in participants ratings of guilt, caused by presentation of the critical evidence, from time point 12 to time point 13. All analyses were completed using R (version 3.5.1) in R studio (version 1.2.1335; R Studio Team, 2018). 
+We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-Violin plots were created in order to check for outliers in guilt ratings following time point 12 and time point 13 (Figure 1). Examination of these plots suggested that there was one outlier in the ratings gathered at time point 13. This outlier was removed from this condition. Data met the assumption of normality. 
+*Figure 1*
 
-```{r version 4 figure, fig.alt = "Violin boxplot for task version 4."}
-include_graphics("images/08_04.png")
+A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+
+```{r C8 version 4 figure, fig.alt = "Scatterplot for week 8 task version 4."}
+include_graphics("images/08_Schroeder_violin.png")
 ```
 
-A paired-samples t-test was conducted to compare the change in guilt ratings before (M = 5.8, SD = 1.5) and after (M = 4.04, SD = 1.93) the critical evidence was heard by participants. A significant difference was found (t(74) = 8.23, p <.001) with time point 13 having an average rating 1.76 units lower that time point 12. These results tell us that the critical evidence did have an influence on the rating of guilt by jury members. 
+When checking outliers, there were four participants in the audio group with ratings outside the boxplot limits, meaning they were more than ± 1.5 times the interquartile range. However, given the 0-10 bounded scale, we did not consider them as outliers and retained them in the analysis. Data met the assumption of normality (see Appendix B1 for qq plots), and we used Welch’s t-test which Delacre et al. (2017) recommend using as default as it does not assume homogeneity of variance.
 
+We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, *t* (33.43) = 3.48, *p* = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
+
+Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
 #### Version 5 
 
-We expected that there would be a decrease in participants’ ratings of jury members’ guilt, caused by presentation of the critical evidence, from time point 12 to time point 13. The result supported this hypothesis. The mean guilt rating score at time point 12 was 5.80, and the mean rating score at time point 13 was 4.40, and the standard deviations for these time points were 1.5, and 1.93 respectively. The minimum score was 1 (innocent) and the maximum was 9 (guilty). These findings suggest that there was significant reduction in guilt ratings following the presentation of critical evidence to jury members. 
+The mean candidate intellect rating was 5.634921 (*SD* = 1.911343) in the audio group and the mean rating in the transcript group was 3.648148 (*SD* = 1.608674). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-```{r version 5 table, fig.alt = "Table for task version 5."}
-include_graphics("images/08_05.png")
+*Figure 1*
+
+```{r C8 version 5 figure, fig.alt = "Scatterplot for week 8 task version 5."}
+include_graphics("images/08_Schroeder_violin_bad.png")
 ```
 
-```{r version 5 figure, fig.alt = "Figure for task version 5."}
-include_graphics("images/08_06.png")
-```
+The data met all parametric assumptions. We found recruiters who listened to an audio recording rated the candidate's intellect as significantly higher than recruiters who read a transcript, *t* (33.434) = 3.4787, *p* = .001421, Cohen's d = 1.124693, 95% CI = [0.4293182, 1.805776].
