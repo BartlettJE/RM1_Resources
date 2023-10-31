@@ -4,7 +4,7 @@
 
 This week is the second part of breaking down the results section. Last week, we focused on reporting the results of a correlation, and this week will cover reporting the results of a t-test. The structure is almost identical for the five to six key components, but there are some subtle differences in what you would report for a t-test compared to what you would report for a correlation.
 
-This week, we will also spend a little time on data visualisation, either through plots or tables. We will cover some key APA style elements for formatting tables and plots, and highlight some principles to keep in mind when visualising data. 
+This week, we will also spend a little time on data visualisation, either through plots or tables. We will cover some key APA style elements for formatting plots and tables, and highlight some principles to keep in mind when visualising data. 
 
 After reading about the structure of the results section applied to t-test, we have another task for you to compare different versions of a results section. This requires you to understand what information should be reported and recognise what information is present, absent, or inaccurate. The versions can be ranked to identify the best example, but even the best one can be improved. So, your task will be to rank the versions based on their strengths and weaknesses, then discuss what could be improved about the best one in the lab. 
 
@@ -16,11 +16,13 @@ After reading about the structure of the results section applied to t-test, we h
 
 ## Tasks to complete after attending your lab
 
-1. Final editing of your stage one report. 
+1. Reflect on what you learnt in the t-test results comparison task to feed into your own results section in the stage two individual report. 
+
+2. Final editing of your stage one report to submit prior to the deadline. 
 
 ## Next week
 
-Data processing and Discussion part 1. 
+Next week, you will have submitted your stage one group report, so it will be time to focus on the stage two individual report. Now you have your plan, you will be able to analyse the full data set to see what it means for your research question and hypothesis (if you have one). So, the first part of week 9 will be dedicated to thinking about the data processing pipeline for the full data set. The second part of week 9 will outline the structure of the discussion section. 
 
 ## Task context and comparison{#C8-task}
 
