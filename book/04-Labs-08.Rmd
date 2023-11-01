@@ -62,9 +62,9 @@ If it would help to make notes on a Word version, you can [download the context 
 
 We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-*Figure 1*
+Figure 1
 
-A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+*A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.*
 
 ```{r C8 version 1 figure, fig.alt = "Scatterplot for week 8 task version 1."}
 include_graphics("images/08_Schroeder_violin.png")
@@ -78,9 +78,9 @@ A two-tailed Welch’s t-test showed recruiters who listened to an audio recordi
 
 We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-*Figure 1*
+Figure 1
 
-A bar plot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+*A bar plot showing higher candidate intellect ratings in the audio group compared to the transcript group.*
 
 ```{r C8 version 2 figure, fig.alt = "Scatterplot for week 8 task version 2."}
 include_graphics("images/08_Schroeder_violin_badbar.png")
@@ -110,9 +110,9 @@ Our results support our hypothesis that recruiters who heard an audio recording 
 
 We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-*Figure 1*
+Figure 1
 
-A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
+*A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.*
 
 ```{r C8 version 4 figure, fig.alt = "Scatterplot for week 8 task version 4."}
 include_graphics("images/08_Schroeder_violin.png")
@@ -128,7 +128,7 @@ Our results support our hypothesis that recruiters who heard an audio recording 
 
 The mean candidate intellect rating was 5.634921 (*SD* = 1.911343) in the audio group and the mean rating in the transcript group was 3.648148 (*SD* = 1.608674). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
 
-*Figure 1*
+Figure 1
 
 ```{r C8 version 5 figure, fig.alt = "Scatterplot for week 8 task version 5."}
 include_graphics("images/08_Schroeder_violin_bad.png")
