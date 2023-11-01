@@ -1,5 +1,9 @@
 # Week 8
 
+```{r L8 setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
 ## Lab overview
 
 This week is the second part of breaking down the results section. Last week, we focused on reporting the results of a correlation, and this week will cover reporting the results of a t-test. The structure is almost identical for the five to six key components, but there are some subtle differences in what you would report for a t-test compared to what you would report for a correlation.
@@ -87,13 +91,10 @@ When checking outliers, there were four participants in the audio group with rat
 We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, t (33.43) = 3.48, p = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
 
 Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
+
 #### Version 3
 
 We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Table 1 provides a table of descriptive statistics for the two groups. 
-
-*Table 1*
-
-Descriptive statistics for the mean intellect rating between recruiters in the audio and transcript conditions. 
 
 ```{r C8 version 3 table, fig.alt = "Table for week 8 task version 3."}
 include_graphics("images/08_table.png")
@@ -104,6 +105,7 @@ When checking outliers, there were four participants in the audio group with rat
 We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, *t* (33.43) = 3.48, *p* = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
 
 Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
+
 #### Version 4
 
 We hypothesised that the recruiters in the audio group would provide a higher candidate intellect rating than recruiters in the transcript group. The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (*SD* = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. 
@@ -121,6 +123,7 @@ When checking outliers, there were four participants in the audio group with rat
 We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, *t* (33.43) = 3.48, *p* = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. 
 
 Our results support our hypothesis that recruiters who heard an audio recording of a job interview would rate a candidate as higher in perceived intellect compared to recruiters who read a transcript of a job interview. 
+
 #### Version 5 
 
 The mean candidate intellect rating was 5.634921 (*SD* = 1.911343) in the audio group and the mean rating in the transcript group was 3.648148 (*SD* = 1.608674). Figure 1 provides a violin-boxplot showing the difference between the two groups. 

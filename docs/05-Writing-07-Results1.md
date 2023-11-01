@@ -1,4 +1,4 @@
-# Reporting Power Analyses and Correlation Results{#Results1}
+# Reporting Power Analyses and Reporting Correlation Results{#Results1}
 
 
 
@@ -296,7 +296,7 @@ This sensitivity power analysis suggests we would be able to detect an effect si
 
 For your assignment, you might find there is a larger difference between your planned and final sample size than a typical study. This is an educational experience where we have collected data for you and we are guiding you through the skills you will need as an independent researcher for your dissertation and beyond. So, report an *a priori* power analysis in your stage one report (or stage two report if you do not cover everything in time) based on your smallest effect size of interest, then reflect on what effect size your final sample size and design would be sensitive to detect in your stage two report.
 
-## Structure of the results{#structure-results}
+## Structure of the results for correlations{#structure-results}
 
 In the second part of research skills this week, we turn to the next major section of a report: the results section. This is still the narrow part of the report keeping the hourglass shape in mind as its fully focused on your study and trying to explain to the reader what you found to address your research question. 
 
@@ -369,9 +369,9 @@ You can describe general trends from your descriptive statistics to add narrativ
 In the context of correlations, it is normally useful to provide the mean and standard deviation (or median and interquartile range) of your variables. This helps to see how your participants responded to the variables and you could compare how your sample compared to the norms of the scale once you get to the discussion if this is something worth talking about. 
 
 **APA formatting**
-There are a few guiding principles here which the APA style website coveres in a [short numbers and statistics guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf). 
+There are a few guiding principles here which the APA style website covers in a [short numbers and statistics guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf). 
 
-Means and standard deviations are typically reported to two decimal places. If the number can be larger than 1, then you would include a leading zero (e.g., 0.34). but numbers than cannot be larger than 1 exclude a leading zero (e.g., .34). Use the symbol or abbreviation for statistics a mathematical operator (e.g, *M* = 6.82, *SD* = 1.25), where the symbol is in italics. However, if you use the term in the main text, then you write it in full rather than the symbol (e.g., "the mean help-seeking rating was 6.82 (*SD* = 1.25)").
+Means and standard deviations are typically reported to two decimal places. If the number can be larger than 1, then you would include a leading zero (e.g., 0.34). but numbers than cannot be larger than 1 exclude a leading zero (e.g., .34). Use the symbol or abbreviation for statistics if there is a mathematical operator (e.g, *M* = 6.82, *SD* = 1.25), where the symbol is in italics. However, if you use the term in the main text, then you write it in full rather than the symbol (e.g., "the mean help-seeking rating was 6.82 (*SD* = 1.25)").
 
 You can include tables to help report descriptive statistics when there is a lot of information to present and you want to show the values for many variables. For this course and assignment, you almost certainly do not need a table as there is not enough information to present when you only have two variables. 
 

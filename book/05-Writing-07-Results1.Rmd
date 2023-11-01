@@ -1,4 +1,4 @@
-# Reporting Power Analyses and Correlation Results{#Results1}
+# Reporting Power Analyses and Reporting Correlation Results{#Results1}
 
 ```{r C7 load packages, echo=FALSE, warning = FALSE, message=FALSE}
 library(pwr)

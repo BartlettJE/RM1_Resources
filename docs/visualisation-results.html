@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 21 Data Visualisation and Reporting t-test Results | MSc Research Methods 1 Course Information</title>
+<meta name="author" content="James Bartlett, Phil McAleer, &amp; Helena Paterson">
+<meta name="description" content="21.1 Reporting data visualisation   21.2 Structure of the results for t-tests In the second part of research skills this week, we return to the results section. Last week, we covered the key...">
+<meta name="generator" content="bookdown 0.26 with bs4_book()">
+<meta property="og:title" content="Chapter 21 Data Visualisation and Reporting t-test Results | MSc Research Methods 1 Course Information">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://bartlettje.github.io/RM1_Resources/visualisation-results.html">
+<meta property="og:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
+<meta property="og:description" content="21.1 Reporting data visualisation   21.2 Structure of the results for t-tests In the second part of research skills this week, we return to the results section. Last week, we covered the key...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 21 Data Visualisation and Reporting t-test Results | MSc Research Methods 1 Course Information">
+<meta name="twitter:description" content="21.1 Reporting data visualisation   21.2 Structure of the results for t-tests In the second part of research skills this week, we return to the results section. Last week, we covered the key...">
+<meta name="twitter:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6NP3MF25W3');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="include/psyteachr.css">
+<link rel="stylesheet" href="include/webex.css">
+<link rel="stylesheet" href="include/style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">MSc Research Methods 1 Course Information</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Overview</a></li>
+<li><a class="" href="Course_overview.html"><span class="header-section-number">1</span> Course Overview 2023 / 2024</a></li>
+<li><a class="" href="Resources.html"><span class="header-section-number">2</span> Course Resources</a></li>
+<li class="book-part">Assessment and Feedback Information</li>
+<li><a class="" href="groupagreement-AIS.html"><span class="header-section-number">3</span> Group Work Agreement</a></li>
+<li><a class="" href="stage1-AIS.html"><span class="header-section-number">4</span> Stage 1 Group Report</a></li>
+<li><a class="" href="stage2-AIS.html"><span class="header-section-number">5</span> Stage 2 Individual Report</a></li>
+<li><a class="" href="MCQ-AIS.html"><span class="header-section-number">6</span> MCQ</a></li>
+<li><a class="" href="data-skills.html"><span class="header-section-number">7</span> Data skills</a></li>
+<li class="book-part">Labs</li>
+<li><a class="" href="week-1.html"><span class="header-section-number">8</span> Week 1</a></li>
+<li><a class="" href="week-2.html"><span class="header-section-number">9</span> Week 2</a></li>
+<li><a class="" href="week-3.html"><span class="header-section-number">10</span> Week 3</a></li>
+<li><a class="" href="week-4.html"><span class="header-section-number">11</span> Week 4</a></li>
+<li><a class="" href="week-5.html"><span class="header-section-number">12</span> Week 5</a></li>
+<li><a class="" href="week-7.html"><span class="header-section-number">13</span> Week 7</a></li>
+<li><a class="" href="week-8.html"><span class="header-section-number">14</span> Week 8</a></li>
+<li class="book-part">Research and Writing Skills</li>
+<li><a class="" href="MSLQ-overview.html"><span class="header-section-number">15</span> Registered Report and MSLQ Overview</a></li>
+<li><a class="" href="Writing-02.html"><span class="header-section-number">16</span> Finding, Reading, and Organising Journal Articles</a></li>
+<li><a class="" href="intro-rationale.html"><span class="header-section-number">17</span> Structure of the Introduction and Rationale</a></li>
+<li><a class="" href="academic-writing.html"><span class="header-section-number">18</span> Academic Writing and Academic Integrity</a></li>
+<li><a class="" href="method-section.html"><span class="header-section-number">19</span> Structure of the Method</a></li>
+<li><a class="" href="Results1.html"><span class="header-section-number">20</span> Reporting Power Analyses and Reporting Correlation Results</a></li>
+<li><a class="active" href="visualisation-results.html"><span class="header-section-number">21</span> Data Visualisation and Reporting t-test Results</a></li>
+<li class="book-part">Appendices</li>
+<li><a class="" href="license.html">License</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/BartlettJE/RM1_Resources">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="visualisation-results" class="section level1" number="21">
+<h1>
+<span class="header-section-number">21</span> Data Visualisation and Reporting t-test Results<a class="anchor" aria-label="anchor" href="#visualisation-results"><i class="fas fa-link"></i></a>
+</h1>
+<div id="reporting-data-visualisation" class="section level2" number="21.1">
+<h2>
+<span class="header-section-number">21.1</span> Reporting data visualisation<a class="anchor" aria-label="anchor" href="#reporting-data-visualisation"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="structure-results" class="section level2" number="21.2">
+<h2>
+<span class="header-section-number">21.2</span> Structure of the results for t-tests<a class="anchor" aria-label="anchor" href="#structure-results"><i class="fas fa-link"></i></a>
+</h2>
+<p>In the second part of research skills this week, we return to the results section. Last week, we covered the key components and principles of reporting your results, but applied to correlations. This week, we are applying those principles to how you would report the results of a t-test for the subtle differences in what you would present for descriptive and inferential statistics focusing on comparing group differences.</p>
+<p>To learn the key information that should be included in a results section, we recommend including six components. Unlike the method, these are not typically sub-sections with headings in your report, but components to make sure you include. The six components are:</p>
+<ol style="list-style-type: decimal">
+<li><p>Restate hypothesis from the introduction</p></li>
+<li><p>Deviations from your stage one report</p></li>
+<li><p>Assumption checks</p></li>
+<li><p>Descriptive statistics</p></li>
+<li><p>Inferential statistics</p></li>
+<li><p>Statement on your hypothesis</p></li>
+</ol>
+<p>While we recommend using this order to start with, the key principle is maintaining logical flow. For example, you could start by outlining deviations from your stage one report first before restating the hypothesis, but outlining your descriptive statistics after your inferential statistics would be confusing to the reader.</p>
+<div id="restate-hypothesis-from-the-introduction-1" class="section level4" number="21.2.0.1">
+<h4>
+<span class="header-section-number">21.2.0.1</span> Restate hypothesis from the introduction<a class="anchor" aria-label="anchor" href="#restate-hypothesis-from-the-introduction-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Compared to your stage one report, you might justify changing which statistical test is most appropriate, but your hypothesis should never change. You might no longer think it is a good idea or it could be expressed better, but that would be a lesson for the future. For your stage two report, your hypothesis should be the exact same one as you predicted in your group for the stage one report. We promote initiatives like registered reports to avoid this kind of thing as changing your hypothesis risks HARKing - hypothesising after the results are known.</p>
+<p>Some things we recommend here you might not see in published articles. Its rare to see articles restate the hypothesis in the results section after already including it in the introduction, but just because published research could be presented better does not mean we want to reinforce bad habits.</p>
+<p>Restating the hypothesis helps the reader as they might not have remembered it from the introduction, so after reading the method, they might have to skip back to the introduction to remind themselves. So, restating the hypothesis reminds the reader and frames what you are testing in the results.</p>
+<div class="info">
+<p>Remember, a research question is essential, but a hypothesis is not. If your study was purely exploratory, it is perfectly legitimate for the aim of your study to simply be to see what you find, providing it is labelled as such. Likewise, if you had a clear hypothesis in the introduction, then the aim of your study is more on the confirmatory side. Both are valid aims for a study, you just need to be honest about what the original aim of your study was.</p>
+</div>
+</div>
+<div id="deviations-from-your-stage-one-report-1" class="section level4" number="21.2.0.2">
+<h4>
+<span class="header-section-number">21.2.0.2</span> Deviations from your stage one report<a class="anchor" aria-label="anchor" href="#deviations-from-your-stage-one-report-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>The idea behind outlining your plans ahead of time through the registered report format or pre-registering a study is to avoid changing what you planned on doing and intentionally or unintentionally rationalising it after the fact. We know from meta-scientific research (refer back to lecture 1) that changing how you plan on processing and analysing your data can lead to more type I errors, so we encourage you to be transparent about what you planned and what you actually did.</p>
+<p>You can still change you mind, there is a common phrase "<a href="https://www.cos.io/blog/preregistration-plan-not-prison">its a plan, not a prison</a>. However, outlining your plan ahead of time means you can stick to it if you still think your plan is appropriate, or you are forced to explain and justify changes to your plan. If you have no deviations to note and you approached the data analysis in the same way you outlined in the stage one report, then you do not need this section.</p>
+<p>For communication, avoid referring readers back to the stage one report as a means to cut words. Instead of saying "we changed our exclusion criteria (see stage one report)...", include the relevant details in the text as one extra sentence could help communication for the reader to understand and avoid having to search for further details to understand your study.</p>
+</div>
+<div id="assumption-checks-1" class="section level4" number="21.2.0.3">
+<h4>
+<span class="header-section-number">21.2.0.3</span> Assumption checks<a class="anchor" aria-label="anchor" href="#assumption-checks-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>This is a component we want to see from you but it is exceptionally rare to see in published articles. When there are strict word counts, this is something people see as expendable, particularly if all the assumption checks past, so it is rare to see unless the authors had to deal with a specific problem.</p>
+<p>When we use statistical tests, they make assumptions about the data you are putting into them to behave as intended and give you accurate inferences. This content can be quite short, but we want to see which assumptions you tested, how you tested them, and what the outcome was.</p>
+<div class="warning">
+<p>You need to explain which assumptions you checked, how you checked them, and whether they passed the checks, but you <strong>do not</strong> need to provide long explanations of what the assumptions are. You are working to a word count, so you can assume the reader knows what the assumptions are, you are just telling them whether you consider them to hold or not.</p>
+</div>
+<p>For example, if you intended to perform a Welch's t-test, you would check for normality of residuals, interval-level data, and no influential outliers. The Student t-test also assume homogeneity of variance (homoscedasticity applied to multiple groups), but we will explore in the t-test lecture why focusing on Welch's t-test is better. You would outline how you checked these, such as looking at visualisations like a qq-plot, and whether you still think using a parametric test like the Welch's t-test is appropriate.</p>
+<div class="info">
+<p>You check most of the assumptions using visualisations and your own interpretation, so often there is no black and white answer. It is a judgement call that you must be able to explain and justify. The assumptions will never be perfect, so it is not about talking yourself out of using a parametric test, just checking it would be appropriate to use.</p>
+</div>
+<p>For checks that involve visualisation, these are <strong>not</strong> typically included in the main text. It would take up a lot of space, so you add them to an appendix section and after explaining what you checked and what you conclude, refer the reader to the appendix if they want to look at the visualisations themselves.</p>
+<p>This section ties into any deviations from the stage one report. In the design and data analysis sub-section, you will have explained what statistical test you planned on using. You did not have the data at that point, so it was only your plan. If you checked the assumptions and that test would no longer be appropriate, you can change it, but you need to explain it is a deviation.</p>
+</div>
+<div id="descriptive-statistics-1" class="section level4" number="21.2.0.4">
+<h4>
+<span class="header-section-number">21.2.0.4</span> Descriptive statistics<a class="anchor" aria-label="anchor" href="#descriptive-statistics-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Descriptive statistics are summaries of your variables to help explain the context of your study and outline initial trends. For example, the mean and standard deviation (or median and interquartile range) of each group to summarise how participants responded.</p>
+<div class="dangerous">
+<p>You can describe general trends from your descriptive statistics to add narrative for the reader, but in isolation, they do not support or reject a hypothesis. Only the inferential statistics support or reject a hypothesis. All you can talk about at this point is whether the pattern is consistent with what you expected or not.</p>
+</div>
+<p>In the context of t-tests, it is normally useful to provide the mean and standard deviation (or median and interquartile range) of your groups. This helps to see how your participants responded and whether the initial differences are consistent with what you expected, such as whether one group scored higher on average than the second group.</p>
+<p><strong>APA formatting</strong>
+There are a few guiding principles here which the APA style website covers in a <a href="https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf">short numbers and statistics guide</a>.</p>
+<p>Means and standard deviations are typically reported to two decimal places. If the number can be larger than 1, then you would include a leading zero (e.g., 0.34). but numbers than cannot be larger than 1 exclude a leading zero (e.g., .34). Use the symbol or abbreviation for statistics if there is a mathematical operator (e.g, <em>M</em> = 6.82, <em>SD</em> = 1.25), where the symbol is in italics. However, if you use the term in the main text, then you write it in full rather than the symbol (e.g., "the mean help-seeking rating was 6.82 (<em>SD</em> = 1.25)").</p>
+<p>You can include tables to help report descriptive statistics when there is a lot of information to present and you want to show the values for many variables or groups. For this course and assignment, you almost certainly do not need a table as there is not enough information to present when you only have two groups.</p>
+<p>On the other hand, figures are always useful to show a plot of your data. For a t-test, this is typically a violin-boxplot to show the difference and distribution of data between your two groups.</p>
+</div>
+<div id="inferential-statistics-1" class="section level4" number="21.2.0.5">
+<h4>
+<span class="header-section-number">21.2.0.5</span> Inferential statistics<a class="anchor" aria-label="anchor" href="#inferential-statistics-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>After presenting your descriptive statistics, you can present your inferential statistical tests to see if you can support or reject your hypothesis. Statistical tests have a standardised format in APA style to ensure you report the key information and readers can easily find what they are looking for. For the purposes of this chapter, we will demonstrate how to report a t-test compared to a Mann-Whitney U test.</p>
+<p><strong>Student or Welch's t-test</strong></p>
+<p>A t-test should be reported as follows: <em>t</em> (33.43) = -3.48, , <em>p</em> = .001, Cohen's d = 1.13, 95% CI = [0.45, 1.81].</p>
+<p>To break down each component:</p>
+<ul>
+<li><p><em>t</em>: Symbol for the test statistic in italics.</p></li>
+<li><p>(33.43): Degrees of freedom which will be a whole number for a Student t-test (e.g., 34) but a decimal for a Welch's t-test (e.g., 33.43).</p></li>
+<li><p>33.43: <em>t</em> value reported to 2 decimals with a leading zero if applicable, including whether it is positive or negative.</p></li>
+<li><p><em>p</em> = .001: <em>p</em>-values reported to three decimals, where <em>p</em>-values smaller than .001 are reported as <em>p</em> &lt; .001, and p-values larger than .001 are written exact, e.g., <em>p</em> = .023.</p></li>
+<li><p>Cohen's d = 1.12: Your standardised or unstandardised effect size estimate, here the standardised mean difference between groups known as Cohen's d. Reported to two decimals with a leading zero since it can be greater than 1.</p></li>
+<li><p>95% CI = [0.43, 1.81]: 95% confidence interval in square brackets to provide the interval estimation for the effect size you report.</p></li>
+</ul>
+<div class="info">
+<p>Does it matter if my t-value or effect size is positive or negative? No, its the absolute number which shows the size of the effect. Both the t-value and effect sizes use group 1 minus group 2 in their equations. So, if group 1 is bigger than group 2, the t-value and effect size will be positive, and if group 2 is bigger than group 1, the t-value and effect size will be negative. The important thing is just be consistent, so if you report a positive t-value, the effect size should also be expressed as a positive difference.</p>
+</div>
+<p><strong>Mann-Whitney U test</strong></p>
+<p>The Mann-Whitney U test is similar but there are some values that will not be available: <em>Z</em> = 2.19, <em>p</em> = .028, <em>r</em> = .30.”</p>
+<ul>
+<li><p><em>Z</em>: Symbol for the test statistic in italics, which is <em>Z</em> here to indicate a Z-score. You might see the Mann-Whitney reported as U which is equally valid, but the output in R gives you the value for <em>Z</em>.</p></li>
+<li><p>2.19: <em>Z</em> value reported to 2 decimals with a leading zero if applicable.</p></li>
+<li><p><em>p</em> = .028: <em>p</em>-values reported to three decimals, where <em>p</em>-values smaller than .001 are reported as <em>p</em> &lt; .001, and p-values larger than .001 are written exact, e.g., <em>p</em> = .023.</p></li>
+<li><p><em>r</em> = .30: As a non-parametric test, we typically do not assume the groups can be described with a normal distribution with a mean and standard deviation, so <em>r</em> is sometimes used as a measure of effect size.</p></li>
+</ul>
+<p>When describing the results of your statistical test in words, remember to mention whether it is statistically significant or not, and the size and direction of the effect size. For example,</p>
+<blockquote>
+<p>Using a two-tailed Welch's t-test, we found that recruiters who listened to an audio recording rated the candidate's intellect as significantly higher than recruiters who read a written transcript, <em>t</em> (33.43) = -3.48, <em>p</em> = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81].</p>
+</blockquote>
+<p>We explain we used a two-tailed test, we used a Welch's t-test as the statistical test, it is described as significant to conclude we rejected the null hypothesis, and the direction of the effect for which group was larger.</p>
+<div class="dangerous">
+<p>Remember in the null hypothesis significance testing framework, we use it to help us make decisions. It has its limitations, but its designed to control error rates in correctly rejecting the null hypothesis or not. You can either conclude it is statistically significant or not statistically significant. You <strong>do not</strong> describe it as insignificant, and it <strong>is not</strong> consistent with the philosophy to try and spin a result as "marginally significant".</p>
+</div>
+</div>
+<div id="statement-on-your-hypothesis-1" class="section level4" number="21.2.0.6">
+<h4>
+<span class="header-section-number">21.2.0.6</span> Statement on your hypothesis<a class="anchor" aria-label="anchor" href="#statement-on-your-hypothesis-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>Now you have presented the results of your inferential statistics, the final component comments on what it means for your hypothesis. Did it support your prediction or not? This is not meant to be a full exploration, you will have the discussion section for that next, you are just stating whether the results supported your hypothesis or not.</p>
+</div>
+<div id="bringing-it-all-together-1" class="section level4" number="21.2.0.7">
+<h4>
+<span class="header-section-number">21.2.0.7</span> Bringing it all together<a class="anchor" aria-label="anchor" href="#bringing-it-all-together-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>For statistical tests like correlations and t-tests we cover in RM1, the results section will not be very long. We want you to focus on outlining the key information and interpretation, rather than adding unnecessary words. We can summarise the final three components in a short paragraph:</p>
+<p>The mean candidate intellect rating was 5.63 (<em>SD</em> = 1.91) in the audio group and the mean rating in the transcript group was 3.65 (<em>SD</em> = 1.61). Figure 1 provides a violin-boxplot showing the difference between the two groups. We found recruiters who listened to an audio recording rated the candidate's intellect as 1.99 units higher (95% CI = [0.83, 3.15]) than recruiters who read a transcript, where a two-tailed Welch's t-test was statistically significant, <em>t</em> (33.43) = 3.48, <em>p</em> = .001, Cohen's d = 1.12, 95% CI = [0.43, 1.81]. This supports our hypothesis that there would be a difference in intellect ratings between recruiters who hear an audio recording or read a transcript.</p>
+<p><em>Figure 1</em></p>
+<p>A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.</p>
+<div class="inline-figure"><img src="images/07_Dawtry_plot.png" alt="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." width="100%" style="display: block; margin: auto;"></div>
+<div class="info">
+<p>Should I report the mean difference or Cohen's d for the standardised mean difference? There are different arguments around which effect sizes are most useful, so there is nothing wrong with reporting both if you have the space. Unstandardised effects are easier to understand and in the original units of measurement, meaning it is easier to compare between similar studies. Standardised effect sizes can - in theory - be used to compare effects from different measure and are useful for future power analyses, so it can be useful for the reader to report both. If you need to report just one, think which one will be most useful when it comes to putting your effect size in context in the discussion.</p>
+</div>
+<p>As a parting note, remember we outline these six key components to help you present the key information and inferences to your reader, but there is no one single correct way of presenting the information. The previous paragraph was only an example, and providing you include the key information with appropriate APA formatting and maintain logical flow, there are equally valid ways of presenting your results.</p>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="chapter-nav">
+<div class="prev"><a href="Results1.html"><span class="header-section-number">20</span> Reporting Power Analyses and Reporting Correlation Results</a></div>
+<div class="next"><a href="license.html">License</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#visualisation-results"><span class="header-section-number">21</span> Data Visualisation and Reporting t-test Results</a></li>
+<li><a class="nav-link" href="#reporting-data-visualisation"><span class="header-section-number">21.1</span> Reporting data visualisation</a></li>
+<li><a class="nav-link" href="#structure-results"><span class="header-section-number">21.2</span> Structure of the results for t-tests</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/BartlettJE/RM1_Resources/blob/master/book/05-Writing-08-Results2.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/BartlettJE/RM1_Resources/edit/master/book/05-Writing-08-Results2.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+</div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  if (t = document.getElementById("webex-total_correct")) {
+    var correct = document.getElementsByClassName("webex-correct").length;
+    var solvemes = document.getElementsByClassName("webex-solveme").length;
+    var radiogroups = document.getElementsByClassName("webex-radiogroup").length;
+    var selects = document.getElementsByClassName("webex-select").length;
+
+    t.innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  console.log("webex: toggle hide");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  console.log("webex: check solveme");
+
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var cl = this.classList
+
+  /* add style */
+  cl.remove("webex-incorrect");
+  cl.remove("webex-correct");
+  if (this.value == "answer") {
+    cl.add("webex-correct");
+  } else if (this.value != "blank") {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+  var cl = checked_button.parentElement.classList;
+  var labels = checked_button.parentElement.parentElement.children;
+
+  /* get rid of styles */
+  for (i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("webex-incorrect");
+    labels[i].classList.remove("webex-correct");
+  }
+
+  /* add style */
+  if (checked_button.value == "answer") {
+    cl.add("webex-correct");
+  } else {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  console.log("webex onload");
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+
+    $(solveme[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  /* set up radiogroups */
+  var radiogroups = document.getElementsByClassName("webex-radiogroup");
+  for (var i = 0; i < radiogroups.length; i++) {
+    radiogroups[i].onchange = radiogroups_func;
+  }
+
+  /* set up selects */
+  var selects = document.getElementsByClassName("webex-select");
+  for (var i = 0; i < selects.length; i++) {
+    selects[i].onchange = select_func;
+    $(selects[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  update_total_correct();
+}
+
+</script><script>
+$( document ).ready(function() {
+  var cite = ' ';
+  var psyteachr = ' <a href="https://psyteachr.github.io/"><img src="images/logos/psyteachr_logo.png" style="height: 31px; color: white;" alt="psyTeachR: Reproducible Research" /></a>';
+  var license = ' <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>';
+
+  $("footer div.row div:eq(1) p").html(
+    psyteachr + license + cite
+  );
+
+  // open rdrr links externally
+  $("a[href^='https://rdrr.io']").click(function(){
+    window.open(this.href);
+    return false;
+  });
+
+  // visible second sidebar in mobile
+  function move_sidebar() {
+    var w = window.innerWidth;
+    if (w < 992) {
+      $("#toc").appendTo($("#main-nav"));
+    } else {
+      $("#toc").appendTo($("div.sidebar-chapter"));
+    }
+  }
+  move_sidebar();
+  window.onresize = move_sidebar;
+});
+</script>
+
+</div>
+ <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-10-31.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>
