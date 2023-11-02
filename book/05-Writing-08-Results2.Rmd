@@ -233,15 +233,17 @@ Does it matter if my t-value or effect size is positive or negative? No, its the
 
 **Mann-Whitney U test**
 
-The Mann-Whitney U test is similar but there are some values that will not be available: *Z* = 2.19, *p* = .028, *r* = .30.”
+The Mann-Whitney U test is similar but there are key differences: *W* = 11714, *p* = .044, location difference = 0.33, 95% CI = [0.00, 0.67].
 
-- *Z*: Symbol for the test statistic in italics, which is *Z* here to indicate a Z-score. You might see the Mann-Whitney reported as U which is equally valid, but the output in R gives you the value for *Z*. 
+- *W*: Symbol for the test statistic in italics, which is *W* here as the Mann-Whitney U is a special case of the Wilcoxon rank sum test. You might see the Mann-Whitney reported as Z which is equally valid, but the output in R gives you the value for *W*. 
 
-- 2.19: *Z* value reported to 2 decimals with a leading zero if applicable. 
+- 11714: *U* value reported to 2 decimals with a leading zero if applicable, but this might just be a whole number as it is calculated from the sum of ranks. 
 
 - *p* = .028: *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023. 
 
-- *r* = .30: As a non-parametric test, we typically do not assume the groups can be described with a normal distribution with a mean and standard deviation, so *r* is sometimes used as a measure of effect size.  
+- location difference = 0.33: As a non-parametric test, we typically do not assume the groups can be described with a normal distribution with a mean and standard deviation, so if you calculate a Mann-Whitney test in R, you get the location difference. This is similar to the mean difference in a t-test, but it approximates the median difference between group 1 and group 2. 
+
+- 95% CI = [0.00, 0.67]: 95% confidence interval for the location difference in square brackets to provide the interval estimation for the effect size you report. 
 
 When describing the results of your statistical test in words, remember to mention whether it is statistically significant or not, and the size and direction of the effect size. For example, 
 
