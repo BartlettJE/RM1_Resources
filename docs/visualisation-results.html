@@ -286,12 +286,13 @@ There are a few guiding principles here which the APA style website covers in a 
 <p>Does it matter if my t-value or effect size is positive or negative? No, its the absolute number which shows the size of the effect. Both the t-value and effect sizes use group 1 minus group 2 in their equations. So, if group 1 is bigger than group 2, the t-value and effect size will be positive, and if group 2 is bigger than group 1, the t-value and effect size will be negative. The important thing is just be consistent, so if you report a positive t-value, the effect size should also be expressed as a positive difference.</p>
 </div>
 <p><strong>Mann-Whitney U test</strong></p>
-<p>The Mann-Whitney U test is similar but there are some values that will not be available: <em>Z</em> = 2.19, <em>p</em> = .028, <em>r</em> = .30.”</p>
+<p>The Mann-Whitney U test is similar but there are key differences: <em>W</em> = 11714, <em>p</em> = .044, location difference = 0.33, 95% CI = [0.00, 0.67].</p>
 <ul>
-<li><p><em>Z</em>: Symbol for the test statistic in italics, which is <em>Z</em> here to indicate a Z-score. You might see the Mann-Whitney reported as U which is equally valid, but the output in R gives you the value for <em>Z</em>.</p></li>
-<li><p>2.19: <em>Z</em> value reported to 2 decimals with a leading zero if applicable.</p></li>
+<li><p><em>W</em>: Symbol for the test statistic in italics, which is <em>W</em> here as the Mann-Whitney U is a special case of the Wilcoxon rank sum test. You might see the Mann-Whitney reported as Z which is equally valid, but the output in R gives you the value for <em>W</em>.</p></li>
+<li><p>11714: <em>U</em> value reported to 2 decimals with a leading zero if applicable, but this might just be a whole number as it is calculated from the sum of ranks.</p></li>
 <li><p><em>p</em> = .028: <em>p</em>-values reported to three decimals, where <em>p</em>-values smaller than .001 are reported as <em>p</em> &lt; .001, and p-values larger than .001 are written exact, e.g., <em>p</em> = .023.</p></li>
-<li><p><em>r</em> = .30: As a non-parametric test, we typically do not assume the groups can be described with a normal distribution with a mean and standard deviation, so <em>r</em> is sometimes used as a measure of effect size.</p></li>
+<li><p>location difference = 0.33: As a non-parametric test, we typically do not assume the groups can be described with a normal distribution with a mean and standard deviation, so if you calculate a Mann-Whitney test in R, you get the location difference. This is similar to the mean difference in a t-test, but it approximates the median difference between group 1 and group 2.</p></li>
+<li><p>95% CI = [0.00, 0.67]: 95% confidence interval for the location difference in square brackets to provide the interval estimation for the effect size you report.</p></li>
 </ul>
 <p>When describing the results of your statistical test in words, remember to mention whether it is statistically significant or not, and the size and direction of the effect size. For example,</p>
 <blockquote>
