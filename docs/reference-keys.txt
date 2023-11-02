@@ -243,7 +243,13 @@ inferential-statistics
 statement-on-your-hypothesis
 bringing-it-all-together
 visualisation-results
-reporting-data-visualisation
+data-viz
+data-visualisation-principles
+visual-illusions
+highlight-comparisons-of-interest
+guide-viewers-to-your-conceptual-message
+formatting-tables
+formatting-figures
 restate-hypothesis-from-the-introduction-1
 deviations-from-your-stage-one-report-1
 assumption-checks-1
