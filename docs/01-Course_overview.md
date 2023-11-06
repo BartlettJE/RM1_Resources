@@ -86,9 +86,9 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 25-9-2023 </td>
    <td style="text-align:left;"> Summarising data </td>
    <td style="text-align:left;"> Finding and reading journal articles </td>
-   <td style="text-align:left;"> * Chapter 2 - Introduction to R
+   <td style="text-align:left;"> * Chapter 2 - Introduction to R
 * Chapter 3 - Starting with data </td>
-   <td style="text-align:left;"> * Finding, reading, and organising journal articles
+   <td style="text-align:left;"> * Finding, reading, and organising journal articles
 * Group work agreement </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -98,7 +98,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Statistics and probability </td>
    <td style="text-align:left;"> Introduction structure </td>
    <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
-   <td style="text-align:left;"> * Introduction structure
+   <td style="text-align:left;"> * Introduction structure
 * Identifying the rationale </td>
    <td style="text-align:left;"> Formative: Group work agreement </td>
   </tr>
@@ -108,8 +108,8 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Hypothesis testing </td>
    <td style="text-align:left;"> Academic writing </td>
    <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
-   <td style="text-align:left;"> * Scientific writing
-* Paragraph structure
+   <td style="text-align:left;"> * Scientific writing
+* Paragraph structure
 * Citation placement </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -119,7 +119,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> Correlation </td>
    <td style="text-align:left;"> Method structure </td>
    <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
-   <td style="text-align:left;"> * Method structure
+   <td style="text-align:left;"> * Method structure
 * Researcher degrees of freedom </td>
    <td style="text-align:left;"> MCQ </td>
   </tr>
@@ -137,9 +137,9 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 30-10-2023 </td>
    <td style="text-align:left;"> Independent samples t-tests </td>
    <td style="text-align:left;"> Communicating correlation results </td>
-   <td style="text-align:left;"> * Chapter 7 - Visualisations
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
 * Chapter 9 - Correlations </td>
-   <td style="text-align:left;"> * Correlation results sections
+   <td style="text-align:left;"> * Correlation results sections
 * Reporting power analyses </td>
    <td style="text-align:left;"> Data skills 1 </td>
   </tr>
@@ -148,7 +148,7 @@ Below is a provisional order of content in this semester. We will notify you of 
    <td style="text-align:left;"> 6-11-2023 </td>
    <td style="text-align:left;"> One-sample and paired-sample t-tests (Tobias Thejll-Madsen) </td>
    <td style="text-align:left;"> Communicating t-test results </td>
-   <td style="text-align:left;"> * Chapter 10 - t-tests
+   <td style="text-align:left;"> * Chapter 10 - t-tests
 * Chapter 11 - Power and effect sizes </td>
    <td style="text-align:left;"> * t-test results sections </td>
    <td style="text-align:left;"> Stage one report </td>
@@ -242,14 +242,14 @@ Early in the semester, the support sessions have open invites. This means anyone
   <tr>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:left;"> 25-9-2023 </td>
-   <td style="text-align:left;"> * Installing R / Accessing the server
+   <td style="text-align:left;"> * Installing R / Accessing the server
 * Chapter 1 - Programing basics </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
    <td style="text-align:left;"> 2-10-2023 </td>
-   <td style="text-align:left;"> * Installing R / Accessing the server
-* Chapter 2 - Intro to R
+   <td style="text-align:left;"> * Installing R / Accessing the server
+* Chapter 2 - Intro to R
 * Chapter 3 - Starting with data </td>
   </tr>
   <tr>
@@ -275,25 +275,25 @@ Early in the semester, the support sessions have open invites. This means anyone
   <tr>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:left;"> 6-11-2023 </td>
-   <td style="text-align:left;"> * Chapter 7 - Visualisations
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
 * Chapter 9 - Correlations </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:left;"> 13-11-2023 </td>
-   <td style="text-align:left;"> * Chapter 10 - t-tests
+   <td style="text-align:left;"> * Chapter 10 - t-tests
 * Chapter 11 - Power and effect sizes </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
    <td style="text-align:left;"> 20-11-2023 </td>
-   <td style="text-align:left;"> * Chapter 8 - Probability
+   <td style="text-align:left;"> * Chapter 8 - Probability
 * Assessment support </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 11 </td>
    <td style="text-align:left;"> 27-11-2023 </td>
-   <td style="text-align:left;"> * Chapter 12 - Screening data
+   <td style="text-align:left;"> * Chapter 12 - Screening data
 * Assessment support </td>
   </tr>
   <tr>

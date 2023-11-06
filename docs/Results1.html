@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.1/transition.js"></script><script src="libs/bs3compat-0.4.1/tabs.js"></script><script src="libs/bs3compat-0.4.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -163,11 +163,11 @@
 </blockquote>
 <p>We can reproduce their power analysis using the <code>pwr</code> package for a paired samples t-test (if you have not got to week 8 in data skills yet, do not worry if this looks unfamiliar):</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
-           sig.level <span class="op">=</span> <span class="fl">.05</span>,
-           power <span class="op">=</span> <span class="fl">.84</span>,
-           type <span class="op">=</span> <span class="st">"paired"</span>,
-           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,</span>
+<span>           sig.level <span class="op">=</span> <span class="fl">.05</span>,</span>
+<span>           power <span class="op">=</span> <span class="fl">.84</span>,</span>
+<span>           type <span class="op">=</span> <span class="st">"paired"</span>,</span>
+<span>           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></span></code></pre></div>
 <pre><code>## 
 ##      Paired t test power calculation 
 ## 
@@ -364,11 +364,11 @@ Show me the third adaptation
 </h3>
 <p>For an additional example, lets imagine we were building on the Mehr et al. example we have worked with throughout this section. We can calculate power for a paired samples t-test as above with a smallest effect size of interest of d = 0.54, 84% power, 5% alpha, and a two-tailed test.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,
-           sig.level <span class="op">=</span> <span class="fl">.05</span>,
-           power <span class="op">=</span> <span class="fl">.84</span>,
-           type <span class="op">=</span> <span class="st">"paired"</span>,
-           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">pwr.t.test</span><span class="op">(</span>d <span class="op">=</span> <span class="fl">0.54</span>,</span>
+<span>           sig.level <span class="op">=</span> <span class="fl">.05</span>,</span>
+<span>           power <span class="op">=</span> <span class="fl">.84</span>,</span>
+<span>           type <span class="op">=</span> <span class="st">"paired"</span>,</span>
+<span>           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></span></code></pre></div>
 <pre><code>## 
 ##      Paired t test power calculation 
 ## 
@@ -381,11 +381,11 @@ Show me the third adaptation
 ## NOTE: n is number of *pairs*</code></pre>
 <p>The <em>a priori</em> power analysis shows we would need to recruit 32 infants to be consistent with our power analysis. However, perhaps we had trouble recruiting infants and we had technical troubles meaning we lost some data. What effect size could we detect if our final sample size was 20?</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">pwr.t.test</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">20</span>,
-           sig.level <span class="op">=</span> <span class="fl">.05</span>,
-           power <span class="op">=</span> <span class="fl">.84</span>,
-           type <span class="op">=</span> <span class="st">"paired"</span>,
-           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">pwr.t.test</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">20</span>,</span>
+<span>           sig.level <span class="op">=</span> <span class="fl">.05</span>,</span>
+<span>           power <span class="op">=</span> <span class="fl">.84</span>,</span>
+<span>           type <span class="op">=</span> <span class="st">"paired"</span>,</span>
+<span>           alternative <span class="op">=</span> <span class="st">"two.sided"</span><span class="op">)</span></span></code></pre></div>
 <pre><code>## 
 ##      Paired t test power calculation 
 ## 
@@ -516,7 +516,7 @@ There are a few guiding principles here which the APA style website covers in a 
 <p>The mean fairness and satisfaction rating was 3.54 (<em>SD</em> = 2.02) and the mean support for wealth redistribution was 3.91 (<em>SD</em> = 1.15). Figure 1 provides a scatterplot showing a negative relationship between the two variables. Using a two-tailed Pearson’s correlation, we found a large significant negative correlation between perceived fairness and satisfaction and support for wealth redistribution, <em>r</em> (303) = .-70, 95% CI = [-.75, -.64], <em>p</em> &lt; .001. This supports our hypothesis that there would be a relationship between perceived fairness and satisfaction and attitudes on wealth redistribution, suggesting that higher levels of support for wealth redistribution are associated with lower levels of perceived fairness and satisfaction of the current system.</p>
 <p><em>Figure 1</em></p>
 <p>Scatterplot showing a negative relationship between support for wealth redistribution and perceived fairness and satisfaction of the current system.</p>
-<div class="inline-figure"><img src="images/07_Dawtry_plot.png" alt="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." width="100%" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="images/07_Dawtry_plot.png" title="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." alt="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." width="100%" style="display: block; margin: auto;"></div>
 <p>As a parting note, remember we outline these six key components to help you present the key information and inferences to your reader, but there is no one single correct way of presenting the information. The previous paragraph was only an example, and providing you include the key information with appropriate APA formatting and maintain logical flow, there are equally valid ways of presenting your results.</p>
 
 </div>
@@ -762,7 +762,7 @@ $( document ).ready(function() {
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-11-02.</p>
+    <p>"<strong>MSc Research Methods 1 Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2023-11-06.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
