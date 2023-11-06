@@ -269,8 +269,8 @@ The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group an
 
 A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
 
-```{r redistribution scatterplot, fig.alt = "Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system.", echo=FALSE}
-include_graphics("images/07_Dawtry_plot.png")
+```{r Schroeder research skills violin, fig.alt = "A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group."}
+include_graphics("images/08_Schroeder_violin.png")
 ```
 
 ::: {.info data-latex=""}
