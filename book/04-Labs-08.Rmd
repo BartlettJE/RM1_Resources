@@ -2,6 +2,8 @@
 
 ```{r L8 setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
 ```
 
 ## Lab overview

@@ -1,9 +1,4 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
-library(knitr)
 
-knitr::opts_chunk$set(echo = FALSE)
-```
 
 # Data Processing and Structure of the Discussion{#processing-discussion1}
 
@@ -199,9 +194,7 @@ Now we turn to the final major section of an empirical psychology report: the di
 
 The discussion summarises your findings and puts them in context compared to previous studies that influenced you. Relating back to the hypothetico-deductive model, the discussion focuses on the final part of the cycle: as you move from your conclusions to considering how they fit in with previous research. 
 
-```{r discussion highlight figure, fig.alt = "Empirical report structure as an hourglass shape. In this part, the discussion is highlighted in red to show it is the focus of this chapter."}
-include_graphics("images/09-discussion-highlight.png")
-```
+<img src="images/09-discussion-highlight.png" alt="Empirical report structure as an hourglass shape. In this part, the discussion is highlighted in red to show it is the focus of this chapter." width="100%" style="display: block; margin: auto;" />
 
 There are four key components to the discussion:
 

@@ -1,5 +1,7 @@
 ```{r, echo=FALSE}
 source(file = "include/deadlines.R")
+
+library(knitr)
 ```
 
 # Structure of the Method {#method-section}

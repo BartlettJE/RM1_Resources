@@ -3,6 +3,7 @@
 ```{r C7 load packages, echo=FALSE, warning = FALSE, message=FALSE}
 library(pwr)
 library(tidyverse)
+library(knitr)
 ```
 
 In this research skills chapter, we will explore two topics. The first on [reporting power analyses](#report-power) relates to the method section we covered prior to reading week. A power analysis to justify how many participants you require for your study is typically included in the participants or data analysis sub-section of the method. However, because of the schedule, there are topics we must cover before exploring power in greater detail. This means if you are reading this section in week 7, you have not had the lecture or data skills chapter on power yet. We wanted to make sure we cover reporting power though for anyone who wants to go above and beyond in the stage one group report. 

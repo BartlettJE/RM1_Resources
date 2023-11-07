@@ -2,6 +2,8 @@
 source(file = "include/deadlines.R")
 
 knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
 ```
 
 # Structure of the Introduction and Rationale {#intro-rationale}

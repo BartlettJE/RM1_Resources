@@ -4,7 +4,7 @@
 
 By week 9, you will have submitted your stage one group report. That is a huge achievement as it involves several skills like subject knowledge, research skills, academic writing, and group work. After the deadline, you now have access to the full data set, so you can work on your stage two individual report. 
 
-In the lab this week, you will work on finalising the processing and analysis code for the full data set. There is a .Rmd file on the RM1 Moodle page to help with processing the full data set. In the lab, we will explore the different steps involved, but it is your independent task to complete the script yourself. 
+In the lab this week, you will work on finalising the processing and analysis code for the full data set. There is a .Rmd file on the RM1 Moodle page to help with processing the full data set. In the lab, we will explore the different steps involved, but it is your independent task to complete the script. 
 
 The second component this week is moving on to the final major section of an empirical report: the discussion. This is where you explain your findings in plain English and compare your results to the studies that influenced your study. The purpose of the discussion is to put your findings in context and explore any limitations that affect what you can learn from your study. 
 
