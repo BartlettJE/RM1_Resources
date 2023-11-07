@@ -1,0 +1,27 @@
+# Week 9
+
+## Lab overview
+
+By week 9, you will have submitted your stage one group report. That is a huge achievement as it involves several skills like subject knowledge, research skills, academic writing, and group work. After the deadline, you now have access to the full data set, so you can work on your stage two individual report. 
+
+In the lab this week, you will work on finalising the processing and analysis code for the full data set. There is a .Rmd file on the RM1 Moodle page to help with processing the full data set. In the lab, we will explore the different steps involved, but it is your independent task to complete the script yourself. 
+
+The second component this week is moving on to the final major section of an empirical report: the discussion. This is where you explain your findings in plain English and compare your results to the studies that influenced your study. The purpose of the discussion is to put your findings in context and explore any limitations that affect what you can learn from your study. 
+
+## Tasks to complete prior to your lab
+
+1. Read the [data processing and structure of the discussion](#processing-discussion1) chapter.
+
+2. Download and access the full data set and data processing guidance script from Moodle. 
+
+## Tasks to complete after attending your lab
+
+1. Finalise your processing and analysis script to address your research question and hypothesis (if applicable) from the stage one report. 
+
+2. Start drafting the results section for your stage two individual report. 
+
+## Next week
+
+Next week is the final lecture and lab of the course and semester. You have come a long way since the start of the programme, so we hope you are very proud of yourselves to build all this subject knowledge, research skills, and data skills in such a short space of time. 
+
+In the lab, we will revisit the discussion section to focus more on identifying limitations and evaluation skills. Finally, we will return to the abstract as the first thing you see, but its typically written last to summarise the whole report. 
