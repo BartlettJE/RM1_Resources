@@ -220,7 +220,7 @@ To break down each component:
 
 - (33.43): Degrees of freedom which will be a whole number for a Student t-test (e.g., 34) but a decimal for a Welch's t-test (e.g., 33.43). 
 
-- 33.43: *t* value reported to 2 decimals with a leading zero if applicable, including whether it is positive or negative.
+- -3.48: *t* value reported to 2 decimals with a leading zero if applicable, including whether it is positive or negative.
 
 - *p* = .001: *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023.
 

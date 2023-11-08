@@ -26,13 +26,13 @@ Bar plots are extremely common to see in journal articles and the media as they 
 
 For example, the bars in A below look identical when you just plot the means, but if you superimpose the data points in B, it shows a very different underlying pattern. This shows why it is important to consider what type of plot would effectively communicate the data you are working with and it is best to use something like a violin-boxplot for continuous outcomes. 
 
-<img src="images/08-02-bar.png" alt="Demonstrating within the bar bias for continuous outcomes." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-02-bar.png" title="Demonstrating within the bar bias for continuous outcomes." alt="Demonstrating within the bar bias for continuous outcomes." width="100%" style="display: block; margin: auto;" />
 
 **Y-axis truncation**
 
 One of the most powerful and most common illusions that can mislead people is truncated or non-zero axes, where (typically) the y-axis is shortened to zoom in on a smaller range of values. Franconeri et al. (2021) discuss studies that show people overestimate differences between two groups when you tell them the truncation is present and even if you get people to manually enter the values from each bar. For example, the bar plot below shows the same difference across the full 0 to 100 scale (A), then truncated between 45 and 60 to highlight the difference (B).
 
-<img src="images/08-06-trunc.png" alt="Truncated y-axis demonstration." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-06-trunc.png" title="Truncated y-axis demonstration." alt="Truncated y-axis demonstration." width="100%" style="display: block; margin: auto;" />
 
 This is another area where it takes time and experience to recognise where y-axis trunctation is misleading or not. Although we are not trying to turn this into a bar plot witch hunt, as a general rule of thumb, its usually not a good idea to truncate the y-axis of a bar plot as they are meant to display frequencies with a logical zero point. On the other hand, its acceptable to truncate line plots as they are designed to show changes across time.
 
@@ -40,7 +40,7 @@ This is another area where it takes time and experience to recognise where y-axi
 
 One important design feature is how you will distinguish between different elements of your graph. Colour can be used to effectively code different groups or conditions, but many analysts do not think carefully about colour combinations. Colour-vision impairments affect a significant number of people, so it is important to consider whether someone who is colour blind could distinguish between groups/conditions and understand the message you are trying to communicate. In the plot below, on the top (A) is a scatterplot using green and purple, which can look identical for some types of colourblindness. On the bottom (B) is the same scatterplot using a colour blind friendly palette of greens. 
 
-<img src="images/08-03-colour.png" alt="Differences in colour palettes to help colour blindness." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-03-colour.png" title="Differences in colour palettes to help colour blindness." alt="Differences in colour palettes to help colour blindness." width="100%" style="display: block; margin: auto;" />
 
 #### Highlight comparisons of interest
 
@@ -50,7 +50,7 @@ In the graph below, there are two ways of presenting the same data. In plot A, c
 
 If you wanted to emphasise the difference between conditions, then plot A forces people to shift their attention back and forth between non-word and word conditions across the whole plot. Compare this to plot B where the two conditions are placed side by side. In this version, it is much easier to compare the two conditions as they are proximal to each other. If you wanted to emphasise language, then the opposite would apply with plot A having language proximal to each other.  
 
-<img src="images/08-05-comparison.png" alt="Controlling variable order to highlight comparisons of interest." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-05-comparison.png" title="Controlling variable order to highlight comparisons of interest." alt="Controlling variable order to highlight comparisons of interest." width="100%" style="display: block; margin: auto;" />
 
 #### Guide viewers to your conceptual message
 
@@ -58,7 +58,7 @@ Finally, it is important to respect associations between visualisation designs a
 
 This is another area where subject knowledge is important as some disciplines have their own conventions which can change over time. For example, in EEG research (Electroencephalography - where brain activity is measured with electrodes stuck to the scalp) it was conventional to plot amplitude with negative values at the top and positives values at the bottom (plot A below). This can look a little odd to those unfamiliar with EEG data and breaks conventional understanding that top means higher numbers. Over time though, this convention has changed and more studies report amplitude with positive values at the top (plot B below). This shows how conventions change over time and it is important to keep your audience in mind to make your data visualisation as accessible and intuitive as possible. 
 
-<img src="images/08-04-logicaly.png" alt="Thinking about your conceptual message for how the data should be plotted and honour schemas." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-04-logicaly.png" title="Thinking about your conceptual message for how the data should be plotted and honour schemas." alt="Thinking about your conceptual message for how the data should be plotted and honour schemas." width="100%" style="display: block; margin: auto;" />
 
 ### Formatting tables
 
@@ -68,7 +68,7 @@ Tables are designed to efficiently communicate a large amount of data, when it w
 
 If you do have enough information to communicate, then an APA formatted table looks like the figure below and includes the following features: 
 
-<img src="images/08-APA-table.png" alt="Demonstration of an APA style table." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-APA-table.png" title="Demonstration of an APA style table." alt="Demonstration of an APA style table." width="100%" style="display: block; margin: auto;" />
 
 - It should be numbered sequentially for the order you place it in the report (e.g., Table 1 comes before Table 2). 
 
@@ -90,7 +90,7 @@ Note they are called figures and not numbered plots or graphs in APA style. Figu
 
 An APA formatted figure looks like below and includes the following features: 
 
-<img src="images/08-APA-figure.png" alt="Demonstration of an APA style figure." width="100%" style="display: block; margin: auto;" />
+<img src="images/08-APA-figure.png" title="Demonstration of an APA style figure." alt="Demonstration of an APA style figure." width="100%" style="display: block; margin: auto;" />
 
 - Figures should be numbered sequentially for the order you place them in the report (e.g., Figure 1 comes before Figure 2), and they are number separately to tables (i.e., you can have both a Table 1 and Figure 1). 
 
@@ -201,7 +201,7 @@ To break down each component:
 
 - (33.43): Degrees of freedom which will be a whole number for a Student t-test (e.g., 34) but a decimal for a Welch's t-test (e.g., 33.43). 
 
-- 33.43: *t* value reported to 2 decimals with a leading zero if applicable, including whether it is positive or negative.
+- -3.48: *t* value reported to 2 decimals with a leading zero if applicable, including whether it is positive or negative.
 
 - *p* = .001: *p*-values reported to three decimals, where *p*-values smaller than .001 are reported as *p* < .001, and p-values larger than .001 are written exact, e.g., *p* = .023.
 
@@ -251,7 +251,7 @@ The mean candidate intellect rating was 5.63 (*SD* = 1.91) in the audio group an
 
 A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group.
 
-<img src="images/08_Schroeder_violin.png" alt="A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group." width="100%" style="display: block; margin: auto;" />
+<img src="images/08_Schroeder_violin.png" title="A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group." alt="A violin-boxplot showing higher candidate intellect ratings in the audio group compared to the transcript group." width="100%" style="display: block; margin: auto;" />
 
 ::: {.info data-latex=""}
 Should I report the mean difference or Cohen's d for the standardised mean difference? There are different arguments around which effect sizes are most useful, so there is nothing wrong with reporting both if you have the space. Unstandardised effects are easier to understand and in the original units of measurement, meaning it is easier to compare between similar studies. Standardised effect sizes can - in theory - be used to compare effects from different measure and are useful for future power analyses, so it can be useful for the reader to report both. If you need to report just one, think which one will be most useful when it comes to putting your effect size in context in the discussion. 
