@@ -1,0 +1,27 @@
+```{r, echo=FALSE}
+source(file = "include/deadlines.R")
+```
+
+# Identifying Limitations and Structure of the Abstract{#limitations_abstract}
+
+## Identifying limitations
+
+## Structure of the abstract
+
+Example of building up each component Adapted from Tsantani, M. S., Belin, P., Paterson, H. M., & McAleer, P. (2016). Low vocal pitch preference drives first impressions irrespective of context in male voices but not in female voices. Perception, 45(8), 946–963.
+
+Background and rationale
+
+> **Vocal pitch has been found to influence judgments of perceived trustworthiness and dominance from a novel voice. However, the majority of findings arise from using only male voices and it is unclear how the pitch of female voices affects judgements of trust and dominance. Here we explore the influence of average vocal pitch on first-impression judgments of perceived trustworthiness and dominance and hypothesise that there will be a preference for low-pitched voices in both genders regardless of judgement.**
+
+Methods
+
+> Vocal pitch has been found to influence judgments of perceived trustworthiness and dominance from a novel voice. However, the majority of findings arise from using only male voices and it is unclear how the pitch of female voices affects judgements of trust and dominance. Here we explore the influence of average vocal pitch on first-impression judgments of perceived trustworthiness and dominance and hypothesise that there will be a preference for low-pitched voices in both genders regardless of judgement.**40 pairs of high- and low-pitched temporally reversed recordings of male and female vocal utterances were presented in a two-alternative forced-choice task to 40 participants.** 
+
+Results
+
+> Vocal pitch has been found to influence judgments of perceived trustworthiness and dominance from a novel voice. However, the majority of findings arise from using only male voices and it is unclear how the pitch of female voices affects judgements of trust and dominance. Here we explore the influence of average vocal pitch on first-impression judgments of perceived trustworthiness and dominance and hypothesise that there will be a preference for low-pitched voices in both genders regardless of judgement.40 pairs of high- and low-pitched temporally reversed recordings of male and female vocal utterances were presented in a two-alternative forced-choice task to 40 participants. **Through a series of t-tests and Wilcoxon signed-rank tests, we found a tendency for participants to select the low-pitched voice over the high-pitched voice as more trustworthy, for both genders, and more dominant, for male voices only.**
+
+Implications
+
+> Vocal pitch has been found to influence judgments of perceived trustworthiness and dominance from a novel voice. However, the majority of findings arise from using only male voices and it is unclear how the pitch of female voices affects judgements of trust and dominance. Here we explore the influence of average vocal pitch on first-impression judgments of perceived trustworthiness and dominance and hypothesise that there will be a preference for low-pitched voices in both genders regardless of judgement. 40 pairs of high- and low-pitched temporally reversed recordings of male and female vocal utterances were presented in a two-alternative forced-choice task to 40 participants. Through a series of t-tests and Wilcoxon signed-rank tests, we found a tendency for participants to select the low-pitched voice over the high-pitched voice as more trustworthy, for both genders, and more dominant, for male voices only. **We propose that an overall preference for low pitch is a default prior in male voices irrespective of context, whereas pitch preferences in female voices are more context- and situation-dependent. The present study confirms the important role of vocal pitch in the formation of first-impression personality judgments and advances understanding of the impact of context on pitch preferences across genders.**
