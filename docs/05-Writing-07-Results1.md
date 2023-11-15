@@ -439,6 +439,6 @@ The mean fairness and satisfaction rating was 3.54 (*SD* = 2.02) and the mean su
 
 Scatterplot showing a negative relationship between support for wealth redistribution and perceived fairness and satisfaction of the current system. 
 
-<img src="images/07_Dawtry_plot.png" title="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." alt="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." width="100%" style="display: block; margin: auto;" />
+<img src="images/07_Dawtry_plot.png" alt="Scatterplot for the negative relationship between support for redistribution and fairness and satisfaction of the current system." width="100%" style="display: block; margin: auto;" />
 
 As a parting note, remember we outline these six key components to help you present the key information and inferences to your reader, but there is no one single correct way of presenting the information. The previous paragraph was only an example, and providing you include the key information with appropriate APA formatting and maintain logical flow, there are equally valid ways of presenting your results. 

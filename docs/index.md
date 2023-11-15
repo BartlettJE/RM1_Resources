@@ -2,7 +2,7 @@
 title: "MSc Research Methods 1 Course Information" # edit
 #subtitle: "optional" 
 author: "James Bartlett, Phil McAleer, & Helena Paterson" # edit
-date: "2023-11-08"
+date: "2023-11-15"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside # for PDFs
