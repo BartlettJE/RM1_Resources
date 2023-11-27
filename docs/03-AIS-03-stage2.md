@@ -4,7 +4,7 @@
 
 ## General information 
 
-- The stage two individual report builds on your stage one group report, but this time you report your results and discussion. The general topic for your report is still on self-regulated learning. 
+- The stage two individual report builds on your stage one group report, but this time you report your abstract, results, and discussion. The general topic for your report is still on self-regulated learning. 
 
 - The deadline is **December 8th 2023**.
 
@@ -16,7 +16,7 @@
 
 - The maximum word count for the stage two report is **1500** words. 
 
-- This includes all text within the results and discussion sections including in-text citations. However, it does not include the references or any appendix items.
+- This includes all text within the abstract, results, and discussion sections including in-text citations. However, it does not include the references or any appendix items.
 
  - Please note that there is no 10% rule, **1500** words is a strict upper limit.
 
@@ -28,7 +28,7 @@
 
 - The stage two group report is modeled on the second half of a [registered report](https://www.cos.io/initiatives/registered-reports). When a research team has their stage one submission approved, they go out and collect data, then write up their results and discussion. You are working with secondary data, so you will not collect any data, but you are putting your stage one plan in action and justifying any deviations from your plan.  
 
-- Your stage two individual report will include a results and discussion section, plus references (and appendices if relevant). You will receive a template outlining the key sections and as part of the course. 
+- Your stage two individual report will include an abstract, results, and discussion section, plus references (and appendices if relevant). You will receive a template outlining the key sections and as part of the course. 
 
 ## Assessment Criteria
 

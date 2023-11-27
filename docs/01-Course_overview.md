@@ -50,31 +50,145 @@ Please check the Assessment and Feedback Information Sheet chapters for detailed
 
 Below is a provisional order of content in this semester. We will notify you of any changes in advance, but feel free to read ahead if you would like:
 
-
-| Week|W/C        |Lecture                                                     |Lab                                        |Data skills                                                     |Research Skills                                                           |Assessment                      |
-|----:|:----------|:-----------------------------------------------------------|:------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------------------------------------|:-------------------------------|
-|    0|11-9-2023  |Inductions                                                  |                                           |                                                                |                                                                          |                                |
-|    1|18-9-2023  |Introduction to quantitative research methods               |Introduction to the course and assignments |* Chapter 1 - Programming Basics                                |* Registered report and MSLQ overview                                     |                                |
-|    2|25-9-2023  |Summarising data                                            |Finding and reading journal articles       |* Chapter 2 - Introduction to R
-* Chapter 3 - Starting with data |* Finding, reading, and organising journal articles
-* Group work agreement |                                |
-|    3|2-10-2023  |Statistics and probability                                  |Introduction structure                     |* Chapter 4 - Data wrangling 1                                  |* Introduction structure
-* Identifying the rationale                       |Formative: Group work agreement |
-|    4|9-10-2023  |Hypothesis testing                                          |Academic writing                           |* Chapter 5 - Data wrangling 2                                  |* Scientific writing
-* Paragraph structure
-* Citation placement             |                                |
-|    5|16-10-2023 |Correlation                                                 |Method structure                           |* Chapter 6 - Data wrangling 3                                  |* Method structure
-* Researcher degrees of freedom                         |MCQ                             |
-|    6|23-10-2023 |**Reading week**                                            |**Reading week**                           |                                                                |                                                                          |                                |
-|    7|30-10-2023 |Independent samples t-tests                                 |Communicating correlation results          |* Chapter 7 - Visualisations
-* Chapter 9 - Correlations          |* Correlation results sections
-* Reporting power analyses                  |Data skills 1                   |
-|    8|6-11-2023  |One-sample and paired-sample t-tests (Tobias Thejll-Madsen) |Communicating t-test results               |* Chapter 10 - t-tests
-* Chapter 11 - Power and effect sizes     |* t-test results sections                                                 |Stage one report                |
-|    9|13-11-2023 |Effect sizes and statistical power                          |Discussion structure                       |* Chapter 8 - Probability                                       |* Discussion structure                                                    |                                |
-|   10|20-11-2023 |Decision making in data analysis                            |Abstract structure                         |* Chapter 12 - Screening data                                   |* Abstract structure                                                      |Data skills 2                   |
-|   11|27-11-2023 |Writing and editing week                                    |                                           |                                                                |                                                                          |                                |
-|   12|4-12-2023  |Writing and editing week                                    |                                           |                                                                |                                                                          |Stage two report                |
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Week </th>
+   <th style="text-align:left;"> W/C </th>
+   <th style="text-align:left;"> Lecture </th>
+   <th style="text-align:left;"> Lab </th>
+   <th style="text-align:left;"> Data skills </th>
+   <th style="text-align:left;"> Research Skills </th>
+   <th style="text-align:left;"> Assessment </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> 11-9-2023 </td>
+   <td style="text-align:left;"> Inductions </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> 18-9-2023 </td>
+   <td style="text-align:left;"> Introduction to quantitative research methods </td>
+   <td style="text-align:left;"> Introduction to the course and assignments </td>
+   <td style="text-align:left;"> * Chapter 1 - Programming Basics </td>
+   <td style="text-align:left;"> * Registered report and MSLQ overview </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> 25-9-2023 </td>
+   <td style="text-align:left;"> Summarising data </td>
+   <td style="text-align:left;"> Finding and reading journal articles </td>
+   <td style="text-align:left;"> * Chapter 2 - Introduction to R
+* Chapter 3 - Starting with data </td>
+   <td style="text-align:left;"> * Finding, reading, and organising journal articles
+* Group work agreement </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> 2-10-2023 </td>
+   <td style="text-align:left;"> Statistics and probability </td>
+   <td style="text-align:left;"> Introduction structure </td>
+   <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
+   <td style="text-align:left;"> * Introduction structure
+* Identifying the rationale </td>
+   <td style="text-align:left;"> Formative: Group work agreement </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> 9-10-2023 </td>
+   <td style="text-align:left;"> Hypothesis testing </td>
+   <td style="text-align:left;"> Academic writing </td>
+   <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
+   <td style="text-align:left;"> * Scientific writing, Paragraph structure, Citation placement </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 16-10-2023 </td>
+   <td style="text-align:left;"> Correlation </td>
+   <td style="text-align:left;"> Method structure </td>
+   <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
+   <td style="text-align:left;"> * Method structure
+* Researcher degrees of freedom </td>
+   <td style="text-align:left;"> MCQ </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> 23-10-2023 </td>
+   <td style="text-align:left;"> **Reading week** </td>
+   <td style="text-align:left;"> **Reading week** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> 30-10-2023 </td>
+   <td style="text-align:left;"> Independent samples t-tests </td>
+   <td style="text-align:left;"> Communicating correlation results </td>
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
+* Chapter 9 - Correlations </td>
+   <td style="text-align:left;"> * Correlation results sections
+* Reporting power analyses </td>
+   <td style="text-align:left;"> Data skills 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 6-11-2023 </td>
+   <td style="text-align:left;"> One-sample and paired-sample t-tests (Tobias Thejll-Madsen) </td>
+   <td style="text-align:left;"> Communicating t-test results </td>
+   <td style="text-align:left;"> * Chapter 10 - t-tests
+* Chapter 11 - Power and effect sizes </td>
+   <td style="text-align:left;"> * t-test results sections </td>
+   <td style="text-align:left;"> Stage one report </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> 13-11-2023 </td>
+   <td style="text-align:left;"> Effect sizes and statistical power </td>
+   <td style="text-align:left;"> Discussion structure </td>
+   <td style="text-align:left;"> * Chapter 8 - Probability </td>
+   <td style="text-align:left;"> * Discussion structure </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> 20-11-2023 </td>
+   <td style="text-align:left;"> Decision making in data analysis </td>
+   <td style="text-align:left;"> Abstract structure </td>
+   <td style="text-align:left;"> * Chapter 12 - Screening data </td>
+   <td style="text-align:left;"> * Abstract structure </td>
+   <td style="text-align:left;"> Data skills 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> 27-11-2023 </td>
+   <td style="text-align:left;"> Writing and editing week </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> 4-12-2023 </td>
+   <td style="text-align:left;"> Writing and editing week </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Stage two report </td>
+  </tr>
+</tbody>
+</table>
 
 ## Available Support
 
@@ -104,29 +218,89 @@ You are more than welcome to come to the support sessions with any data skills r
 
 Early in the semester, the support sessions have open invites. This means anyone can drop in and there might be a handful of students present and asking questions. However, as we approach key assessment periods, the sessions will have specific sign up slots to ensure the TAs can provide clearly defined equitable time to each sign-up.  
 
-
-| Week|W/C        |Support Themes                                                                                |
-|----:|:----------|:---------------------------------------------------------------------------------------------|
-|    0|11-9-2023  |                                                                                              |
-|    1|18-9-2023  |* Installing R / Accessing the server                                                         |
-|    2|25-9-2023  |* Installing R / Accessing the server
-* Chapter 1 - Programing basics                          |
-|    3|2-10-2023  |* Installing R / Accessing the server
-* Chapter 2 - Intro to R
-* Chapter 3 - Starting with data |
-|    4|9-10-2023  |* Chapter 4 - Data wrangling 1                                                                |
-|    5|16-10-2023 |* Chapter 5 - Data wrangling 2                                                                |
-|    6|23-10-2023 |READING WEEK                                                                                  |
-|    7|30-10-2023 |* Chapter 6 - Data wrangling 3                                                                |
-|    8|6-11-2023  |* Chapter 7 - Visualisations
-* Chapter 9 - Correlations                                        |
-|    9|13-11-2023 |* Chapter 10 - t-tests
-* Chapter 11 - Power and effect sizes                                   |
-|   10|20-11-2023 |* Chapter 8 - Probability
-* Assessment support                                                 |
-|   11|27-11-2023 |* Chapter 12 - Screening data
-* Assessment support                                             |
-|   12|4-12-2023  |* Assessment support                                                                          |
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Week </th>
+   <th style="text-align:left;"> W/C </th>
+   <th style="text-align:left;"> Support Themes </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> 11-9-2023 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> 18-9-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:left;"> 25-9-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server
+* Chapter 1 - Programing basics </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:left;"> 2-10-2023 </td>
+   <td style="text-align:left;"> * Installing R / Accessing the server
+* Chapter 2 - Intro to R
+* Chapter 3 - Starting with data </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:left;"> 9-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 4 - Data wrangling 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 16-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 5 - Data wrangling 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> 23-10-2023 </td>
+   <td style="text-align:left;"> READING WEEK </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> 30-10-2023 </td>
+   <td style="text-align:left;"> * Chapter 6 - Data wrangling 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 6-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 7 - Visualisations
+* Chapter 9 - Correlations </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> 13-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 10 - t-tests
+* Chapter 11 - Power and effect sizes </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:left;"> 20-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 8 - Probability
+* Assessment support </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:left;"> 27-11-2023 </td>
+   <td style="text-align:left;"> * Chapter 12 - Screening data
+* Assessment support </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:left;"> 4-12-2023 </td>
+   <td style="text-align:left;"> * Assessment support </td>
+  </tr>
+</tbody>
+</table>
 
 ## Individual work and group work
 
